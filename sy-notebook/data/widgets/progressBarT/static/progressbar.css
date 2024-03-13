@@ -1,0 +1,346 @@
+:root {
+    /* v0.0.1->v0.1.0升级提示
+    进度条颜色已经纳入config.js管理，手动更改css将会被config.js设定覆盖 */
+    /* 进度条背景色(未达到部分)*/
+    /* --container-color: ; */
+    /* 进度条前景色(已达到部分)*/
+    /* --progress-color: ; */
+
+    /* 进度条背景色（已达到部分-黑夜模式*/
+    --container-dark-color: rgba(175, 184, 193, 0.2);
+    /* 进度条前景色（未达到部分-黑夜模式  */
+    --progress-dark: rgb(45, 164, 255);
+
+    /* 进度百分比文字-黑夜模式 */
+    --text-dark: rgb(201, 209, 217);
+    --bar-radius: 5px;
+}
+
+button.calendar_btn {
+    border: 0px;
+    /* font-weight: 300; */
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    /* color: white; */
+    padding: 0px;
+    /* text-align: center;
+    text-decoration: none; */
+    display: inline-block;
+    /* font-size: 16px; */
+    /* min-width: 15px; */
+    background-color: #f0f0f022;
+    cursor: pointer;
+}
+
+/* 除alltask\showButtonCheckBox外的用户输入 */
+.settings input:not(#allTask, #showButtonCheckBox) {
+    border: 1px solid rgb(45, 164, 255);
+    font-weight: 300;
+    background-size: auto 1.5em;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 12em;
+    height: 1.5em;
+    border-radius: 0.3em;
+    box-sizing: border-box;
+    /* color: white; */
+    /* padding: 15px 32px; */
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    min-width: 15px;
+    background-color: #f0f0f022;
+    /* background-color:darkslategray;
+    color: white; */
+}
+
+/* 
+
+td{
+    width: 96px;
+    height: 26px;
+} */
+
+#refresh {
+    background-image: url("./icon.png");
+}
+
+#settingBtn {
+    background-image: url("./iconSetting.png");
+    fill: currentColor;
+    width: 1.4em;
+    background-size: auto 1.4em;
+    height: 1.4em;
+    border: 0px;
+    margin-left: 2px;
+    padding: 1px 6px;
+}
+
+#barWidth {
+    width: 40px;
+}
+
+/* 左侧栏 */
+.linel {
+    text-align: right;
+    min-width: 4em;
+}
+
+/* 右侧栏 */
+.liner {
+    text-align: left;
+}
+
+.btnline {
+    text-align: center;
+}
+
+
+/* 主界面刷新按钮 */
+.btn > button {
+    border-width: 0px;
+    /*自动模式按钮边框*/
+    font-weight: 300;
+    background-size: auto 1.5em;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 0.3em;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    background-color: #f0f0f000;
+    cursor: pointer;
+}
+
+/* 提示区功能按钮 */
+.infos>button {
+    width: 2em;
+    height: 1.5em;
+    border-width: 1px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.innerinfos {
+    height: 47px;
+}
+
+.settingTable {
+    width: 50%;
+}
+
+.btn {
+    height: 1.5em;
+}
+
+.canClick {
+    cursor: pointer;
+}
+
+/* 进度条主体 */
+#container {
+    width: 100%;
+    /*进度条宽度*/
+    height: 10px;
+    /*进度条高度*/
+    border-radius: var(--bar-radius);
+    /*进度条圆角*/
+    align-self: center;
+    /* 禁止子元素溢出 */
+    overflow: hidden;
+    /* float: right; */
+}
+
+/* 提示词子项间隔 */
+.infos>* {
+    margin-left: 3px;
+}
+
+/* 设置项保存按钮 */
+.settings .text_btn {
+    border: 1px dotted;
+    border-radius: 3px;
+}
+
+#progress, #progress2 {
+    width: 0%;
+    /*初始值，刷新后由js控制*/
+    height: inherit;
+    /*请勿修改*/
+    border-radius: var(--bar-radius) 0 0 var(--bar-radius);
+    /*进度条已加载部分颜色*/
+    transition-property: width;
+    transition-duration: 200ms;
+}
+
+/* 黑夜模式下进度条已完成颜色 */
+.progress_dark {
+    background: var(--progress-dark);
+}
+
+/* 黑夜模式下进度条未完成颜色 */
+.container_dark {
+    background: var(--container-dark-color);
+}
+
+#percentage {
+    text-align: center;
+    width: 50px;
+    /* flex: right; */
+}
+
+/* 黑夜模式下百分比文字 */
+.text_dark {
+    color: var(--text-dark);
+}
+
+#errorInfo {
+    color: red;
+}
+
+#infoInfo {
+    color: cornflowerblue;
+}
+
+.app {
+    display: flex;
+    white-space: nowrap;
+
+}
+
+.input_dark {
+    color: var(--text-dark);
+    background-color: #f0f0f000;
+}
+
+.btn_dark {
+    color: var(--text-dark);
+    background-color: #1259536e;
+}
+
+/* 日期选择控件 深色模式适配*/
+
+[dark_mode] .layui-laydate-header, 
+[dark_mode] .layui-laydate-content, 
+[dark_mode] .layui-laydate-footer,
+[dark_mode] .layui-laydate,
+[dark_mode] .layui-laydate-footer span,
+[dark_mode] .laydate-footer-btns,
+[dark_mode] .layui-laydate-list {
+    border-color: rgb(56, 61, 63) !important;
+    background-color: #181a1b !important;
+}
+
+[dark_mode] .layui-laydate-list li:hover,
+[dark_mode] .layui-laydate-main td:hover {
+    color: rgb(200, 195, 188);
+    background-color: #383c3f;
+}
+
+[dark_mode] .layui-icon {
+    color: #a8a095;
+}
+
+[dark_mode] .layui-laydate-main td, 
+[dark_mode] .layui-laydate-main th, 
+[dark_mode] .layui-laydate-footer * ,
+[dark_mode] .laydate-set-ym,
+[dark_mode] .layui-laydate-list li,
+[dark_mode] .layui-laydate-preview {
+    color: rgb(200, 195, 188);
+}
+
+[dark_mode] .laydate-day-prev, 
+[dark_mode] .laydate-day-next {
+    color: rgb(168, 160, 149) !important;
+}
+
+.time-warn {
+    color: red;
+}
+
+[dark_mode] .time-warn {
+    color: #FF0000;
+}
+
+[dark_mode] #color-test {
+    color:rgb(201, 209, 217);
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+/* .time-mode-a {
+    display: none !important;
+} */
+
+[dark_mode] * {
+    color: rgb(201, 209, 217);
+}
+
+#outerInfos {
+    text-align: center;
+}
+
+#header {
+    margin-bottom: 5px;
+}
+
+#header-left-info > *, #end-time-display {
+    
+    user-select: none;
+    cursor: pointer;
+}
+
+/* #progress2 {
+    width: 0%;
+    position: relative;
+    left: 0px;
+    top: -12px;
+    z-index: -1;
+    background-color: rgba(255, 0, 0, 0.15);
+}
+
+#progress {
+    z-index: 0;
+} */
+
+#container {
+    /* z-index: -255; 存在手动模式无法触发的问题*/
+    margin: 0px 3px;
+}
+
+/* 时间模式左右两侧的时间文本 */
+#start-time-display, #end-time-display {
+    /* 
+    这里使用flex布局以使得开始/结束时间元素宽度相同，min-width决定他们实际所占的宽度；
+    进度条则占据所有剩余位置
+    英文用户或使用其他日期格式的用户需要另外调整
+     */
+    min-width: 4.7em;
+    flex: 1;
+}
+
+#start-time-display {
+    text-align: center;
+    margin-right: 3px;
+}
+
+#end-time-display {
+    text-align: center;
+    margin-left: 3px;
+}
+
+#outerInfos{
+    margin-top: 3px;
+}

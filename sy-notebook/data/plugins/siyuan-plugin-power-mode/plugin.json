@@ -1,0 +1,20 @@
+{
+    "name": "siyuan-plugin-power-mode",
+    "author": "zuoez02",
+    "url": "https://github.com/zuoez02/siyuan-plugin-power-mode",
+    "version": "0.1.4",
+    "displayName": {
+        "default": "Power Mode",
+        "zh_CN": "Power Mode",
+        "en_US": "Power Mode"
+    },
+    "description": {
+        "default": "光标特效,输入时光标的奇特显示效果",
+        "zh_CN": "光标特效,输入时光标的奇特显示效果",
+        "en_US": "Cursor effects, peculiar display effects of the cursor during input"
+    },
+    "readme": {
+        "default": "README.md",
+        "en_US": "README_en.md"
+    }
+}

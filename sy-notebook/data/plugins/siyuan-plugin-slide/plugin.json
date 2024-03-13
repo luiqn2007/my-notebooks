@@ -1,0 +1,36 @@
+{
+  "name": "siyuan-plugin-slide",
+  "author": "zuoez02",
+  "url": "https://github.com/zuoez02/siyuan-plugin-slide",
+  "version": "0.1.1",
+  "minAppVersion": "2.10.14",
+  "backends": [
+    "windows",
+    "linux",
+    "darwin"
+  ],
+  "frontends": [
+    "desktop",
+    "desktop-window"
+  ],
+  "displayName": {
+    "en_US": "slide",
+    "zh_CN": "幻灯片"
+  },
+  "description": {
+    "en_US": "Show siyuan doc as slide",
+    "zh_CN": "思源文档转换为幻灯片播放"
+  },
+  "readme": {
+    "en_US": "README.md",
+    "zh_CN": "README_zh_CN.md"
+  },
+  "funding": {
+    "custom": [
+      "https://afdian.net/a/zuoez02"
+    ]
+  },
+  "keywords": [
+    "slide", "幻灯片"
+  ]
+}

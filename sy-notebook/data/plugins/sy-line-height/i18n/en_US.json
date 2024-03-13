@@ -1,0 +1,15 @@
+{
+    "name": "Adjust line height",
+    "lineHeight": {
+        "title": "Line height",
+        "description": "The paragraph line height"
+    },
+    "nodeMargin": {
+        "title": "Block margin",
+        "description": "The margin bewteen blocks"
+    },
+    "reset": {
+        "title": "Reset",
+        "description": "Reset to default values"
+    }
+}

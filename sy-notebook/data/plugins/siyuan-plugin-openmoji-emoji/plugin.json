@@ -1,0 +1,37 @@
+{
+  "name": "siyuan-plugin-openmoji-emoji",
+  "author": "TCOTC",
+  "url": "https://github.com/TCOTC/siyuan-plugin-openmoji-emoji",
+  "version": "0.1.2",
+  "displayName": {
+    "default": "Emoji: OpenMoji",
+    "zh_CN": "表情包: OpenMoji"
+  },
+  "description": {
+    "default": "Open source emojis for designers, developers and everyone else!",
+    "zh_CN": "为设计师、开发人员和其他人提供的开源表情符号！"
+  },
+  "readme": {
+    "default": "README.md",
+    "zh_CN": "README_zh_CN.md"
+  },
+  "funding": {
+    "openCollective": "",
+    "patreon": "",
+    "github": "",
+    "custom": [
+      "https://afdian.net/a/JeffreyChen"
+    ]
+  },
+  "keywords": [
+    "siyuan-plugin-openmoji-emoji",
+    "openmoji-emoji",
+    "Emoji",
+    "emoji",
+    "表情包",
+    "表情",
+    "符号",
+    "图标",
+    "icon"
+  ]
+}

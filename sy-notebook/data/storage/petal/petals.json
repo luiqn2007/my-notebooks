@@ -1,0 +1,209 @@
+[
+	{
+		"name": "SiYuan-Attribute-Panel",
+		"displayName": "文档属性面板",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "kmind-plugin",
+		"displayName": "Kmind思维导图插件",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "monaco-editor",
+		"displayName": "集成编辑环境",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "siyuan-plugin-card-link",
+		"displayName": "卡片链接",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "siyuan-plugin-devtool",
+		"displayName": "开发者工具",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "siyuan-plugin-sidebar-memo",
+		"displayName": "侧边备注",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "siyuan-plugin-power-mode",
+		"displayName": "Power Mode",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "sy-transfer-refs",
+		"displayName": "转移引用",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "siyuan-plugin-code-block",
+		"displayName": "代码块美化",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "siyuan-plugins-index",
+		"displayName": "目录插件",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "siyuan-plugin-openmoji-emoji",
+		"displayName": "表情包: OpenMoji",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "link-icon",
+		"displayName": "链接图标",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "syplugin-fakeDocBreadcrumb",
+		"displayName": "(伪)文档面包屑",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "siyuan-plugin-schedule-manager",
+		"displayName": "日程管理",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "syplugin-document-search",
+		"displayName": "基于文档搜索",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "sy-time-logger",
+		"displayName": "时间日志",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "siyuan-plugin-hsr",
+		"displayName": "高亮搜索结果",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "small-window",
+		"displayName": "小窗",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "siyuan-importer",
+		"displayName": "导入工具",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "quickSnippets",
+		"displayName": "quickSnippets",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "siyuan-plugin-math-enhance",
+		"displayName": "数学增强",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "siyuan-plugin-whiteboard",
+		"displayName": "Tldraw白板(预览版)",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "siyuan-plugin-slide",
+		"displayName": "幻灯片",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	}
+]

@@ -1,0 +1,19 @@
+{
+    "name": "siyuan-plugin-devtool",
+    "author": "zuoez02",
+    "url": "https://github.com/zuoez02/siyuan-plugin-devtool",
+    "version": "1.1.2",
+    "minAppVersion": "2.10.9",
+    "displayName": {
+        "default": "Developer Tools",
+        "zh_CN": "开发者工具"
+    },
+    "description": {
+        "default": "The plugin contains some useful quick actions and a developer marketplace panel",
+        "zh_CN": "思源开发者工具合集，包含一系列便捷动作，和一个集市统计面板"
+    },
+    "readme": {
+        "default": "README.md",
+        "zh_CN": "README_zh_CN.md"
+    }
+}

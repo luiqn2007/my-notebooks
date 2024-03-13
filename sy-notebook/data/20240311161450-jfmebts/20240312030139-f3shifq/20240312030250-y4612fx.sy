@@ -1,0 +1,1 @@
+{"ID":"20240312030250-y4612fx","Spec":"1","Type":"NodeDocument","Properties":{"id":"20240312030250-y4612fx","title":"聚合模块","updated":"20240312030255"},"Children":[{"ID":"20240312030251-watuqyi","Type":"NodeParagraph","Properties":{"id":"20240312030251-watuqyi","updated":"20240312030255"},"Children":[{"Type":"NodeText","Data":"当一个模块不包含任何内容，只是引用了一组其他模块时，称该模块为聚合模块"}]}]}

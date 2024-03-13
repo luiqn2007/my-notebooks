@@ -1,0 +1,39 @@
+{
+    "name": "Transfer refs",
+    "msg": {
+        "NoRefChoose": "Please choose the references to be transfered",
+        "NoDst": "Target block ${dstBlockID} not exists"
+    },
+    "pannel": {
+        "refs": {
+            "table": [
+                "Type",
+                "Box",
+                "Doc",
+                "Content"
+            ]
+        },
+        "transBtn": {
+            "placeholder": "Target Block ID",
+            "btn": "Trans to"
+        }
+        ,
+        "dstOptions": {
+            "candidate": "Candidates"
+        }
+    },
+    "btype": {
+        "d": "Doc",
+        "h": "Header",
+        "l": "List",
+        "i": "List Item",
+        "c": "Code",
+        "m": "Math",
+        "t": "Table",
+        "b": "Quoate",
+        "s": "Super",
+        "p": "Paragraph",
+        "html": "HTML",
+        "query_embed": "Embed"
+    }
+}

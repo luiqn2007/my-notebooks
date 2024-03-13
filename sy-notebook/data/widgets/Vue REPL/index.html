@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <script type="importmap">
+    {
+      "imports": {
+        "vue": "./js/vue.js",
+        "@vue/repl": "./js/vue-repl.js",
+        "vue/compiler-sfc": "./js/vue-compiler-sfc.js",
+        "monaco-editor": "./js/monaco-editor.js"
+      }
+    }
+  </script>
+  <link rel="stylesheet" href="./style.css">
+  <title>Vue Repl</title>
+  <style>
+    :root {
+      --color-branding: #42d392;
+    }
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .loading-tip {
+      color: var(--color-branding);
+      font-size: 18px;
+      padding: 12px;
+    }
+
+    #app .vue-repl {
+      height: 100%;
+    }
+
+    #open-in-browser {
+      position: fixed;
+      top: 3px;
+      right: 8px;
+      color: var(--color-branding);
+      z-index: 999;
+      cursor: pointer;
+      font-size: 16px;
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background-color ease-in .2s;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <h3 class="loading-tip">Loading...</h3>
+  </div>
+
+  <div id="open-in-browser">
+    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 7H6a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h9a2 2 0 0 0 2-2v-5m-7 1L20 4m-5 0h5v5"/></svg>
+  </div>
+
+  <script type="module">
+    import { createApp, reactive, watch, watchEffect } from 'vue'
+    import { Repl, ReplStore } from '@vue/repl'
+    import MonacoEditor from 'monaco-editor'
+
+    // Mark is current page opened directly from browser
+    const IS_DIRECT_FROM_BROWSER = window.parent === window
+    let blockId
+
+    const api = (path, body) => fetch(path, {
+      method: 'POST',
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(body)
+    }).then(r => r.json())
+
+    const debounce = (fn, timeout = 1000) => {
+      let timer
+      return (...params) => {
+        if (timer) {
+          clearTimeout(timer)
+          timer = null
+        }
+        timer = setTimeout(() => {
+          fn(...params)
+          timer = null
+        }, timeout)
+      }
+    }
+
+    const ATTR_KEY = `custom-vue-repl`
+
+    const createRepl = (initialState) => {
+      const store = reactive(new ReplStore({
+        serializedState: initialState,
+        showOutput: true,
+        outputMode: 'preview',
+        defaultVueRuntimeURL: './js/vue-runtime.js'
+      }))
+      const syncCode = debounce(() => {
+        // remove # prefix
+        const serializedStateWithoutHash = store.serialize().slice(1)
+        fetch('/api/attr/setBlockAttrs', {
+          method: 'POST',
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            id: blockId,
+            attrs: {
+              [ATTR_KEY]: serializedStateWithoutHash
+            }
+          })
+        })
+      })
+
+      // Persist state to block attrs
+      watch(store, () => {
+        syncCode()
+      })
+
+      const app = createApp(Repl, {
+        store,
+        clearConsole: false,
+        editor: MonacoEditor
+      })
+      app.config.unwrapInjectedRef = true
+      app.config.errorHandler = e => console.error(e)
+      app.mount('#app')
+    }
+
+    const main = () => {
+      const resetWidth = () => {
+        if(!IS_DIRECT_FROM_BROWSER) {
+          frameElement.style.width = getComputedStyle(frameElement.parentElement).width
+        }
+      }
+      
+      // Update sizes 
+      const resetSize = () => {
+        const appEl = document.getElementById('app')
+        if (appEl) {
+          appEl.style.height = window.innerHeight + 'px'
+        }
+        resetWidth()
+      }
+      window.addEventListener('resize', resetSize)
+      resetSize()
+  
+      const openInBrowserButton = document.getElementById('open-in-browser')
+  
+      if (!IS_DIRECT_FROM_BROWSER) {
+        const blockEl = frameElement?.parentElement?.parentElement
+        if(!blockEl) {
+          createRepl()
+          return
+        }
+        blockId = blockEl.dataset.nodeId
+        // Initial width full with block
+        const doReplResize = () => {
+          frameElement.style.width = blockEl.offsetWidth + 'px'
+        }
+        doReplResize()
+        const resizeObserver = new ResizeObserver(doReplResize)
+        resizeObserver.observe(blockEl)
+        window.parent.addEventListener('resize', doReplResize)
+        openInBrowserButton.addEventListener('click', () => {
+          window.open(`${location.href}?blockId=${blockEl.dataset.nodeId}`)
+        })
+        api('/api/attr/getBlockAttrs', {
+          id: blockId
+        }).then(r => {
+          createRepl(r.data[ATTR_KEY])
+        })
+      } else {
+        openInBrowserButton.remove()
+  
+        blockId = location.search.slice(1).split('&').reduce((obj, kv) => {
+          const [k, v] = kv.split('=')
+          obj[k] = v
+          return obj
+        }, {}).blockId
+  
+        if (!blockId) {
+          createRepl()
+        } else {
+          api('/api/attr/getBlockAttrs', {
+            id: blockId
+          }).then(r => {
+            createRepl(r.data[ATTR_KEY])
+          })
+        }
+      }
+    }
+  
+    main()
+  </script>
+</body>
+
+</html>

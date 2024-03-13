@@ -1,0 +1,93 @@
+{
+  "files": [
+    "README.md",
+    "README_zh_CN.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "leolee9086",
+      "name": "leolee9086",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19915077?v=4",
+      "profile": "https://github.com/leolee9086",
+      "contributions": [
+        "bug",
+        "code"
+      ]
+    },
+    {
+      "login": "jpanda-cn",
+      "name": "jpanda-cn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50101020?v=4",
+      "profile": "https://github.com/jpanda-cn",
+      "contributions": [
+        "code",
+        "ideas"
+      ]
+    },
+    {
+      "login": "whuwangyong",
+      "name": "Wang Yong",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5968678?v=4",
+      "profile": "https://www.cnblogs.com/duanguyuan/",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "banjuer",
+      "name": "banjuer",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18739609?v=4",
+      "profile": "https://github.com/banjuer",
+      "contributions": [
+        "ideas"
+      ]
+    },
+    {
+      "login": "Tlonglan",
+      "name": "Tlonglan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38731172?v=4",
+      "profile": "https://github.com/Tlonglan",
+      "contributions": [
+        "ideas"
+      ]
+    },
+    {
+      "login": "ttimasdf",
+      "name": "Tim Zhang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2762704?v=4",
+      "profile": "https://git.io/k.r",
+      "contributions": [
+        "ideas",
+        "code"
+      ]
+    },
+    {
+      "login": "lmmxj",
+      "name": "lmmxj",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13883162?v=4",
+      "profile": "https://github.com/lmmxj",
+      "contributions": [
+        "ideas"
+      ]
+    },
+    {
+      "login": "frostime",
+      "name": "Frostime",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27268127?v=4",
+      "profile": "https://github.com/frostime",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg?style=flat-square)](#contributors)",
+  "projectName": "widget-query",
+  "projectOwner": "Zuoqiu-Yingyi",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true,
+  "commitConvention": "angular"
+}
