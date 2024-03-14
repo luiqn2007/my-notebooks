@@ -242,16 +242,59 @@
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240314023950-x4t94ss",
+                        "blockId": "20240315023229-3mcmb1o",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240309023106-0qy9xxz",
-                        "rootId": "20240314023950-x4t94ss"
+                        "rootId": "20240315023229-3mcmb1o"
                       },
                       "docIcon": "1f921",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "switch-case 实现原理"
+                      "title": "对象创建指令"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240313003149-jiu6xc1",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240309023106-0qy9xxz",
+                        "rootId": "20240313003149-jiu6xc1"
+                      },
+                      "docIcon": "",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "方法调用指令"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240313003155-cw90h9i",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240309023106-0qy9xxz",
+                        "rootId": "20240313003155-cw90h9i"
+                      },
+                      "docIcon": "1f921",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "数值运算和转换"
+                    },
+                    {
+                      "active": true,
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240313003110-yd7kcra",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240309023106-0qy9xxz",
+                        "rootId": "20240313003110-yd7kcra"
+                      },
+                      "docIcon": "1f921",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "控制跳转指令"
                     },
                     {
                       "children": {
@@ -265,38 +308,23 @@
                       "docIcon": "1f921",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "for-in 实现原理"
+                      "title": "for-in 字节码原理"
                     },
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240314024451-sggz6ha",
+                        "blockId": "20240314023950-x4t94ss",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240309023106-0qy9xxz",
-                        "rootId": "20240314024451-sggz6ha"
+                        "rootId": "20240314023950-x4t94ss"
                       },
                       "docIcon": "1f921",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "紧凑的 switch"
+                      "title": "switch-case 字节码原理"
                     },
                     {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240314142552-j2on3xb",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240309023106-0qy9xxz",
-                        "rootId": "20240314142552-j2on3xb"
-                      },
-                      "docIcon": "1f921",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "++ 实现原理"
-                    },
-                    {
-                      "active": true,
                       "children": {
                         "action": "cb-get-scroll",
                         "blockId": "20240314163206-vzafyhy",
@@ -308,49 +336,21 @@
                       "docIcon": "1f921",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "try-catch-finally 实现原理"
+                      "title": "try-catch-finally 字节码原理"
                     },
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240314172619-3t6hpbb",
+                        "blockId": "20240313002957-5l33mjd",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240309023106-0qy9xxz",
-                        "rootId": "20240314172619-3t6hpbb"
-                      },
-                      "docIcon": "",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "多个 catch 实现原理"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240314172637-gn27vl6",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240309023106-0qy9xxz",
-                        "rootId": "20240314172637-gn27vl6"
-                      },
-                      "docIcon": "",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "finally 包含 return 的实现原理"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240314024516-5vt2prr",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240309023106-0qy9xxz",
-                        "rootId": "20240314024516-5vt2prr"
+                        "rootId": "20240313002957-5l33mjd"
                       },
                       "docIcon": "1f921",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "断层的 switch"
+                      "title": "字节码指令"
                     }
                   ],
                   "height": "",
@@ -586,7 +586,7 @@
       "pin": true
     }
   },
-  "userData": "d716d5d6812229ac440f08261821941a610ff08716a234b3c5049f9565dbf52c3a9b4e2606e453ce7b683179efdfbb8fb1d50db8828c0cd7f36587a2755eaa3ab303c826f74ca1d26a2c71d67e524897e79e88ea091fb3b78cdf66096cdfa0515f062b4a7e8322ad4f159f69904e21aee62bd2ffa09dec31df88d1c56a9d4ff73c200914b90b41bbcf342735231c8971989919c8a3dc5e994de589bc0878d093be666bd40b809ad40e811c8788a9c358f8067230ad1913ada22ef63e34fcbb8b983170731d63a9adc75c461c6a2b81308835e9d4475815d0e3ddc71462410f9731be78efd59ccf2dffdd9e3d1b288f85822795ea7b583d7304da93467ed354587523410e07cc8fd63b01d8f76f9d23c4efb08097b5b257408a38de9654a33f114d05a75e80c730fb97127f62799888759821ffc1f122c8141c36a5de53f538983c3d1ff4f472d403d37d3bda59500760c2641aafb611b6ca7f5f11d278f05613c74ccbd184c19b6ae0d9112822d496f517789a82a4d1ff8a1a2636e5dd014b52822e11ff0d6e15c336c3bb7eb8eb2ebbcc061a3b30c9d94651c812bfead9d638d77a3c043a669bd9f2b07101dc3ef010ab90911ca4895e677345d426e4cb14e439d18cceb58e54190e8a6f860a565c7dca3fb66253a117b43f13a4a37b9e8c09eb24acbfa3f5cd3d8aedc8f715653bed78febccec5532f9348b299d3fa14432873447b4a99e6cb40164f71c34519a1637d4c02f19c15aeb648341174536fd1bc10410f88a186738cd08453c7cf8b9dd367796664d101bdcf07a3fecacfc31b0762db206e1fe9585149b37cfa11565216be70b6bcde86f41d28cda44f196fa29c5020764b134b0fe29fc612526ac1ca3ff6e1843d458bcbea8111a3d8ef6ee66fafe097a24e0148f8bb8256b3920bf6332e120faa9c0a76b754d676d31c8ff039c3b87b23563d3beeb03c236e927ea761d59ce12c4d064eb44d07ca257dd3c384c19475c74b656bc575cbd440d15f9e9c15e9dcdf8b92acb272ae6046bbb79912d0a258c62f2e3b8f1111558fe1497e67bb195744d7ff1223aefc7302069144a83159200d3f2576924e1743a170c8fb6c69411750d991b30d0e8fdbfc757c1d978a8c861bab79e7ce202cd726ed3a59c212743a4b14879b473c6d8f95518347db49549042986446d98d16c52cd7f78f90ce94d0237af61649d9d364d83ec0d2737bebcf2903cf317bb49b8f24443b553e558d5db9b5ad0ca65742ce5fdb8257aab8d8158f058f64e25c3fc9f5144e9e8f4e23099d946e49c895e41e352c320ad2328c8c9cf4652ff52dd62d4f8d49f1d94a8049a0c6513f7173b5e0d368ae67ffaca0b6bcf20fbe52baf68585672875e89910e734fbe7c04eb5bbe838fe2b9fe68f7f1c654fb1675a6d0361104577e675588c24e59ffd51dc16962cfeaeb5b071d0c059905020783f6c4732e55059f977b17dd68b3c8007e101108087a7f53d6eb79111cb193aaef57f9e0a36ba4955020fadb29cd6bf0d44d1c8afadfca76fd7e4d572db136d71c3c3846ceb281410ff35cdacfb48cb958a958516fc06a8a1be5043685fb8ab986597607851a75c538e0dc28be29f5a5d54010c8e6375eaf8d25ff809eec604017d6220d38d0ccb29e16c914759025bd02a2cfaffb36062b1721e2aa9ef8a7093f4d764f010d31e5bfc71a30329ae4df21b18ac27d3e247f7977cd50ac010dcd371595cfe07e029167baa9c9a0957c98ec526e887eb39397d292f5db0ecc46ee9498a018318382e40b6b47a74752023886a17502a7a762f9c88f146f6664827be7ecde5029b43a96f5a4241126aa1ebcf8a40bfe0d21a3eb7e0ca67cabd2a67490128b286f66bcf3aa71596abdd1cfee25535105f2ec7c12ba671db6142697511ff6991a9e1ef58ab31d84d59c085239730b69e7de887f15fd36c454870992c67889e9da56afa18e5ed1617bf28edc76dc557a9b25c197acf638874041f5aebf3f50b8c5228cbf7be17cf165678c3e0a1002e9104fb9c59abaabde2db2386a72f6ef85c2dafacb68913f38c1f2d90f428a3575b78d2680c80f7bbf06704667c4af68c7741f7ccbe0ffa48f9eff8bcd1cd8717d3fbe96067b2f3ae44a96816ea841c8baf60d964494b65a9c63b81d53de60eec9c539495b5ecdc3a51482cdd861e789dc849f0f94aa5e9b6841f2ab5d143b6deac746b2c683b649176c9f4f76ffb687df5a598598ca9404659bcc98ad345547cbf41816a443c9c8861ff82d56faab90964b435cbe1782edffa275928e44ef1a9f0cce014ee774a732083d2898414e04506bb379650fb31bfbc34ca81e25e45b2f2322605f19be870ac088343bfc2b9501e5a1a9d71d953103a5a1e88dc7e9c8e7af84799b3933b7de965f6dcd2fceff022b799422ffbf3a744d16e5a0b1979c0ccaa0344fd6faf899d6eb4649603a355239ff2322d433204d596072044f9573eff568cbe0f8731513cd2e6fd8d406b1dc589db8d0e09f40a5c5be3e17955803cabedf9eb8d10fd97ed9a329958d041b5a58a4384e10cb2e327df6f0519487887cb56e977dcd2bdaeac5f52f6e31b7818e87ccd71311ea3dd71c9003a5f241d06e111d616eccef52659e75bae98f4b2aab0df9b8edd8fedb12a5ef8ff996cf268deb32fffe05fef143c4ca7534006c727eac5be7de8bf49efd0683f3295aeaa387136c66399c9d30362ab2b578da68474349a37c2abdea2aa2239746511a1052cbbfd7e5498b1328fda2fbb1ddf576ee50eeb336021612bc40ac8832910f82cc4cf63f6ea37c820064ac111ad14666a557bcabf977bcd1dac7f65eee119ed0de9cc4363914735ddcf717e2801c30eacee231a05b4541a39dd1cf7b9d42fad535c8f4e818f3e974171d9ebd353937d09ad8b12720d7a54e5551a69febc5a5fab38aaa883b96a7e0fb9636e0219cd6ac61be37c461e2da54fe2c7eb0c42f6ed5997733b0cb79687c1e6407fe710e3866addd54074d7b55d8ca5a204197ff34d92da409446a78728a87a9a05a6f0c0f37c2827bfe61d9d7c22cd779082e54c62a99360bd5bebb38ba2760e679882b667bad2ac14a6ea78e50e9f63b025298be456f0db1fb033111ccf61d0a42f20cc8200d9795279af2daceb0230a843fac3cd4e9eaaa813e119fa0278ce37d00ba20f798aba6c19c9936f52a5e0ff25d17aa2f75e513a715b272853fa978285e3ed88194f09b5886c8149b52eeddc545cd280efb79f681f99d8e0aa5b79cb3bd32fe57b585aa1182fcb70e8bc49763637df40462f5cb55d862659be",
+  "userData": "d716d5d6812229ac440f08261821941a610ff08716a234b3c5049f9565dbf52c3a9b4e2606e453ce7b683179efdfbb8fb1d50db8828c0cd7f36587a2755eaa3ab303c826f74ca1d26a2c71d67e524897e79e88ea091fb3b78cdf66096cdfa0515f062b4a7e8322ad4f159f69904e21aee62bd2ffa09dec31df88d1c56a9d4ff73c200914b90b41bbcf342735231c8971989919c8a3dc5e994de589bc0878d093be666bd40b809ad40e811c8788a9c358f8067230ad1913ada22ef63e34fcbb8b983170731d63a9adc75c461c6a2b81308835e9d4475815d0e3ddc71462410f9731be78efd59ccf2dffdd9e3d1b288f85822795ea7b583d7304da93467ed354587523410e07cc8fd63b01d8f76f9d23c4efb08097b5b257408a38de9654a33f114d05a75e80c730fb97127f62799888759821ffc1f122c8141c36a5de53f538983c3d1ff4f472d403d37d3bda59500760c2641aafb611b6ca7f5f11d278f05613c74ccbd184c19b6ae0d9112822d496f517789a82a4d1ff8a1a2636e5dd014b52822e11ff0d6e15c336c3bb7eb8eb2ebbcc061a3b30c9d94651c812bfead9d638d77a3c043a669bd9f2b07101dc3ef010ab90911ca4895e677345d426e4cb14e439d18cceb58e54190e8a6f860a565c7dca3fb66253a117b43f13a4a37b9e8c09eb24acbfa3f5cd3d8aedc8f715653bed78febccec5532f9348b299d3fa14432873447b4a99e6cb40164f71c34519a1637d4c02f19c15aeb648341174536fd1bc10410f88a186738cd08453c7cf8b9dd367796664d101bdcf07a3fecacfc31b0762db206e1fe9585149b37cfa11565216be70b6bcde86f41d28cda44f196fa29c5020764b134b0fe29fc612526ac1ca3ff6e1843d458bcbea8111a3d8ef6ee66fafe097a24e0148f8bb8256b3920bf6332e120faa9c0a76b754d676d31c8ff039c3b87b23563d3beeb03c236e927ea761d59ce12c4d064eb44d07ca257dd3c384c19475c74b656bc575cbd440d15f9e9c15e9dcdf8b92acb272ae6046bbb79912d0a258c62f2e3b8f1111558fe1497e67bb195744d7ff1223aefc7302069144a83159200d3f2576924e1743a170c8fb6c69411750d991b30d0e8fdbfc757c1d978a8c861bab79e7ce202cd726ed3a59c212743a4b14879b473c6d8f95518347db49549042986446d98d16c52cd7f78f90ce94d0237af61649d9d364d83ec0d2737bebcf2903cf317bb49b8f24443b553e558d5db9b5ad0ca65742ce5fdb8257aab8d8158f058f64e25c3fc9f5144e9e8f4e23099d946e49c895e41e352c320ad2328c8c9cf4652ff52dd62d4f8d49f1d94a8049a0c6513f7173b5e0d368ae67ffaca0b6bcf20fbe52baf68585672875e89910e734fbe7c04eb5bbe838fe2b9fe68f7f1c654fb1675a6d0361104577e675588c24e59ffd51dc16962cfeaeb5b071d0c059905020783f6c4732e55059f977b17dd68b3c8007e101108087a7f53d6eb79111cb193aaef57f9e0a36ba4955020fadb29cd6bf0d44d1c8afadfca76fd7b1444f2d54c27ebb98cf4403fbbc5ca986c0ef9416d1e8c0459d2d4a12182c1c46a973dc897704a845f999ff6583bc6aad5a29c5fa74eb998e583aae6b6ca22978f5289dbae09b9e6fa036fbbeef7215f7c7d2167f8681d4a728ed10f4b18d5d4a1dd88cbad1ad062db8b704af8324d2c222d4f63ca6bd32dfc5023ca6c73eca91455cd56c12cdbee89416e289f0201232271a77a69e3bafe1f64fa97561b4f6b7f94c3fc6feff0d3e3e9fac29fa8c19b9780d5630ec1aeee8fce5e1619a39aae6781d87ec0ddb2407a13d213751dbcb4610e8e3a74c8af5ff8093049eec5dcdf2fc0bed061e6c8164b2acb04e97367ed467b67490b24c296400527d26ba2070e21cbb3e71d48664578f1b193da35929450be399c62c9b8c8a0555b037dd0a9a23ec8b67055d733e38c21d5350dc77cd38b7e0a9640125e7b8e77a9c0e93eb2b3cfed998de1dc8dcf77d1168e5c00d528be4573a0f31215ec55e79f82fc3add522fdccbb6dbc9223b4045d733593e4151ada024e617c64b3b99454fad21a3449e453e7347a8584e42460814382952c88cd6d4d683157ea972f69cb56eb193b48379e693a53a62d18dd28c03219d7f7da3d5b5525d71129a5d40c7c69d6545cec1b2f62a344280db9611be5d880e132f3fbb0623075ecafffe8f79b30859d56f90c7102236a6fcea5b83244a292117417967124b600efe0bc4de52dcce804149174f88477e3fcc5b1993bf6fb35341ef0e91fe420e590ebcd84dd6265d0dc6ce5e6fd671a387be2d5f8ddfeb7bc44092ae74216a4282fb40f8efbb81d6f719a95f24086247f04abeaf71240decdc06ae642c95e0c84b6d88a097b79656bfc0172e33b18e3b886a2d92c8cab247aa9752d086a06098891eda5c855b449d4f2a3e0604ec0e31a1db822bc938a99cd8e7b675f2a360b1b2d295a38f0892553ba47364436a2a6bc2648e1a773a55458cc29a7afee179b0c960937ce268189b2874278dbc05a677465ab30933f4d219d8860b6e83aeb8537bd88897ff21247c400a98b1b91352a6fc970f313c90fa2f70b7c278ef61969a9a6c81939311afafa900e92e9dc221b18e30a78ad739556b65e19f9ec9dfead2c8bb729e9bde3e5564ec6d70962a9f1f55e4cbf5ecb03e388b209b2fe7a29cf69edb7f904fe60b23d05b8cf1ff663b31a825784dd989135eb544edd07097c6272a418586014c5bacbdffc01bf54b7813aa4bae449d2e06e031a4944cdd738b55fb360c8ced430ca59093f467733e6bf7b80348ed890a9aba8eed559cfe9f3314bfc8ff478627ad0c2ccff69a1a80a0bd22fbba6df46673cb4a5d7d6d184ffc3d52d650609ad20c5637fc5f47466ef9f15beb27788c2515d96206d0c3b5072170decd2a755f07666a69e05411a1630655ab88abe127efd58543478e9dbd3271333fcc64b9f155aa28d4a701f189f3fb3687d74effb347f4946f3e293c909f20548bdcd42b65d1af73bfbf67d5dc7b6e20944acd2e5eb73877654da6798ac0cb4f1dc9496438d405b732c64069430c9782db83420db4817d930f6c76e713640a1a8c98e6d651bc66cfdab207341a4537bd642d12a46d58e14756decc99d6261299f04d0e33180feb34b91e6f2d3dcc14d87e7a37fd7551f8243b16d210c0cc35044b19ba012bf04b618bc1ff0e210b2e21e5fe2b1076d8780ac0e2e99db98bec8508d44e6e67bbf8fe6692bfef070e3784a1277935fc29a91e6f383e3b28dc173832416d60de38896467a44d1",
   "account": {
     "displayTitle": true,
     "displayVIP": true
@@ -612,7 +612,7 @@
   "system": {
     "id": "7a948d12-efb4-430f-ae4a-7cc3a866c486",
     "name": "lq-pc",
-    "kernelVersion": "3.0.2",
+    "kernelVersion": "3.0.3",
     "os": "windows",
     "osPlatform": "Microsoft Windows 11 Pro",
     "container": "std",
@@ -620,7 +620,7 @@
     "isInsider": false,
     "homeDir": "C:\\Users\\lq200",
     "workspaceDir": "C:\\Users\\lq200\\siyuan\\sy-notebook",
-    "appDir": "C:\\Program Files\\WindowsApps\\89C2A984.SiYuan_3.0.2.0_x64__1qfd3tsw4ngc2\\app\\resources",
+    "appDir": "C:\\Program Files\\WindowsApps\\89C2A984.SiYuan_3.0.3.0_x64__1qfd3tsw4ngc2\\app\\resources",
     "confDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\conf",
     "dataDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\data",
     "networkServe": false,
@@ -638,6 +638,10 @@
   "keymap": {
     "editor": {
       "general": {
+        "ai": {
+          "custom": "",
+          "default": ""
+        },
         "alignCenter": {
           "custom": "⌥C",
           "default": "⌥C"
@@ -1009,6 +1013,10 @@
       }
     },
     "general": {
+      "addToDatabase": {
+        "custom": "",
+        "default": ""
+      },
       "backlinks": {
         "custom": "⌥7",
         "default": "⌥7"
@@ -1342,13 +1350,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 556,
+    "treeCount": 558,
     "cTreeCount": 1000,
-    "blockCount": 7138,
+    "blockCount": 7166,
     "cBlockCount": 10000,
-    "dataSize": 154544181,
+    "dataSize": 154933374,
     "cDataSize": 209715200,
-    "assetsSize": 18001365,
+    "assetsSize": 18324605,
     "cAssetsSize": 104857600
   },
   "api": {
