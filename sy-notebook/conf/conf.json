@@ -80,10 +80,12 @@
     "generateHistoryInterval": 10,
     "historyRetentionDays": 30,
     "emoji": [
+      "1f4e6",
+      "1f619",
+      "1f63a",
       "1f630",
       "1f3f9",
       "1f921",
-      "1f4e6",
       "1f9f5",
       "1f5c3-fe0f",
       "1f47d",
@@ -169,11 +171,11 @@
     },
     "global": {
       "minRefs": 0,
-      "dailyNote": false,
+      "dailyNote": true,
       "type": {
         "tag": false,
         "paragraph": false,
-        "heading": true,
+        "heading": false,
         "math": false,
         "code": false,
         "table": false,
@@ -242,89 +244,8 @@
                 {
                   "children": [
                     {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240309221247-5yp4s9q",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311004405-xr5zp04",
-                        "rootId": "20240309221247-5yp4s9q"
-                      },
-                      "docIcon": "1f630",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "《深入理解JVM字节码》"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240312205142-r7rdr5y",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311004405-xr5zp04",
-                        "rootId": "20240312205142-r7rdr5y"
-                      },
-                      "docIcon": "1f630",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "全链路分布式跟踪与 APM"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240321204902-zacgj1p",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311004405-xr5zp04",
-                        "rootId": "20240321204902-zacgj1p"
-                      },
-                      "docIcon": "1f630",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "APM"
-                    },
-                    {
-                      "active": true,
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240321204844-7oqrawn",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311004405-xr5zp04",
-                        "rootId": "20240321204844-7oqrawn"
-                      },
-                      "docIcon": "1f630",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "全链路分布式跟踪"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240316123045-jfw2mhz",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240316121218-fm41yme",
-                        "rootId": "20240316123045-jfw2mhz"
-                      },
-                      "docIcon": "",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "CS 自学指南 路程"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240321231559-l0b36y7",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240316121218-fm41yme",
-                        "rootId": "20240321231559-l0b36y7"
-                      },
-                      "docIcon": "",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "语言"
+                      "children": {},
+                      "instance": "Tab"
                     }
                   ],
                   "height": "",
@@ -435,18 +356,6 @@
             },
             "title": "文件资源管理器",
             "type": "monaco-editor-dock-explorer"
-          },
-          {
-            "hotkey": "⌥Q",
-            "hotkeyLangId": "",
-            "icon": "iconDocumentSearch",
-            "show": false,
-            "size": {
-              "height": 0,
-              "width": 400
-            },
-            "title": "基于文档的全局搜索",
-            "type": "syplugin-document-searchsearch_dock_tab"
           }
         ],
         [
@@ -477,18 +386,6 @@
           {
             "hotkey": "",
             "hotkeyLangId": "",
-            "icon": "iconKmind",
-            "show": false,
-            "size": {
-              "height": 0,
-              "width": 200
-            },
-            "title": "Kmind",
-            "type": "kmind-pluginKmindDock"
-          },
-          {
-            "hotkey": "",
-            "hotkeyLangId": "",
             "icon": "iconWhiteboard",
             "show": false,
             "size": {
@@ -497,6 +394,18 @@
             },
             "title": "Tldraw白板",
             "type": "siyuan-plugin-whiteboardWhiteboardDock"
+          },
+          {
+            "hotkey": "",
+            "hotkeyLangId": "",
+            "icon": "showHistory",
+            "show": false,
+            "size": {
+              "height": 0,
+              "width": 200
+            },
+            "title": "show History",
+            "type": "siyuan-plugin-block-historyblock_history_dock"
           }
         ]
       ],
@@ -528,6 +437,18 @@
             },
             "title": "全局关系图",
             "type": "globalGraph"
+          },
+          {
+            "hotkey": "",
+            "hotkeyLangId": "",
+            "icon": "iconGraphEnhance",
+            "show": false,
+            "size": {
+              "height": 500,
+              "width": 300
+            },
+            "title": "关系图增强",
+            "type": "graph-enhancedock_tab"
           }
         ],
         [
@@ -554,13 +475,25 @@
             },
             "title": "Timer Logger",
             "type": "sy-time-loggerdock_tab"
+          },
+          {
+            "hotkey": "",
+            "hotkeyLangId": "",
+            "icon": "iconHistory",
+            "show": false,
+            "size": {
+              "height": 0,
+              "width": 232
+            },
+            "title": "今日笔记预约",
+            "type": "siyuan-dailynote-todaydock_tab"
           }
         ]
       ],
       "pin": true
     }
   },
-  "userData": "d716d5d6812229ac440f08261821941a610ff08716a234b3c5049f9565dbf52c3a9b4e2606e453ce7b683179efdfbb8fb1d50db8828c0cd7f36587a2755eaa3ab303c826f74ca1d26a2c71d67e524897e79e88ea091fb3b78cdf66096cdfa0515f062b4a7e8322ad4f159f69904e21aee62bd2ffa09dec31df88d1c56a9d4ff73c200914b90b41bbcf342735231c8971989919c8a3dc5e994de589bc0878d093be666bd40b809ad40e811c8788a9c358f8067230ad1913ada22ef63e34fcbb8b983170731d63a9adc75c461c6a2b81308835e9d4475815d0e3ddc71462410f9731be78efd59ccf2dffdd9e3d1b288f85822795ea7b583d7304da93467ed354587523410e07cc8fd63b01d8f76f9d23c4efb08097b5b257408a38de9654a33f114d05a75e80c730fb97127f62799888759821ffc1f122c8141c36a5de53f538983c3d1ff4f472d403d37d3bda59500760c2641aafb611b6ca7f5f11d278f05613c74ccbd184c19b6ae0d9112822d496f517789a82a4d1ff8a1a2636e5dd014b52822e11ff0d6e15c336c3bb7eb8eb2ebbcc061a3b30c9d94651c812bfead9d638d77a3c043a669bd9f2b07101dc3ef010ab90911ca4895e677345d426e4cb14e439d18cceb58e54190e8a6f860a565c7dca3fb66253a117b43f13a4a37b9e8c09eb24acbfa3f5cd3d8aedc8f715653bed78febccec5532f9348b299d3fa14432873447b4a99e6cb40164f71c34519a1637d4c02f19c15aeb648341174536fd1bc10410f88a186738cd08453c7cf8b9dd367796664d101bdcf07a3fecacfc31b070121b1ebedfb7c53390a697db9f4f399f74fc884336563a2e8dc7a0e32a6b55cac1adcd23b494d541483a6a1b836b7ab13a8277972b11aff7fd78d14ec90dcadeef8eed0782c0896253893b6d6ea88e0c906b84280e8799b047223450514514d21bbf7c049ebb5949d8d91fcd689c5bac2ac02355911d798c9f9f3c5cc3ca5dfe3a192827fee9afa5c2f2934c76823c0d4dd7f334462673bf7e27c4a13e99cfbbc8a315aaf01c50dc650f98481e6f4c9b6a767bf451dc6f3738fd7f62faed6ecfe9d37d7ea3a20b71ace3c72c9ed637bb026c2bd39ac217424c986745f69e7ea2b653d9e5b55c258b302617f171c4492751154ae92fc488d4ea32b62784feb9517e27d2c82e9640ede75a5a89c9d00e91bf9715aa297b5294b662568878eb693c6e2b3af64db8efd4b4412da0caca21944b9fa9a4066441004197808b404fd2471334a801b2aac80754ba5904f9cfe9e96712c59cd35525e64350ae4cb911046aaf7a215ce18d19d0b2556d9bb9ccaec9c9316500268b1a2395c57611fd0fec3cdb81211d4970a13bdaa659a18f82f77c1480646ea2426ef4746b7d2ce413fa421d5b267dc07130818301cb212f71ec15608d5f8c6da9a4fafc6bdbd10c8845281bd7e64c1546e6591055ee135c7e1286c3d6a8fc7641a7d199f7a8c900e21c6de8d2dc21b9d9c6b5e4ff5601cfdbf3e134b0f065109abfac745d0ee3feb7cd5a31d2ceb16efffca61656d2c43e10752dc637af36da80feb921c1e665814f4fcdfa2f05e2de74b30f4ab25e382f19677df4df203e8a4e9fdc5d207cd47f8ad35be99f5652cfa6b861c013e1f33537a891c33c575d7b598e63a3279d39b7a7ce8b87583ff76decffc923e6b7fed63bb3a443d2f010999773fce504ff10b81d8cc4899f5edeb90dbadebd42b0b96aed9e6e18b22d5917d80f2baa8b869e4d6f20bb80d9ad77642a471401c6e25ecfd6df65a8c2bb0c060168e8012a5d7dcd759e5fdac17fe39d55b409188e1b6cdeb2c09164c9eeeb5461e04c2b99c5885f5b2f5bb995ab6857d4ecadd8e6a729a12b2077f35abf2b3df770c4c06f31a378e60b112be34709818f3c437339f7473a0033ec115b1782ea949b79956b33c366c52159bb5b33ecf0be836274e44ae48a74295d566f8b50902cf2ad748334db524c5b8059c3d566d6fb55999f71ac6101f567f1d3b486e3f1ee18db46d5240f2786e3847daf9651703aac80dffe70f3bfe78247fd4031b087275784cf7288c374f5d896f8edc700bdbcf9916bff88ff6f15e7f09fac29fcefe420be53fe671f45c290bdaea9b1c11ea81e0413d6447bdf6b35d10fabded7c78aedbb9e49b644cc4f61dddb04ae41174586f07904f7842805362d13a214a64d008176be6c4f147cf406675db158b782c3fee3683afdce0288315fc2df337b5e515bec730fc2b37229f8200a1327df6bf29dc663bd05da95403b658c2fc1ceecb38ffe9d6aacd2517ae7e5c6699972f482f8a5ad1e30d7b4210e16801409aaf410f224ccdb53f48ec054db766594f0e961a287275de36fd0abc820f0007b4a1022e478c25465fab8eaa6320a2a18d0917ff0ff9aa851a969b16c57df1303d24aa5af7a8cb3487558da7726805939312ef09e0622555e4b06b49a5f077b4fc496de0ca900bd01b6d1a3312e7bfc4cf0b088515ddbaf3a3ab7c2aa37dc15693a99520bbc379641b9e50366a3ea8d2a7e28014027a8902168e2e2807ac609e33a34b3d53db39601bb4cfb01cfe30334a3fd441444ee490365456363886db7dd5ad58a11c77f4790c262b10f40b47c08116621b822ee6f43d373b8d03d44fc6181c1280fc50245245e4349e1ac9e80da218939c5718a385a00f3b105922e09fedd5fb17d3b3871698556cf9696ccee70cc90b0333afff7e84326f34d1ca59e3c4fa3aa2cfebe35c2604c83e3781a492556a2cd2e408ecdfd3e11089cb89d470641ae1fee7412ecce20261eadb0b67d5ad5d79383841f17f93778589b732b38195492cd9bdac67be87b54a8e18b5eaf73afcb4db0517b1a6c2f64c4e76707caf24bb1f4f384e942268ec18cea54a64be26474c31f463a09c6326b56efe67c2db60ebdf19f95940cf1a1595802d436f0cbac09ea283afcfd8f1d9368298873831d9c40475a15ce57838b36036cc0c13615967947119ef9430eaec9dfd772f67ebd4e5641f064165abe830528bd08fae94922a55a75a9c2a7575a11775e880294f42cc6d34dc1dc88d2be7b2c7d41730a1bd624c66c2283ffb882ac044ca5382825f491ef34fafd88b7b0da48cd5f6bf27bf79a05dae11d97371f5ad44489f386702ecea92ae5a9f2a29cb6c458a61050439301e8da6d78a5c20bca8413fcf757d97047e38ece27ffa8c006fc3fef634b744671519336c4b6ed4174880f1a6f2894df67bc2bf1812869385e07879",
+  "userData": "d716d5d6812229ac440f08261821941a610ff08716a234b3c5049f9565dbf52c3a9b4e2606e453ce7b683179efdfbb8fb1d50db8828c0cd7f36587a2755eaa3ab303c826f74ca1d26a2c71d67e524897e79e88ea091fb3b78cdf66096cdfa0515f062b4a7e8322ad4f159f69904e21aee62bd2ffa09dec31df88d1c56a9d4ff73c200914b90b41bbcf342735231c8971989919c8a3dc5e994de589bc0878d093be666bd40b809ad40e811c8788a9c358f8067230ad1913ada22ef63e34fcbb8b983170731d63a9adc75c461c6a2b81308835e9d4475815d0e3ddc71462410f9731be78efd59ccf2dffdd9e3d1b288f85822795ea7b583d7304da93467ed354587523410e07cc8fd63b01d8f76f9d23c4efb08097b5b257408a38de9654a33f114d05a75e80c730fb97127f62799888759821ffc1f122c8141c36a5de53f538983c3d1ff4f472d403d37d3bda59500760c2641aafb611b6ca7f5f11d278f05613c74ccbd184c19b6ae0d9112822d496f517789a82a4d1ff8a1a2636e5dd014b52822e11ff0d6e15c336c3bb7eb8eb2ebbcc061a3b30c9d94651c812bfead9d638d77a3c043a669bd9f2b07101dc3ef010ab90911ca4895e677345d426e4cb14e439d18cceb58e54190e8a6f860a565c7dca3fb66253a117b43f13a4a37b9e8c09eb24acbfa3f5cd3d8aedc8f715653bed78febccec5532f9348b299d3fa14432873447b4a99e6cb40164f71c34519a1637d4c02f19c15aeb648341174536fd1bc10410f88a186738cd08453c7cf8b9dd367796664d101bdcf07a3fecacfc31b070121b1ebedfb7c53390a697db9f4f399f74fc884336563a2e8dc7a0e32a6b55cac1adcd23b494d541483a6a1b836b7ab13a8277972b11aff7fd78d14ec90dcadeef8eed0782c0896253893b6d6ea88e0c906b84280e8799b047223450514514d21bbf7c049ebb5949d8d91fcd689c5bac2ac02355911d798c9f9f3c5cc3ca5dfe3a192827fee9afa5c2f2934c76823c0d4dd7f334462673bf7e27c4a13e99cfbbc8a315aaf01c50dc650f98481e6f4c9b6a767bf451dc6f3738fd7f62faed6ecfe9d37d7ea3a20b71ace3c72c9ed637bb026c2bd39ac217424c986745f69e7ea2b653d9e5b55c258b302617f171c4492751154ae92fc488d4ea32b62784feb9517e27d2c82e9640ede75a5a89c9d00e91bf9715aa297b5294b662568878eb693c6e2b3af64db8efd4b4412da0caca21944b9fa9a4066441004197808b404fd2471334a801b2aac80754ba5904f9cfe9e96712c59cd35525e64350ae4cb911046aaf7a215ce18d19d0b2556d9bb9ccaec9c9316500268b1a2395c57611fd0fec3cdb81211d4970a13bdaa659a18f82f77c1480646ea2426ef4746b7d2ce413fa421d5b267dc07130818301cb212f71ec15608d5f8c6da9a4fafc6bdbd10c8845281bd7e64c1546e6591055ee135c7e1286c3d6a8fc7641a7d199f7a8c900e21c60748e90447be4519feabb949f886a7345985fc870767ec7b19301682a5fb70e8e31418e3ed326b56551458efa50da65c3b74f59395a42c3a4672c271e10e299f73201f58078efa1adfc5523681169bfec576dd81ff9759468b78fdbf7ca14e7ddeea50b8f31a646c577df4aafd097eec74bf6deb2a9647f5b0c16c61f52d7a399e8e697e18e41778f42b2bdd2e0c92ec996b60dfd7756f602cb3dbc488aa5449417f054dbf9bbe1cfbc031cd10fa2b483d6159d4e3e439778b0a8ec3c42e8b085457a0e5d9cb91cb96b4394d3ae01da3fbf03ef8bcb3bf9b3279292ce1536bd70ddaab6e09ddc8d2d44afcd8b56323f2d39f343bf00f61c62971711ce504a8099c7fa17a4c211358143dff12b4d59a046d67b6632285ad0e9217a9fb5d99499b61c9dcb3828b203df1186891e78242c8951e52d1745df3a3102a19286c5188e29969cea7efa97de0db5d67ebe91cfd0c61719b686d4d52b17ff6992fc8518289d7dc762b0caf8054f05d481cdcbb5fb0b1f208ed50b30aa9bb0f16ad6a1f12d5b039b0ab3a218ce559dff40d38ce0b9011a79ec6f388cb3616c3e8803d08b1a122abb2c6a89764b939be6ef541e3324145639eafb8f690d2d0bbb6559fa3613ccdf9a099a96273eaaa137843753bbcc7b587af97abf0cacff2458937ff5f438199ec94ab52a712f649de97992a755627e93adb69a446a845cb3e1a644da2038bfc0e53d577b219039e065c7c9cd3ef7f4b277828405f579038189c896c187990d15b1f12cf20e6ed2b8b2f5f85dce91cd12cceff8b2dfe01dabe4a57cc37a19f74958a5a765885a2440841a3a0a66b3a0ea22de698af373a32ceda417c8e2941a84cd9680a504c354c348a22aa0419d8928bf10dbfa1a95e3d29d392e2c31457ff74eac79e205fb196fdc3ff89495b110d8c6f8fce32d520bfb7ba521b7d0a08a301fe2f5c897146cf64a7656ba9a6d12001b3f5d8a04011d9ecb2f789c33c3209c9f1fe4e9e63bf28ccb1cbb0d6ba0a220cccf38047aed7934b5b5be4cbe469010551a5d3120eb9e6e77eba945078a4818c03e3c56636b7cd11a4e18bdb8908c984a926c6a66cd99d4cb63ec03f71bd6f7259b65a1348c3e7fa4b4104a3313de98f61f57903e03baec6a1cb47621f443822ca54f9d4437014c66bf7b9d54faded27d4b098dbbd25556632dd923917dc656624d4f457969544b38c94d39bfeead6cdae0550117f9e5a8289b4308b0d1c18b17840329814fa7bddd6e2e0f7a6bc484c6b8f5733755812f131f46ae0f48c6198d902e7fc868fe165817fce7f18489cd14e0bbe2ad7c5a5b3141c17b72828d24c654981bd1658a7d260a6b8a34347ce97fc3a1d52c0ceb314a5563ba8fa3bcc7529eb826838a2844c4b3f43993b6d5c4406d108e249e26694733386f90145553d0b0d3d696b4f42a0c0e12c94bb424ec2befa93054dc6e804aaebb5569feecacaa52494bed0c27a28dcc4de94988a65d9ac1ad72d50ab54c79887b8abacf457f3047a0a2148d3331bb0dd2bbca64e39b0d05ccccbafac652689896322d7a573f76b3067e84a76c7e743ad59e37cb50082d037d4e7ac566cf13a26c7aad8bb3b7db85c16e7ecd56022802b405f7ea3399eb4b53d80f6e6615a6d6c4ec0e83a0b7cb15c115b75371ccbaf5b02bbd20b2608b33306422a2162ea91f79def7a81c7afb22bf80743877fe61da3454ee7482648e4b5ff552b286c6fad06dbc833c3ba7f915dc84028ed4c23f2f8908266d7",
   "account": {
     "displayTitle": true,
     "displayVIP": true
@@ -569,18 +502,18 @@
   "localIPs": [
     "127.0.0.1",
     "10.22.2.154",
-    "172.20.48.1",
     "172.30.16.1",
+    "192.168.144.1",
     "26.210.116.202",
-    "169.254.123.222",
+    "169.254.106.59",
     "169.254.175.180",
     "[::1]",
     "[fdfd::1ad2:74ca]",
     "[fe80::8932:5202:9501:4c4f]",
     "[fe80::2920:19ac:f0cf:cb77]",
     "[fe80::68ac:5cff:cbbd:2f5c]",
-    "[fe80::1300:ff06:43a6:c2f]",
-    "[fe80::86f3:d562:37a:ac69]"
+    "[fe80::326d:5463:c0a4:584f]",
+    "[fe80::1300:ff06:43a6:c2f]"
   ],
   "accessAuthCode": "",
   "system": {
@@ -1324,13 +1257,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 612,
+    "treeCount": 658,
     "cTreeCount": 1000,
-    "blockCount": 8071,
+    "blockCount": 8436,
     "cBlockCount": 10000,
-    "dataSize": 156215238,
+    "dataSize": 134813759,
     "cDataSize": 209715200,
-    "assetsSize": 18882567,
+    "assetsSize": 19078336,
     "cAssetsSize": 104857600
   },
   "api": {

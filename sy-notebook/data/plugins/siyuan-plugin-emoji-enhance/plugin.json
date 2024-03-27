@@ -1,0 +1,42 @@
+{
+  "name": "siyuan-plugin-emoji-enhance",
+  "author": "zuoez02",
+  "url": "https://github.com/zuoez02/siyuan-plugin-emoji-enhance",
+  "version": "0.3.1",
+  "minAppVersion": "2.12.1",
+  "backends": [
+    "windows",
+    "linux",
+    "darwin",
+    "ios",
+    "android",
+    "docker"
+  ],
+  "frontends": [
+    "desktop",
+    "mobile",
+    "browser-desktop",
+    "browser-mobile",
+    "desktop-window"
+  ],
+  "displayName": {
+    "en_US": "Emoji Enhance",
+    "zh_CN": "Emoji增强"
+  },
+  "description": {
+    "en_US": "SiYuan Emoji Enhance",
+    "zh_CN": "Emoji功能优化与增强"
+  },
+  "readme": {
+    "en_US": "README.md",
+    "zh_CN": "README_zh_CN.md"
+  },
+  "funding": {
+    "custom": [
+      "https://afdian.net/a/zuoez02"
+    ]
+  },
+  "keywords": [
+    "emoji"
+  ]
+}

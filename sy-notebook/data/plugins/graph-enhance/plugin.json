@@ -1,0 +1,28 @@
+{
+  "name": "graph-enhance",
+  "author": "shenjinglei",
+  "url": "https://github.com/shenjinglei/siyuan-plugin-graph-enhance",
+  "version": "0.4.2",
+  "minAppVersion": "2.10.13",
+  "backends": ["all"],
+  "frontends": ["all"],
+  "displayName": {
+    "default": "Graph Enhanced",
+    "zh_CN": "关系图增强"
+  },
+  "description": {
+    "default": "display the relationships between notes",
+    "zh_CN": "显示笔记间的双链关系"
+  },
+  "readme": {
+    "default": "README.md",
+    "zh_CN": "README_zh_CN.md"
+  },
+  "i18n": ["en_US", "zh_CN"],
+  "funding": {
+    "openCollective": "",
+    "patreon": "",
+    "github": "",
+    "custom": ["https://afdian.net/a/shenjinglei"]
+  }
+}

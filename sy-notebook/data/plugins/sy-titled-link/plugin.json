@@ -1,0 +1,26 @@
+{
+  "name": "sy-titled-link",
+  "author": "frostime",
+  "url": "https://github.com/frostime/sy-titled-link",
+  "version": "1.3.0",
+  "minAppVersion": "2.9.0",
+  "backends": [
+    "all"
+  ],
+  "frontends": [
+    "all"
+  ],
+  "displayName": {
+    "en_US": "Titled Url",
+    "zh_CN": "Titled Url"
+  },
+  "description": {
+    "en_US": "Get the title of the web url",
+    "zh_CN": "获取网页链接的标题"
+  },
+  "readme": {
+    "en_US": "README_en_US.md",
+    "zh_CN": "README.md"
+  },
+  "keywords": ["url", "link", "网页链接", "标题", "title"]
+}

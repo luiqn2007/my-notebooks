@@ -9,15 +9,6 @@
 		"i18n": null
 	},
 	{
-		"name": "kmind-plugin",
-		"displayName": "Kmind思维导图插件",
-		"enabled": true,
-		"incompatible": false,
-		"js": "",
-		"css": "",
-		"i18n": null
-	},
-	{
 		"name": "monaco-editor",
 		"displayName": "集成编辑环境",
 		"enabled": true,
@@ -45,26 +36,8 @@
 		"i18n": null
 	},
 	{
-		"name": "siyuan-plugin-sidebar-memo",
-		"displayName": "侧边备注",
-		"enabled": true,
-		"incompatible": false,
-		"js": "",
-		"css": "",
-		"i18n": null
-	},
-	{
 		"name": "siyuan-plugin-power-mode",
 		"displayName": "Power Mode",
-		"enabled": true,
-		"incompatible": false,
-		"js": "",
-		"css": "",
-		"i18n": null
-	},
-	{
-		"name": "sy-transfer-refs",
-		"displayName": "转移引用",
 		"enabled": true,
 		"incompatible": false,
 		"js": "",
@@ -108,53 +81,8 @@
 		"i18n": null
 	},
 	{
-		"name": "syplugin-fakeDocBreadcrumb",
-		"displayName": "(伪)文档面包屑",
-		"enabled": true,
-		"incompatible": false,
-		"js": "",
-		"css": "",
-		"i18n": null
-	},
-	{
-		"name": "siyuan-plugin-schedule-manager",
-		"displayName": "日程管理",
-		"enabled": true,
-		"incompatible": false,
-		"js": "",
-		"css": "",
-		"i18n": null
-	},
-	{
-		"name": "syplugin-document-search",
-		"displayName": "基于文档搜索",
-		"enabled": true,
-		"incompatible": false,
-		"js": "",
-		"css": "",
-		"i18n": null
-	},
-	{
 		"name": "sy-time-logger",
 		"displayName": "时间日志",
-		"enabled": true,
-		"incompatible": false,
-		"js": "",
-		"css": "",
-		"i18n": null
-	},
-	{
-		"name": "siyuan-plugin-hsr",
-		"displayName": "高亮搜索结果",
-		"enabled": true,
-		"incompatible": false,
-		"js": "",
-		"css": "",
-		"i18n": null
-	},
-	{
-		"name": "small-window",
-		"displayName": "小窗",
 		"enabled": true,
 		"incompatible": false,
 		"js": "",
@@ -198,8 +126,53 @@
 		"i18n": null
 	},
 	{
-		"name": "siyuan-plugin-slide",
-		"displayName": "幻灯片",
+		"name": "graph-enhance",
+		"displayName": "关系图增强",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "siyuan-plugin-emoji-enhance",
+		"displayName": "Emoji增强",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "siyuan-dailynote-today",
+		"displayName": "今日笔记",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "sy-titled-link",
+		"displayName": "Titled Url",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "siyuan_rmv_btn",
+		"displayName": "移除按钮",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "siyuan-plugin-block-history",
+		"displayName": "块历史",
 		"enabled": true,
 		"incompatible": false,
 		"js": "",
