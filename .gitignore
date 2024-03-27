@@ -1,6 +1,6 @@
 # .gitignore
 # 图片、pdf等。
-sy-notebook/data/assets
+#sy-notebook/data/assets
 # 其他的目录、文件。
 sy-notebook/data/.siyuan
 sy-notebook/data/storage/recent-doc.json
