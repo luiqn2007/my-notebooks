@@ -2,7 +2,7 @@
  * 读取或保存配置
  */
 import { getJSONFile, putJSONFile, addblockAttrAPI, getblockAttrAPI, listFileAPI, removeFileAPI } from "./API.js";
-import { debugPush, isFileNameIllegal, isValidStr, logPush } from "./common.js";
+import { debugPush, isFileNameIllegal, isValidStr, logPush, errorPush } from "./common.js";
 /**
  * 负责配置文件的读取和写入
  */
@@ -35,7 +35,8 @@ export class ConfigSaveManager {
         sortBy: 256, //排序模式，具体取值请参考本文件最下方的DOC_SORT_TYPES，默认值15为跟随文档树排序
         maxListCount: 0,//控制每个文档的子文档显示数量,
         floatWndEnable: false, // 浮窗
-        customModeSettings: {}
+        customModeSettings: {},
+        showHiddenDocs: false, // 显示文档树隐藏文档
     };
     // 存储文件时，结构
     defaultAllData = {
@@ -192,42 +193,71 @@ export class ConfigSaveManager {
         // 载入默认设置
         let userDefaultConfig = await this.loadUserConfigDefault();
         logPush("userDefaultConfig", userDefaultConfig);
+        // 插件写入的设置应当作为userDefaultConfig存在，以允许保存的独立设置覆盖
+        // 非挂件模式将尝试读入url中的设置
+        // TODO: data-default-config 传入默认字符串，url参数为强制指定
+        const defaultConfigJSON = window?.frameElement?.dataset["defaultConfig"];
+        if (this.saveMode != CONSTANTS_CONFIG_SAVE_MODE.WIDGET && isValidStr(defaultConfigJSON)) {
+            let tempAssignedUserDefault = null, tempAssignedGlobalConfig = null;
+            [tempAssignedUserDefault, tempAssignedGlobalConfig] = this.loadFromDatasetVar(defaultConfigJSON);
+            Object.assign(userDefaultConfig, tempAssignedUserDefault);
+            Object.assign(this.globalConfig, tempAssignedGlobalConfig);
+            logPush("pluginAssignedUserDefault", userDefaultConfig, tempAssignedUserDefault);
+        }
         // 读取独立设置（和数据等）
         const distinctAll = await this.loadDistinct(userDefaultConfig);
         logPush("distinctAll", userDefaultConfig);
-        this.allData = distinctAll;
-        // 非挂件模式将尝试读入url中的设置
         if (this.saveMode != CONSTANTS_CONFIG_SAVE_MODE.WIDGET && pathVariable != null) {
-            [this.allData["config"], this.globalConfig] = this.loadFromPathVar(pathVariable);
+            let tempAssignedUserDefault = null, tempAssignedGlobalConfig = null;
+            [tempAssignedUserDefault, tempAssignedGlobalConfig] = this.loadFromPathVar(pathVariable);
+            Object.assign(distinctAll["config"], tempAssignedUserDefault);
+            Object.assign(this.globalConfig, tempAssignedGlobalConfig);
+            logPush("pluginOverride", userDefaultConfig, tempAssignedUserDefault);
         }
+        this.allData = distinctAll;
         // ~~判断是否需要使用schema~~ Schema使用一次导入的方案，这里不做处理
         return [this.allData, this.globalConfig];
     }
     // 从url中读取设置
     loadFromPathVar(pathVariable) {
-        let tempDistinct = Object.assign({}, this.allData["config"]);
-        let tempGlobal = Object.assign({}, this.globalConfig);
+        logPush("尝试载入URL参数", pathVariable);
+        // 独立设置在 loadAll中还有写入默认，这里不给出默认
+        let tempDistinct = {};
+        let tempGlobal = {};
         if (pathVariable == null) {
             return [tempDistinct, tempGlobal];
         }
         
-        for (let key in tempDistinct) {
+        for (let key in this.defaultConfig) {
             if (key in pathVariable) {
                 tempDistinct[key] = pathVariable[key];
             }
         }
-        for (let key in tempGlobal) {
+        for (let key in this.globalConfig) {
             if (key in pathVariable) {
                 tempGlobal[key] = pathVariable[key];
             }
         }
         return [tempDistinct, tempGlobal];
     }
+    loadFromDatasetVar(datasetJSONString) {
+        if (!isValidStr(datasetJSONString)) {
+            return [{}, {}];
+        }
+        let tempData = null;
+        try {
+            tempData = JSON.parse(datasetJSONString);
+        } catch (err) {
+            errorPush("载入data-default-config失败，源错误：", err);
+        }
+        return this.loadFromPathVar(tempData);
+    }
     // 读取独立设置（包括缓存等数据），如果制定了userDefaultConfig，则会执行设置合并
     async loadDistinct(userDefaultConfig = null) {
         if (this.saveMode != CONSTANTS_CONFIG_SAVE_MODE.WIDGET || this.globalConfig.allSaveToFile) {
             let response = await getJSONFile(this.getDataJSONFilePath(this.relateId));
             if (response) {
+                logPush("载入用户独立设置：从配置文件JSON中找到", response["config"]);
                 if (userDefaultConfig != null) {
                     let dictinctConfig = response["config"];
                     if (dictinctConfig == null) {
@@ -375,16 +405,6 @@ export class ConfigSaveManager {
         const filePathName = this.saveDirPath + CONFIG_MANAGER_CONSTANTS.GLOBAL;
         const response = await getJSONFile(filePathName);
         if (response == null) {
-            // TODO: 尝试载入旧设置项
-            try {
-                let allCustomConfig = await import('/widgets/custom.js');
-                let [globalSetting, defaultDistinct] = this.loadCustomSetting(allCustomConfig["config"]);
-                await this.saveGlobalConfig(globalSetting);
-                return Object.assign(Object.assign({}, this.defaultGlobalConfig), globalSetting);
-            } catch (err) {
-                logPush("载入旧设置项失败", err);
-            }
-            // END: 
             return Object.assign({}, this.defaultGlobalConfig);
         } else {
             if (response.height_2widget_max) {

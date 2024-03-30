@@ -75,11 +75,12 @@ export async function reindexDoc(docpath){
  * @param maxListCount 子文档最大显示数量
  * @param sort 排序方式（类型号）
  */
-export async function getSubDocsAPI(notebookId, path, maxListCount = undefined, sort = undefined){
+export async function getSubDocsAPI(notebookId, path, maxListCount = undefined, sort = undefined, showHidden = undefined){
     let url = "/api/filetree/listDocsByPath";
     let body = {
         "notebook": notebookId,
-        "path": path
+        "path": path,
+        "ignoreMaxListHint": true,
     }
     if (maxListCount != undefined && maxListCount >= 0) {
         body["maxListCount"] = (maxListCount > 32 || maxListCount == 0) ? maxListCount : 32;
@@ -89,6 +90,9 @@ export async function getSubDocsAPI(notebookId, path, maxListCount = undefined, 
     }else if (false){
         let sortMode = getNotebookSortModeF(notebookId);
         if (sortMode) body["sort"] = sortMode;
+    }
+    if (showHidden != undefined) {
+        body["showHidden"] = showHidden;
     }
     let response = await postRequest(body, url);
     if (response.code != 0 || response.data == null){
@@ -301,7 +305,9 @@ export async function getCurrentDocIdF(){
     if (isValidStr(thisWidgetId)){
         try {
             let queryResult = await queryAPI("SELECT root_id as parentId FROM blocks WHERE id = '" + thisWidgetId + "'");
-            console.assert(queryResult != null && queryResult.length == 1, "SQL查询失败", queryResult);
+            if (!(queryResult != null && queryResult.length == 1)) {
+                debugPush("SQL查询失败", queryResult);
+            }
             if (queryResult!= null && queryResult.length >= 1){
                 logPush("获取当前文档idBy方案A"+queryResult[0].parentId);
                 return queryResult[0].parentId;

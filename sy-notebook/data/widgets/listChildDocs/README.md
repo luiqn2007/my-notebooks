@@ -1,6 +1,6 @@
 ## list Child Docs列出子文档
 
-> 当前版本：v0.2.5 **移除**：移除导入旧自定义设置`custom.js`，减少控制台日志输出；
+> 当前版本：v0.2.7 **修复**：上一版本引入的字号变小的问题；
 >
 > 详见更新日志CHANGELOG.md；[更新日志（网络）](CHANGELOG.md) ；
 
@@ -239,12 +239,6 @@ aui.github.io/artDialog/
 Layui 采用 MIT 许可发布。其他相关协议亦可参考《免责声明》https://gitee.com/layui/layui/blob/main/DISCLAIMER.md。
 ```
 
-7. [Sortable.js](https://github.com/SortableJS/Sortable)
-
-```
-https://github.com/SortableJS/Sortable
-MIT LICENSE
-```
 
 ### 图标
 

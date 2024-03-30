@@ -1,7 +1,7 @@
 /**
  * listChildDocs main V2
  */
-import { logPush, errorPush, warnPush, checkWorkEnvironment, commonPushCheck, WORK_ENVIRONMENT, isValidStr, debugPush, pushDebug, isInvalidValue, isSafelyUpdate, transfromAttrToIAL, generateBlockId } from "./common.js";
+import { logPush, errorPush, warnPush, checkWorkEnvironment, commonPushCheck, WORK_ENVIRONMENT, isValidStr, debugPush, pushDebug, isInvalidValue, isSafelyUpdate, transfromAttrToIAL, generateBlockId, getUrlParams } from "./common.js";
 import { ConfigSaveManager, CONSTANTS_CONFIG_SAVE_MODE, ConfigViewManager } from "./ConfigManager.js";
 import { 
     queryAPI,
@@ -237,7 +237,7 @@ async function getOneLevelText(notebook, nowDocPath, insertData, rowCountStack) 
     if (rowCountStack.length > g_allData["config"].listDepth) {
         return insertData;
     }
-    let docs = await getSubDocsAPI(notebook, nowDocPath, g_allData["config"]["maxListCount"], parseInt(g_allData["config"]["sortBy"]));
+    let docs = await getSubDocsAPI(notebook, nowDocPath, g_allData["config"]["maxListCount"], parseInt(g_allData["config"]["sortBy"]), g_allData["config"]["showHiddenDocs"]);
     //生成写入文本
     for (let doc of docs) {
         insertData += g_myPrinter.align(rowCountStack.length);
@@ -504,6 +504,10 @@ async function __main(manual = false, justCreate = false) {
     let modeDoUpdateFlag = 1;
     // pushMsgAPI(language["startRefresh"], 4500);
     try {
+        if (!isValidStr(g_currentDocId)) {
+            // FIXME: 这边可能要抽出来，如果PLUGIN指定的话，再向PLUGIN要Id
+            g_currentDocId = await getCurrentDocIdF();
+        }
         g_allData["config"] = await g_configManager.getDistinctConfig();
         //获取挂件参数
         if (manual) {
@@ -966,12 +970,13 @@ async function __init__() {
         }
         
     }
-    // 先做基础外观调整
-    // 更新明亮/黑夜模式
-    __changeAppearance();
+    
     // 判断工作模式
     const workEnviroment = checkWorkEnvironment();
     g_workEnvTypeCode = workEnviroment;
+    // 先做基础外观调整
+    // 更新明亮/黑夜模式
+    __changeAppearance();
     switch (workEnviroment) {
         case WORK_ENVIRONMENT.WIDGET: {
             g_workEnvId = getCurrentWidgetId();
@@ -992,8 +997,8 @@ async function __init__() {
             g_workEnvId = await getCurrentDocIdF();
             g_currentDocId = g_workEnvId;
             if (!isValidStr(g_workEnvId)) {
-                if (window.frameElement.getAttribute("id")) {
-                    g_workEnvId = window.frameElement.getAttribute("id");
+                if (window.frameElement.getAttribute("data-doc-id")) {
+                    g_workEnvId = window.frameElement.getAttribute("data-doc-id");
                 }
             }
             let savePath = "/data/storage/petal/syplugin-hierarchyNavigate/listChildDocs/";
@@ -1009,7 +1014,7 @@ async function __init__() {
     }
     _loadUserCSS();
     // 载入设置项
-    [g_allData, g_globalConfig] = await g_configManager.loadAll();
+    [g_allData, g_globalConfig] = await g_configManager.loadAll(getUrlParams());
     logPush("启动时载入的allData", g_allData);
     logPush("启动时载入的全局设置globalConfig", g_globalConfig);
     
@@ -1084,9 +1089,9 @@ function __changeAppearance() {
         document.body.classList.remove("dark-mode");
         document.getElementById('layui_theme_css').removeAttribute('href');
     }
-    if (g_workEnvTypeCode != WORK_ENVIRONMENT.PLUGIN && g_workEnvTypeCode != WORK_ENVIRONMENT.WIDGET) {
+    if (g_workEnvTypeCode == WORK_ENVIRONMENT.PLUGIN || g_workEnvTypeCode == WORK_ENVIRONMENT.WIDGET) {
         $("#linksContainer").css("font-size", (window.top.siyuan.config.editor.fontSize) + "px");
-    } else {
+    } else if (g_globalConfig && g_globalConfig.fontSize) {
         $("#linksContainer").css("font-size", g_globalConfig.fontSize + "px");
     }
 }
@@ -1335,7 +1340,8 @@ function __buttonBinder() {
         "tabToGeneralSetting": function() {
             layui.element.tabChange("setting-tab", "11");
         },
-        "resetWidgetHeight": resetWidgetStyle
+        "resetWidgetHeight": resetWidgetStyle,
+        "deleteCurrentDistinct": deleteCurrentDistinctConfig,
     });
     const layer = layui.layer;
     function removeDistinct() {
@@ -1364,6 +1370,19 @@ function __buttonBinder() {
             let loadIndex = layer.load(1);
             await removeUnusedConfigFileWorker();
             layui.layer.close(loadIndex);
+        }, function(){
+            layui.layer.msg(language["dialog_cancel"]);
+        });
+    }
+    function deleteCurrentDistinctConfig() {
+        layui.layer.confirm(language["removeCurrentDistinctConfim"], {icon: 3, btn: [language["dialog_confirm"], language["dialog_cancel"]], title: language["confirmTitle"]}, async function(){
+            layer.closeLast("dialog");
+            let loadIndex = layer.load(1);
+            // 删除原有的子列表
+            await removeBlockAPI(g_allData["config"].childListId)
+            await g_configManager.saveDistinctConfig({});
+            window.location.reload();
+            // layui.layer.close(loadIndex);
         }, function(){
             layui.layer.msg(language["dialog_cancel"]);
         });

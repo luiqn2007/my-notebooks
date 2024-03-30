@@ -1,0 +1,1 @@
+module.exports = class Noto extends require('siyuan').Plugin {};

@@ -81,15 +81,6 @@
 		"i18n": null
 	},
 	{
-		"name": "sy-time-logger",
-		"displayName": "时间日志",
-		"enabled": true,
-		"incompatible": false,
-		"js": "",
-		"css": "",
-		"i18n": null
-	},
-	{
 		"name": "siyuan-importer",
 		"displayName": "导入工具",
 		"enabled": true,
@@ -173,6 +164,42 @@
 	{
 		"name": "siyuan-plugin-block-history",
 		"displayName": "块历史",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "siyuan-plugin-task-list",
+		"displayName": "任务列表",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "siyuan-plugin-sidebar-memo",
+		"displayName": "侧边备注",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "siyuan-plugin-noto-color-emoji",
+		"displayName": "表情包 -Google Noto Color Emoji",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "siyuan-plugin-schedule-manager",
+		"displayName": "日程管理",
 		"enabled": true,
 		"incompatible": false,
 		"js": "",
