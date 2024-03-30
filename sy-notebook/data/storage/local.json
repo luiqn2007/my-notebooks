@@ -1,5 +1,5 @@
 {
-  "local-codelang": "xml",
+  "local-codelang": "java",
   "local-dialogposition": {
     "dialog-attr": {
       "height": 738,
@@ -5837,9 +5837,15 @@
     },
     "20240329171600-b199oif": {
       "endId": "20240330085309-juhjpm4",
+<<<<<<< HEAD
       "focusEnd": 0,
       "focusId": "20240330075024-u23ykbs",
       "focusStart": 0,
+=======
+      "focusEnd": 24,
+      "focusId": "20240330075024-u23ykbs",
+      "focusStart": 24,
+>>>>>>> 40b872f (autowire)
       "rootId": "20240329171600-b199oif",
       "scrollTop": 208,
       "startId": "20240330075024-u23ykbs"
@@ -5848,6 +5854,18 @@
       "endId": "20240330040535-brede3c",
       "rootId": "20240330040535-86w7i1k",
       "scrollTop": 0,
+<<<<<<< HEAD
+=======
+      "startId": "20240330075024-u23ykbs"
+    },
+    "20240330040535-86w7i1k": {
+      "endId": "20240330040535-brede3c",
+      "focusEnd": 0,
+      "focusId": "20240330040535-brede3c",
+      "focusStart": 0,
+      "rootId": "20240330040535-86w7i1k",
+      "scrollTop": 0,
+>>>>>>> 40b872f (autowire)
       "startId": "20240330040535-brede3c"
     },
     "20240330040627-jzbtgl3": {
@@ -5860,12 +5878,21 @@
       "startId": "20240330040659-e5ndyly"
     },
     "20240330075054-lejwrwq": {
+<<<<<<< HEAD
       "endId": "20240330122246-klojnna",
       "focusEnd": 53,
       "focusId": "20240330122246-klojnna",
       "focusStart": 44,
       "rootId": "20240330075054-lejwrwq",
       "scrollTop": 247,
+=======
+      "endId": "20240330084559-4x7elyo",
+      "focusEnd": 0,
+      "focusId": "20240330084559-4x7elyo",
+      "focusStart": 0,
+      "rootId": "20240330075054-lejwrwq",
+      "scrollTop": 0,
+>>>>>>> 40b872f (autowire)
       "startId": "20240330075054-itjw9qk"
     },
     "20240330084334-mj131di": {
@@ -5878,6 +5905,7 @@
       "startId": "20240330084334-p8900q1"
     },
     "20240330085205-nj25qqd": {
+<<<<<<< HEAD
       "endId": "20240330121823-iubramv",
       "focusEnd": 0,
       "focusId": "20240330121823-iubramv",
@@ -5912,6 +5940,24 @@
       "rootId": "20240330124443-zrtfdgx",
       "scrollTop": 0,
       "startId": "20240330124443-biaskyj"
+=======
+      "endId": "20240330111848-27lm4rn",
+      "focusEnd": 53,
+      "focusId": "20240330111848-27lm4rn",
+      "focusStart": 53,
+      "rootId": "20240330085205-nj25qqd",
+      "scrollTop": 612,
+      "startId": "20240330085205-8t62nlo"
+    },
+    "20240330090238-68bafpj": {
+      "endId": "20240330090238-3yikre0",
+      "focusEnd": 52,
+      "focusId": "20240330090238-3yikre0",
+      "focusStart": 52,
+      "rootId": "20240330090238-68bafpj",
+      "scrollTop": 0,
+      "startId": "20240330090238-3yikre0"
+>>>>>>> 40b872f (autowire)
     }
   },
   "local-historynoteid": "20240309023106-0qy9xxz",
