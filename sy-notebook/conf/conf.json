@@ -15,6 +15,7 @@
     "themeLight": "Asri",
     "themeVer": "1.0.6",
     "icons": [
+      "Lucide-icon",
       "ant",
       "material"
     ],
@@ -112,7 +113,7 @@
     "tagOpenMarker": "#",
     "tagCloseMarker": "#",
     "fileAnnotationRefMode": 0,
-    "pandocBin": "/home/lq2007/puoc7-qgiyy/sy-notebook/temp/pandoc/bin/pandoc",
+    "pandocBin": "C:\\Users\\lq200\\siyuan\\sy-notebook\\temp\\pandoc\\bin\\pandoc.exe",
     "markdownYFM": false,
     "pdfFooter": "%page / %pages",
     "docxTemplate": "",
@@ -184,7 +185,7 @@
             "hotkey": "",
             "hotkeyLangId": "",
             "icon": "iconCode",
-            "show": true,
+            "show": false,
             "size": {
               "height": 256,
               "width": 0
@@ -223,7 +224,108 @@
                 {
                   "children": [
                     {
-                      "active": true,
+                      "children": {
+                        "config": {
+                          "group": 0,
+                          "hPath": "",
+                          "hasReplace": false,
+                          "idPath": [],
+                          "k": "",
+                          "method": 0,
+                          "page": 1,
+                          "r": "",
+                          "replaceTypes": {
+                            "aHref": false,
+                            "aText": true,
+                            "aTitle": true,
+                            "code": false,
+                            "codeBlock": false,
+                            "docTitle": true,
+                            "em": true,
+                            "htmlBlock": false,
+                            "imgSrc": false,
+                            "imgText": true,
+                            "imgTitle": true,
+                            "inlineMath": false,
+                            "inlineMemo": true,
+                            "kbd": true,
+                            "mark": true,
+                            "mathBlock": false,
+                            "s": true,
+                            "strong": true,
+                            "sub": true,
+                            "sup": true,
+                            "tag": true,
+                            "text": true,
+                            "u": true
+                          },
+                          "sort": 0,
+                          "types": {
+                            "blockquote": true,
+                            "codeBlock": true,
+                            "databaseBlock": true,
+                            "document": true,
+                            "embedBlock": false,
+                            "heading": true,
+                            "htmlBlock": true,
+                            "list": true,
+                            "listItem": true,
+                            "mathBlock": true,
+                            "paragraph": true,
+                            "superBlock": true,
+                            "table": true
+                          }
+                        },
+                        "instance": "Search"
+                      },
+                      "icon": "iconSearch",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "搜索"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240401020320-gmls5ve",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240401020320-gmls5ve"
+                      },
+                      "docIcon": "1f4e6",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "@PropertySource"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240331170525-bbw5jna",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240331170525-bbw5jna"
+                      },
+                      "docIcon": "1f4e6",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "导入 Java 容器配置"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240331170525-bbw5jna",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240331170525-bbw5jna"
+                      },
+                      "docIcon": "1f4e6",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "导入 Java 容器配置"
+                    },
+                    {
                       "children": {
                         "action": "cb-get-scroll",
                         "blockId": "20240331170143-igci6wl",
@@ -236,6 +338,49 @@
                       "instance": "Tab",
                       "pin": false,
                       "title": "路径扫描与组件索引"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240331163313-4nje485",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240331163313-4nje485"
+                      },
+                      "docIcon": "1f4e6",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "注入 Bean"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240331134729-3t2dmyj",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240331134729-3t2dmyj"
+                      },
+                      "docIcon": "1f4e6",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "数据库交互"
+                    },
+                    {
+                      "active": true,
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240401021833-ppr4ijb",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240401021833-ppr4ijb"
+                      },
+                      "docIcon": "1f4e6",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "Spring JDBC"
                     }
                   ],
                   "height": "",
@@ -288,7 +433,7 @@
           "direction": "lr",
           "instance": "Layout",
           "resize": "tb",
-          "size": "256px",
+          "size": "0px",
           "type": "bottom"
         }
       ],
@@ -491,27 +636,35 @@
   "readonly": false,
   "localIPs": [
     "127.0.0.1",
-    "192.168.142.6",
+    "10.22.2.154",
+    "172.30.16.1",
+    "172.21.48.1",
+    "26.210.116.202",
+    "169.254.106.59",
+    "169.254.175.180",
     "[::1]",
-    "[240e:460:2a08:69:a224:5248:102f:7d09]",
-    "[240e:460:2a08:69:8e93:228e:28cd:c604]",
-    "[fe80::a099:4003:88f3:ec56]"
+    "[fdfd::1ad2:74ca]",
+    "[fe80::8932:5202:9501:4c4f]",
+    "[fe80::2920:19ac:f0cf:cb77]",
+    "[fe80::68ac:5cff:cbbd:2f5c]",
+    "[fe80::dc09:1041:b3c9:cec2]",
+    "[fe80::1300:ff06:43a6:c2f]"
   ],
   "accessAuthCode": "",
   "system": {
-    "id": "7848f38e92cd4f9686ff2e5ed72bcb7f",
-    "name": "luqin-W65-67SJ",
+    "id": "7a948d12-efb4-430f-ae4a-7cc3a866c486",
+    "name": "lq-pc",
     "kernelVersion": "3.0.5",
-    "os": "linux",
-    "osPlatform": "Kylin",
+    "os": "windows",
+    "osPlatform": "Microsoft Windows 11 Pro",
     "container": "std",
-    "isMicrosoftStore": false,
+    "isMicrosoftStore": true,
     "isInsider": false,
-    "homeDir": "/home/lq2007",
-    "workspaceDir": "/home/lq2007/puoc7-qgiyy/sy-notebook",
-    "appDir": "/tmp/.mount_siyuan7oHkcA/resources",
-    "confDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/conf",
-    "dataDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/data",
+    "homeDir": "C:\\Users\\lq200",
+    "workspaceDir": "C:\\Users\\lq200\\siyuan\\sy-notebook",
+    "appDir": "C:\\Program Files\\WindowsApps\\89C2A984.SiYuan_3.0.5.0_x64__1qfd3tsw4ngc2\\app\\resources",
+    "confDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\conf",
+    "dataDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\data",
     "networkServe": false,
     "networkProxy": {
       "scheme": "",
@@ -1241,7 +1394,7 @@
       "apiTemperature": 1,
       "apiMaxContexts": 7,
       "apiBaseURL": "https://api.openai.com/v1",
-      "apiUserAgent": "SiYuan/3.0.5 std/linux",
+      "apiUserAgent": "SiYuan/3.0.5 std/windows",
       "apiProvider": "OpenAI",
       "apiVersion": ""
     }
@@ -1251,13 +1404,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 699,
+    "treeCount": 703,
     "cTreeCount": 1000,
-    "blockCount": 8373,
+    "blockCount": 8438,
     "cBlockCount": 10000,
-    "dataSize": 146116738,
+    "dataSize": 146962770,
     "cDataSize": 209715200,
-    "assetsSize": 28110472,
+    "assetsSize": 28408860,
     "cAssetsSize": 104857600
   },
   "api": {
