@@ -1,0 +1,28 @@
+{
+    "name": "siyuan-plugin-webapp",
+    "author": "zuoez02",
+    "url": "https://github.com/zuoez02/siyuan-plugin-webview-flomo",
+    "version": "3.5.4",
+    "minAppVersion": "v2.12.4",
+    "backends": ["windows", "linux", "darwin"],
+    "frontends": ["desktop"],
+    "displayName": {
+        "default": "Web工具集成",
+        "zh_CN": "Web工具集成"
+    },
+    "description": {
+        "default": "集成WebAPP在线网页版, 内置Flomo、Cubox、Dida365, 支持自定义",
+        "zh_CN": "集成WebAPP在线网页版, 内置Flomo、Cubox、Dida365, 支持自定义"
+    },
+    "readme": {
+        "default": "README.md"
+    },
+    "funding": {
+        "openCollective": "",
+        "patreon": "",
+        "github": "",
+        "custom": [
+            "https://afdian.net/a/zuoez02"
+        ]
+    }
+}

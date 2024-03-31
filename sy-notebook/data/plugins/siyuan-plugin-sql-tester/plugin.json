@@ -1,0 +1,33 @@
+{
+  "name": "siyuan-plugin-sql-tester",
+  "author": "zuoez02",
+  "url": "https://github.com/zuoez02/siyuan-plugin-sql-tester",
+  "version": "0.1.1",
+  "minAppVersion": "2.10.12",
+  "backends": [
+    "windows",
+    "linux",
+    "darwin"
+  ],
+  "frontends": [
+    "desktop",
+    "desktop-window"
+  ],
+  "displayName": {
+    "zh_CN": "思源SQL测试器"
+  },
+  "description": {
+    "zh_CN": "思源SQL测试器，类似Query挂件的插件实现"
+  },
+  "readme": {
+    "zh_CN": "README.md"
+  },
+  "funding": {
+    "custom": [
+      "https://afdian.net/a/zuoez02"
+    ]
+  },
+  "keywords": [
+    "sql", "query", "思源SQL测试器"
+  ]
+}

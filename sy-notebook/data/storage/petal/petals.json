@@ -27,15 +27,6 @@
 		"i18n": null
 	},
 	{
-		"name": "siyuan-plugin-devtool",
-		"displayName": "开发者工具",
-		"enabled": true,
-		"incompatible": false,
-		"js": "",
-		"css": "",
-		"i18n": null
-	},
-	{
 		"name": "siyuan-plugin-power-mode",
 		"displayName": "Power Mode",
 		"enabled": true,
@@ -108,15 +99,6 @@
 		"i18n": null
 	},
 	{
-		"name": "siyuan-plugin-whiteboard",
-		"displayName": "Tldraw白板(预览版)",
-		"enabled": true,
-		"incompatible": false,
-		"js": "",
-		"css": "",
-		"i18n": null
-	},
-	{
 		"name": "graph-enhance",
 		"displayName": "关系图增强",
 		"enabled": true,
@@ -146,15 +128,6 @@
 	{
 		"name": "sy-titled-link",
 		"displayName": "Titled Url",
-		"enabled": true,
-		"incompatible": false,
-		"js": "",
-		"css": "",
-		"i18n": null
-	},
-	{
-		"name": "siyuan_rmv_btn",
-		"displayName": "移除按钮",
 		"enabled": true,
 		"incompatible": false,
 		"js": "",
@@ -200,6 +173,33 @@
 	{
 		"name": "siyuan-plugin-schedule-manager",
 		"displayName": "日程管理",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "siyuan-plugin-webapp",
+		"displayName": "Web工具集成",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "siyuan-plugin-keymap",
+		"displayName": "快捷键",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "siyuan-plugin-sql-tester",
+		"displayName": "思源SQL测试器",
 		"enabled": true,
 		"incompatible": false,
 		"js": "",

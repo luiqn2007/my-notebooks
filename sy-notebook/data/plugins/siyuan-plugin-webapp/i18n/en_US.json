@@ -1,0 +1,138 @@
+{
+    "parseFail": "Failed to parse Web App",
+    "fileReaderUndefined": "<p>Sorry, your browser does not support FileReader</p>",
+    "pleaseChooseImage": "Please choose an image",
+    "ensureImage": "Please ensure the file is an image file",
+    "title": "Web Application",
+    "create": "Create",
+    "min": "Minimize",
+    "addToDock": "Add to Dock",
+    "deleteDock": "Delete from Dock",
+    "setAsHomepage": "Set as Homepage",
+    "removeApp": "Remove Web Application",
+    "dialogAdd": "Add Web Application",
+    "appname": "Application Name",
+    "attention": "Instructions:\nNote: Only enter an English name, and enter the complete URL with the https or http protocol. Please choose a square image, and click the Add button when both are complete.",
+    "cancel": "Cancel",
+    "add": "Add",
+    "hasScript": "Has Enhancement Script",
+    "hasCss": "Contain custom stylesheet",
+    "hasDebug": "Debug Mode",
+    "showHidden": "Show hidden apps",
+    "hideHidden": "Hide apps",
+    "hideApp": "Hide web app",
+    "showApp": "Show web app",
+    "warning": "Warning",
+    "confirmDelete": "Are you sure to delete this app?",
+    "copyWebviewBlock": "Copy WebApp as Block",
+    "home": "Home",
+    "refresh": "Reload",
+    "zoomIn": "Zoom In",
+    "zoomOut": "Zoom Out",
+    "zoomRecovery": "Zoom Reload",
+    "goBack": "Go back",
+    "goForward": "Go forward",
+    "devtool": "Open Devtools",
+    "edit": "Edit",
+    "setting": {
+        "name": "App name",
+        "nameDesc": "Only supported English characters",
+        "css": "CSS",
+        "cssDesc": "Insert CSS Code",
+        "js": "Javascript",
+        "jsDesc": "Insert Javascript Code",
+        "proxy": "Proxy Configuration",
+        "proxyDesc": "Example: http://192.168.1.1:10080",
+        "title": "`Webapp ${name} Config"
+    },
+    "menu": {
+        "copyAlt": {
+            "label": "Copy Description"
+        },
+        "copyAudio": {
+            "label": "Copy Audio"
+        },
+        "copyFile": {
+            "label": "Copy File"
+        },
+        "copyFileName": {
+            "label": "Copy File Name"
+        },
+        "copyFrame": {
+            "label": "Copy Frame"
+        },
+        "copyFrameAddress": {
+            "label": "Copy Frame URL"
+        },
+        "copyImage": {
+            "label": "Copy Image"
+        },
+        "copyLink": {
+            "label": "Copy Link"
+        },
+        "copyLinkAddress": {
+            "label": "Copy Link URL"
+        },
+        "copyPage": {
+            "label": "Copy Page Link"
+        },
+        "copyPageAddress": {
+            "label": "Copy Page URL"
+        },
+        "copyResourceAddress": {
+            "label": "Copy Resource URL"
+        },
+        "copySelectionText": {
+            "label": "Copy Selected Text"
+        },
+        "copyText": {
+            "label": "Copy Anchor Text"
+        },
+        "copyTitle": {
+            "label": "Copy Title"
+        },
+        "copyVideo": {
+            "label": "Copy Video"
+        },
+        "openByNewWindow": {
+            "label": "Open with New Window"
+        },
+        "openDesktopWindow": {
+            "label": "Open SiYuan Desktop Window"
+        },
+        "openEditor": {
+            "label": "Open in a New Window"
+        },
+        "openFocusedEditor": {
+            "label": "Open in a New Window and Focus"
+        },
+        "openLink": {
+            "label": "Open Link"
+        },
+        "openMobildWindow": {
+            "label": "Open SiYuan Mobile Window"
+        },
+        "openNewTab": {
+            "label": "Open New Tab",
+            "title": "New Tab"
+        },
+        "openResource": {
+            "label": "Open Resource"
+        },
+        "openTab": {
+            "label": "Open in New Tab"
+        },
+        "openTabBackground": {
+            "label": "Open in Background Tab"
+        },
+        "openTabBottom": {
+            "label": "Open Below the Tab"
+        },
+        "openTabCurrent": {
+            "label": "Open in Current Tab"
+        },
+        "openTabRight": {
+            "label": "Open Right the Tab"
+        }
+    }
+}
