@@ -223,8 +223,33 @@
                 {
                   "children": [
                     {
-                      "children": {},
-                      "instance": "Tab"
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240330124443-zrtfdgx",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240330124443-zrtfdgx"
+                      },
+                      "docIcon": "1f4e6",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "JSR330"
+                    },
+                    {
+                      "active": true,
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240331143607-rsq6h7x",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240330152100-i0ovtqw"
+                      },
+                      "docIcon": "1f4e6",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "按名称自动装配"
                     }
                   ],
                   "height": "",
@@ -498,7 +523,7 @@
     "isInsider": false,
     "homeDir": "/home/lq2007",
     "workspaceDir": "/home/lq2007/puoc7-qgiyy/sy-notebook",
-    "appDir": "/tmp/.mount_siyuanffhbmn/resources",
+    "appDir": "/tmp/.mount_siyuan78b5Hx/resources",
     "confDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/conf",
     "dataDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/data",
     "networkServe": false,
@@ -1244,7 +1269,7 @@
     "cTreeCount": 1000,
     "blockCount": 8367,
     "cBlockCount": 10000,
-    "dataSize": 146108764,
+    "dataSize": 146109901,
     "cDataSize": 209715200,
     "assetsSize": 28110472,
     "cAssetsSize": 104857600
