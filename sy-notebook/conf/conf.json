@@ -184,7 +184,7 @@
             "hotkey": "",
             "hotkeyLangId": "",
             "icon": "iconCode",
-            "show": false,
+            "show": true,
             "size": {
               "height": 256,
               "width": 0
@@ -194,7 +194,7 @@
           }
         ]
       ],
-      "pin": true
+      "pin": false
     },
     "hideDock": false,
     "layout": {
@@ -223,33 +223,19 @@
                 {
                   "children": [
                     {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240330124443-zrtfdgx",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240330124443-zrtfdgx"
-                      },
-                      "docIcon": "1f4e6",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "JSR330"
-                    },
-                    {
                       "active": true,
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240330152100-i0ovtqw",
+                        "blockId": "20240331170143-igci6wl",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240330152100-i0ovtqw"
+                        "rootId": "20240331170143-igci6wl"
                       },
                       "docIcon": "1f4e6",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "按名称自动装配"
+                      "title": "路径扫描与组件索引"
                     }
                   ],
                   "height": "",
@@ -302,7 +288,7 @@
           "direction": "lr",
           "instance": "Layout",
           "resize": "tb",
-          "size": "0px",
+          "size": "256px",
           "type": "bottom"
         }
       ],
@@ -523,7 +509,7 @@
     "isInsider": false,
     "homeDir": "/home/lq2007",
     "workspaceDir": "/home/lq2007/puoc7-qgiyy/sy-notebook",
-    "appDir": "/tmp/.mount_siyuanx5AQdc/resources",
+    "appDir": "/tmp/.mount_siyuan7oHkcA/resources",
     "confDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/conf",
     "dataDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/data",
     "networkServe": false,
@@ -1269,7 +1255,7 @@
     "cTreeCount": 1000,
     "blockCount": 8373,
     "cBlockCount": 10000,
-    "dataSize": 146116742,
+    "dataSize": 146116738,
     "cDataSize": 209715200,
     "assetsSize": 28110472,
     "cAssetsSize": 104857600
