@@ -240,7 +240,7 @@
                       "active": true,
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240331143607-rsq6h7x",
+                        "blockId": "20240330152100-i0ovtqw",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311155743-7z83407",
@@ -523,7 +523,7 @@
     "isInsider": false,
     "homeDir": "/home/lq2007",
     "workspaceDir": "/home/lq2007/puoc7-qgiyy/sy-notebook",
-    "appDir": "/tmp/.mount_siyuan78b5Hx/resources",
+    "appDir": "/tmp/.mount_siyuanx5AQdc/resources",
     "confDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/conf",
     "dataDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/data",
     "networkServe": false,
@@ -1267,9 +1267,9 @@
   "stat": {
     "treeCount": 699,
     "cTreeCount": 1000,
-    "blockCount": 8367,
+    "blockCount": 8373,
     "cBlockCount": 10000,
-    "dataSize": 146109901,
+    "dataSize": 146116742,
     "cDataSize": 209715200,
     "assetsSize": 28110472,
     "cAssetsSize": 104857600
