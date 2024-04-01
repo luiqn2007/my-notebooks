@@ -224,19 +224,33 @@
                 {
                   "children": [
                     {
-                      "active": true,
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240401112836-y4b6v3c",
+                        "blockId": "20240401021833-ppr4ijb",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240401112836-y4b6v3c"
+                        "rootId": "20240401021833-ppr4ijb"
                       },
                       "docIcon": "1f4e6",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "Spring 6"
+                      "title": "Spring JDBC"
+                    },
+                    {
+                      "active": true,
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240402011050-qptzdqu",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240402011050-qptzdqu"
+                      },
+                      "docIcon": "1f4e6",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "JdbcTemplate"
                     }
                   ],
                   "height": "",
@@ -494,7 +508,7 @@
     "127.0.0.1",
     "10.22.2.154",
     "172.30.16.1",
-    "172.21.48.1",
+    "172.30.96.1",
     "26.210.116.202",
     "169.254.106.59",
     "169.254.175.180",
@@ -503,7 +517,7 @@
     "[fe80::8932:5202:9501:4c4f]",
     "[fe80::2920:19ac:f0cf:cb77]",
     "[fe80::68ac:5cff:cbbd:2f5c]",
-    "[fe80::dc09:1041:b3c9:cec2]",
+    "[fe80::3fe8:e1b0:2cda:2fd9]",
     "[fe80::1300:ff06:43a6:c2f]"
   ],
   "accessAuthCode": "",
@@ -1260,11 +1274,11 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 705,
+    "treeCount": 708,
     "cTreeCount": 1000,
-    "blockCount": 8450,
+    "blockCount": 8456,
     "cBlockCount": 10000,
-    "dataSize": 146973436,
+    "dataSize": 146978974,
     "cDataSize": 209715200,
     "assetsSize": 28408860,
     "cAssetsSize": 104857600
