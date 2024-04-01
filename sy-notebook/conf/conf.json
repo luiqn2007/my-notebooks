@@ -224,163 +224,19 @@
                 {
                   "children": [
                     {
-                      "children": {
-                        "config": {
-                          "group": 0,
-                          "hPath": "",
-                          "hasReplace": false,
-                          "idPath": [],
-                          "k": "",
-                          "method": 0,
-                          "page": 1,
-                          "r": "",
-                          "replaceTypes": {
-                            "aHref": false,
-                            "aText": true,
-                            "aTitle": true,
-                            "code": false,
-                            "codeBlock": false,
-                            "docTitle": true,
-                            "em": true,
-                            "htmlBlock": false,
-                            "imgSrc": false,
-                            "imgText": true,
-                            "imgTitle": true,
-                            "inlineMath": false,
-                            "inlineMemo": true,
-                            "kbd": true,
-                            "mark": true,
-                            "mathBlock": false,
-                            "s": true,
-                            "strong": true,
-                            "sub": true,
-                            "sup": true,
-                            "tag": true,
-                            "text": true,
-                            "u": true
-                          },
-                          "sort": 0,
-                          "types": {
-                            "blockquote": true,
-                            "codeBlock": true,
-                            "databaseBlock": true,
-                            "document": true,
-                            "embedBlock": false,
-                            "heading": true,
-                            "htmlBlock": true,
-                            "list": true,
-                            "listItem": true,
-                            "mathBlock": true,
-                            "paragraph": true,
-                            "superBlock": true,
-                            "table": true
-                          }
-                        },
-                        "instance": "Search"
-                      },
-                      "icon": "iconSearch",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "搜索"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240401020320-gmls5ve",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240401020320-gmls5ve"
-                      },
-                      "docIcon": "1f4e6",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "@PropertySource"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240331170525-bbw5jna",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240331170525-bbw5jna"
-                      },
-                      "docIcon": "1f4e6",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "导入 Java 容器配置"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240331170525-bbw5jna",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240331170525-bbw5jna"
-                      },
-                      "docIcon": "1f4e6",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "导入 Java 容器配置"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240331170143-igci6wl",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240331170143-igci6wl"
-                      },
-                      "docIcon": "1f4e6",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "路径扫描与组件索引"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240331163313-4nje485",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240331163313-4nje485"
-                      },
-                      "docIcon": "1f4e6",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "注入 Bean"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240331134729-3t2dmyj",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240331134729-3t2dmyj"
-                      },
-                      "docIcon": "1f4e6",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "数据库交互"
-                    },
-                    {
                       "active": true,
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240401021833-ppr4ijb",
+                        "blockId": "20240401112836-y4b6v3c",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240401021833-ppr4ijb"
+                        "rootId": "20240401112836-y4b6v3c"
                       },
                       "docIcon": "1f4e6",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "Spring JDBC"
+                      "title": "Spring 6"
                     }
                   ],
                   "height": "",
@@ -1404,11 +1260,11 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 703,
+    "treeCount": 705,
     "cTreeCount": 1000,
-    "blockCount": 8438,
+    "blockCount": 8450,
     "cBlockCount": 10000,
-    "dataSize": 146962770,
+    "dataSize": 146973436,
     "cDataSize": 209715200,
     "assetsSize": 28408860,
     "cAssetsSize": 104857600
