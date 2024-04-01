@@ -80,6 +80,7 @@
     "generateHistoryInterval": 10,
     "historyRetentionDays": 30,
     "emoji": [
+      "1f478",
       "1f4e6",
       "1f921"
     ],
@@ -224,33 +225,8 @@
                 {
                   "children": [
                     {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240401021833-ppr4ijb",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240401021833-ppr4ijb"
-                      },
-                      "docIcon": "1f4e6",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "Spring JDBC"
-                    },
-                    {
-                      "active": true,
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240402011050-qptzdqu",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240402011050-qptzdqu"
-                      },
-                      "docIcon": "1f4e6",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "JdbcTemplate"
+                      "children": {},
+                      "instance": "Tab"
                     }
                   ],
                   "height": "",
@@ -1274,11 +1250,11 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 708,
+    "treeCount": 709,
     "cTreeCount": 1000,
-    "blockCount": 8456,
+    "blockCount": 8487,
     "cBlockCount": 10000,
-    "dataSize": 146978974,
+    "dataSize": 146992305,
     "cDataSize": 209715200,
     "assetsSize": 28408860,
     "cAssetsSize": 104857600
