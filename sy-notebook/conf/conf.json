@@ -80,9 +80,11 @@
     "generateHistoryInterval": 10,
     "historyRetentionDays": 30,
     "emoji": [
-      "1f478",
       "1f4e6",
-      "1f921"
+      "1f921",
+      "1f468-200d-1f9bd",
+      "1fa9b",
+      "1f478"
     ],
     "virtualBlockRef": false,
     "virtualBlockRefExclude": "",
@@ -217,7 +219,7 @@
               ],
               "direction": "tb",
               "instance": "Layout",
-              "size": "275px",
+              "size": "320px",
               "type": "left"
             },
             {
@@ -225,8 +227,19 @@
                 {
                   "children": [
                     {
-                      "children": {},
-                      "instance": "Tab"
+                      "active": true,
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240407003157-oqwoxck",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240407003157-oqwoxck"
+                      },
+                      "docIcon": "1f4e6",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "接收 JMS 信息"
                     }
                   ],
                   "height": "",
@@ -297,7 +310,7 @@
             "show": true,
             "size": {
               "height": 0,
-              "width": 275
+              "width": 320
             },
             "title": "文档树",
             "type": "file"
@@ -438,7 +451,7 @@
             "show": false,
             "size": {
               "height": 0,
-              "width": 200
+              "width": 370
             },
             "title": "任务列表",
             "type": "siyuan-plugin-task-listdock_tab"
@@ -484,23 +497,23 @@
     "127.0.0.1",
     "10.22.2.154",
     "172.30.16.1",
-    "172.30.96.1",
+    "172.26.240.1",
     "26.210.116.202",
-    "169.254.106.59",
+    "169.254.123.222",
     "169.254.175.180",
     "[::1]",
     "[fdfd::1ad2:74ca]",
     "[fe80::8932:5202:9501:4c4f]",
     "[fe80::2920:19ac:f0cf:cb77]",
     "[fe80::68ac:5cff:cbbd:2f5c]",
-    "[fe80::3fe8:e1b0:2cda:2fd9]",
+    "[fe80::b519:ff54:1d64:482e]",
     "[fe80::1300:ff06:43a6:c2f]"
   ],
   "accessAuthCode": "",
   "system": {
     "id": "7a948d12-efb4-430f-ae4a-7cc3a866c486",
     "name": "lq-pc",
-    "kernelVersion": "3.0.5",
+    "kernelVersion": "3.0.7",
     "os": "windows",
     "osPlatform": "Microsoft Windows 11 Pro",
     "container": "std",
@@ -508,7 +521,7 @@
     "isInsider": false,
     "homeDir": "C:\\Users\\lq200",
     "workspaceDir": "C:\\Users\\lq200\\siyuan\\sy-notebook",
-    "appDir": "C:\\Program Files\\WindowsApps\\89C2A984.SiYuan_3.0.5.0_x64__1qfd3tsw4ngc2\\app\\resources",
+    "appDir": "C:\\Program Files\\WindowsApps\\89C2A984.SiYuan_3.0.7.0_x64__1qfd3tsw4ngc2\\app\\resources",
     "confDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\conf",
     "dataDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\data",
     "networkServe": false,
@@ -1240,7 +1253,7 @@
       "apiTemperature": 1,
       "apiMaxContexts": 7,
       "apiBaseURL": "https://api.openai.com/v1",
-      "apiUserAgent": "SiYuan/3.0.5 std/windows",
+      "apiUserAgent": "SiYuan/3.0.7 std/windows",
       "apiProvider": "OpenAI",
       "apiVersion": ""
     }
@@ -1250,13 +1263,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 709,
-    "cTreeCount": 1000,
-    "blockCount": 8487,
-    "cBlockCount": 10000,
-    "dataSize": 146992305,
+    "treeCount": 114,
+    "cTreeCount": 500,
+    "blockCount": 1649,
+    "cBlockCount": 5000,
+    "dataSize": 148787352,
     "cDataSize": 209715200,
-    "assetsSize": 28408860,
+    "assetsSize": 29322304,
     "cAssetsSize": 104857600
   },
   "api": {

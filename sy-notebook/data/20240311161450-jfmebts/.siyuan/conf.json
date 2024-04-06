@@ -2,7 +2,7 @@
   "name": "编程专题",
   "sort": 3,
   "icon": "",
-  "closed": false,
+  "closed": true,
   "refCreateSavePath": "",
   "docCreateSavePath": "",
   "dailyNoteSavePath": "/daily note/{{now | date \"2006/01\"}}/{{now | date \"2006-01-02\"}}",
