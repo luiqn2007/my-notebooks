@@ -10,6 +10,35 @@
 
 > See changelog in: [CHANGELOG.md](CHANGELOG.md)
 
+* Do I need this plugin?
+* What can this plugin to
+
+  * 1. Auto-create daily note for today
+
+    * 1.1 I have multiple notebooks, which notebook will be used to create notes by default?
+    * 1.2 Blacklist
+  * 2. Left lick the icon, quickly creating/opening today's note.
+
+    * 2.1 Update with date
+  * 3. Right click the icon, quickly configuration.
+  * 4. Reserve a block
+
+    * Hot key
+    * 4.1 View scheduled appointments
+    * 4.2 Currently supported date templates
+    * 4.2 Notice
+  * 5. Move blocks into today's daily note
+  * 6. Setting pannel
+* Compatibel function | Add document attribute to past Daily Notes
+* Special Issues | Duplicate DailyNotes
+* FAQ
+
+  * Q: I don't want to create a diary automatically.
+  * Q: Is the dropdown box used for selecting the default notebook?
+  * Q: How to query all reservation blocks by SQL?
+  * Q: When do I need to "Update" status
+
+
 ## Do I need this plugin?
 
 - This plugin** is mainly for people who use daily note workflow**, so if you're used to making notes in the document tree rather than in your daily notes, then this plugin may not be for you
@@ -31,7 +60,7 @@
 - If you don't need it, you can turn off this feature in the settings panel
 - The custom paths and templates set in the notebook settings page are still valid
 
-> If you have enabled multi-device synchronization, duplicate daily notes may occur. For more details, please refer to [FAQ](#q-why-are-there-duplicateconflict-daily-notes)
+> If you have enabled multi-device synchronization, duplicate daily notes may occur. For more details, please refer to section `[Special Issues | Duplicate DailyNotes]`
 
 #### 1.1 I have multiple notebooks, which notebook will be used to create notes by default?
 
@@ -45,7 +74,7 @@
 
 ![](asset/DefaultNotebook-en.png)
 
-## 1.2 Blacklist
+#### 1.2 Blacklist
 
 If you have too many notebooks, you can choose to add some notebooks to the blacklist, so that these notebooks will not appear in the dropdown list
 
@@ -202,7 +231,7 @@ Translated with www.DeepL.com/Translator (free version)
 <!-- ![](asset/Setting.png) -->
 ![](asset/Setting-en.png)
 
-## Compatibel function: Add document attribute to past Daily Notes
+## Compatibel function | Add document attribute to past Daily Notes
 
 Starting from version 2.11.1, SiYuan automatically adds the `custom-dailynote-yyyymmdd` attribute to the document when creating a daily note, making it easier to distinguish daily note documents from regular documents.
 
@@ -226,26 +255,48 @@ While you need to have the corresponding document attributes set in your daily n
 
 
 
+## Special Issues | Duplicate DailyNotes
+
+Sometimes you might find the plugin suddenly pops up a dialog, telling you that the content of the DailyNote has been duplicated:
+
+![](asset/DupDN-EN.png)
+
+
+The preconditions for this issue to arise are:
+
+1. The plugin's auto-create DailyNote feature is enabled
+2. Multi-device synchronization is used
+
+The reason for the issue is that within the SiYuan architecture, **the plugin's initialization runs before the boot data synchronization**, and both are executed asynchronously. Suppose you created a DailyNote on device A, then when you open device B, the plugin will automatically create a DailyNote for you; after that, SiYuan synchronizes the data. As a result, the DailyNote previously created on device A and the one now created on device B become duplicates.
+
+> Previously, developers attempted to add the feature "create DailyNote after synchronization", but practical tests proved it was ineffective. Currently, this setting is still retained in the plugin, but it might be removed in a future version
+
+Currently, there is no good solution to prevent this problem. Therefore, the plugin has to find another way and has provided several automatic handling options to help users quickly deal with duplicate documents (of course, for safety, you can also handle them manually)
+
+First, the **principle for automatic processing is: the earliest created DailyNote is considered the main DailyNote, and all others are duplicates**. Based on this principle, four automatic processing methods are provided:
+
+1. 🤲 Merge All: Merge all other duplicate documents into the main DailyNote document
+2. ❌ Delete Directly: Directly delete all other duplicate DailyNotes
+3. 🗑️ Move to Trash Bin: Under the `daily note` root path, a `trash-bin` document is created, all duplicate DailyNotes will be moved to this document and the `custom-dailynote-yymmdd` property will be deleted
+4. 🤔 Smart Merge: According to certain rules, documents are either deleted or merged into the main DailyNote
+    - Documents that are empty, with no references or links, are directly deleted
+    - Documents that are not empty, but whose update time does not exceed three seconds from the creation time (for example, DailyNotes using a template), are directly deleted
+    - Other documents are merged into the main DailyNote document
+
+
+Duplicate Document Prompt Dialog:
+
+- **After the first data synchronization of the day**, a check is performed for duplicate documents. If duplicate entries are found, a duplicate document prompt dialog will appear (there is no risk of document duplication in other cases).
+  - You can choose the four auto-solution mentioned above in the dialog.
+  - Alternatively, you can close the dialog and manually handle the duplicates as instructed.
+- The dialog will **only run once** when it is launched **each day**. After closing it, you will need to manually handle the duplicates yourself.
+
 ## FAQ
 
 
 ### Q: I don't want to create a diary automatically.
 
 Please toggle off "Open Today's Diary Automatically" in the plugin settings.
-
-### Q: Why are there duplicate/conflict daily notes?
-
-The conditions for this issue to occur are:
-
-1. The automatic creation of daily notes is enabled.
-2. Multiple devices are being used for synchronization.
-
-The reason for this problem is that in the architecture of SiYuan, **the plugin's initialization runs before the data synchronization during startup**. If you previously created a daily note on Device A and then open Device B, the plugin will automatically create another daily note for you. Only after that, Obsidian will synchronize the data, resulting in duplicate daily notes, one from the previous creation on Device A and another from the current creation on Device B.
-
-There are two solutions:
-
-1. Manually merge the diaries.
-2. Enable the "Daily Note - Auto create DN only after synchronization" option in the settings. Please note that this is an experimental feature, so use it with caution.
 
 ### Q: Is the dropdown box used for selecting the default notebook?
 
@@ -306,15 +357,4 @@ on(
 - When "Alt + right click" can note bring up moving menu, try updating.
 - Manual update of the day's reservation block
 
-### Q: Why did you design the 'moving blocks' feature for the daily note workflow?
 
-Siyuan is different from Logseq, it has the concept of notebooks. The way to use 'move block' is to write in the main notebook and then assign it to the corresponding notebook with one click through the move block function. This is done with the following considerations in mind:
-
-1. logically, it allows the content of a specific notebook's topic to stay entirely in its own notebook, rather than having all the content in the main notebook with only topic nodes under the topic notebook
-2. data management-wise, spreading the blocks within other notebooks helps optimise performance; so that when you may not need the notebook in the future, you can close it without any worries.
-    Whereas if all notes are stacked in the same notebook, even if you close other notebooks, it won't help much to alleviate performance problems - because the content blocks are all in the main notebook.
-
-
-## CHANGELOG
-
-[CHANGELOG](CHANGELOG.md)

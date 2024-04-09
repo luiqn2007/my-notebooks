@@ -2,7 +2,7 @@
   "name": "编程语言",
   "sort": 2,
   "icon": "",
-  "closed": true,
+  "closed": false,
   "refCreateSavePath": "",
   "docCreateSavePath": "",
   "dailyNoteSavePath": "/daily note/{{now | date \"2006/01\"}}/{{now | date \"2006-01-02\"}}",
