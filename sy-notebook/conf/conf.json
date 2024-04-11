@@ -81,11 +81,12 @@
     "historyRetentionDays": 30,
     "emoji": [
       "spring.png",
+      "1f1e8",
+      "cpp.ico",
       "netty.ico",
       "logo_csharp.png",
       "python.ico",
       "1f40d",
-      "1f1e8",
       "2615",
       "1f980",
       "1f4e6",
@@ -101,7 +102,7 @@
     "plantUMLServePath": "https://www.plantuml.com/plantuml/svg/~1",
     "fullWidth": true,
     "katexMacros": "{}",
-    "readOnly": false,
+    "readOnly": true,
     "embedBlockBreadcrumb": false,
     "listLogicalOutdent": false,
     "listItemDotNumberClickFocus": true,
@@ -150,10 +151,10 @@
         "super": false
       },
       "d3": {
-        "nodeSize": 15,
+        "nodeSize": 16,
         "linkWidth": 8,
         "lineOpacity": 0.36,
-        "centerStrength": 0.01,
+        "centerStrength": 0.015,
         "collideRadius": 600,
         "collideStrength": 0.08,
         "linkDistance": 400,
@@ -162,7 +163,7 @@
     },
     "global": {
       "minRefs": 0,
-      "dailyNote": false,
+      "dailyNote": true,
       "type": {
         "tag": false,
         "paragraph": false,
@@ -176,10 +177,10 @@
         "super": false
       },
       "d3": {
-        "nodeSize": 15,
+        "nodeSize": 16,
         "linkWidth": 8,
         "lineOpacity": 0.36,
-        "centerStrength": 0.01,
+        "centerStrength": 0.015,
         "collideRadius": 600,
         "collideStrength": 0.08,
         "linkDistance": 400,
@@ -235,8 +236,19 @@
                 {
                   "children": [
                     {
-                      "children": {},
-                      "instance": "Tab"
+                      "active": true,
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240331134821-j2g6pv6",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240331134821-j2g6pv6"
+                      },
+                      "docIcon": "spring.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "Spring Web MVC"
                     }
                   ],
                   "height": "",
@@ -412,7 +424,7 @@
             "show": false,
             "size": {
               "height": 0,
-              "width": 320
+              "width": 976
             },
             "title": "关系图",
             "type": "graph"
@@ -424,7 +436,7 @@
             "show": false,
             "size": {
               "height": 0,
-              "width": 320
+              "width": 1160
             },
             "title": "全局关系图",
             "type": "globalGraph"
@@ -436,7 +448,7 @@
             "show": false,
             "size": {
               "height": 500,
-              "width": 300
+              "width": 890
             },
             "title": "关系图增强",
             "type": "graph-enhancedock_tab"
@@ -1260,13 +1272,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 587,
+    "treeCount": 590,
     "cTreeCount": 1000,
-    "blockCount": 8330,
+    "blockCount": 8335,
     "cBlockCount": 10000,
-    "dataSize": 151757469,
+    "dataSize": 151901543,
     "cDataSize": 209715200,
-    "assetsSize": 31628042,
+    "assetsSize": 31689463,
     "cAssetsSize": 104857600
   },
   "api": {
