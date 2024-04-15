@@ -1,10 +1,10 @@
 {
-  "local-codelang": "xml",
+  "local-codelang": "java",
   "local-dialogposition": {
     "dialog-emojis": {
       "height": 514,
-      "left": 144,
-      "top": 499,
+      "left": 126,
+      "top": 502,
       "width": 360
     },
     "dialog-setting": {
@@ -1362,8 +1362,11 @@
     },
     "20240331134821-j2g6pv6": {
       "endId": "20240411175752-3u4wpv2",
+      "focusEnd": 3,
+      "focusId": "20240411092849-ld3bzpj",
+      "focusStart": 3,
       "rootId": "20240331134821-j2g6pv6",
-      "scrollTop": 3049,
+      "scrollTop": 0,
       "startId": "20240411022810-guyb52i"
     },
     "20240331134900-evvd459": {
@@ -2961,21 +2964,12 @@
     },
     "20240411175627-00lyzfp": {
       "endId": "20240411175710-k4ycvli",
-      "focusEnd": 147,
-      "focusId": "20240411175710-k4ycvli",
-      "focusStart": 147,
+      "focusEnd": 0,
+      "focusId": "20240411175710-qv0d0r1",
+      "focusStart": 0,
       "rootId": "20240411175627-00lyzfp",
-      "scrollTop": 345,
+      "scrollTop": 0,
       "startId": "20240411175710-qv0d0r1"
-    },
-    "20240411175733-r9aqkm2": {
-      "endId": "20240411175758-rwljl3w",
-      "focusEnd": 6,
-      "focusId": "20240411202956-fm7ptsg",
-      "focusStart": 6,
-      "rootId": "20240411175733-r9aqkm2",
-      "scrollTop": 380,
-      "startId": "20240411175754-bmagkob"
     },
     "20240412012207-s9ymtac": {
       "endId": "20240412012230-glnwcms",
@@ -2985,6 +2979,24 @@
       "rootId": "20240412012207-s9ymtac",
       "scrollTop": 0,
       "startId": "20240412012207-xjv0kmu"
+    },
+    "20240415125432-u202wne": {
+      "endId": "20240415125432-qp5oqft",
+      "focusEnd": 4,
+      "focusId": "20240415160538-l556vc4",
+      "focusStart": 4,
+      "rootId": "20240415125432-u202wne",
+      "scrollTop": 0,
+      "startId": "20240415125432-qp5oqft"
+    },
+    "20240415161101-j55gmyx": {
+      "endId": "20240416020108-1nqgd3b",
+      "focusEnd": 39,
+      "focusId": "20240416020201-lb2wslg",
+      "focusStart": 39,
+      "rootId": "20240415161101-j55gmyx",
+      "scrollTop": 639,
+      "startId": "20240415162909-boovqrr"
     }
   },
   "local-searchkeys": {

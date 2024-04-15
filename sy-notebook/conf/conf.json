@@ -80,8 +80,8 @@
     "generateHistoryInterval": 10,
     "historyRetentionDays": 30,
     "emoji": [
-      "1f980",
       "spring.png",
+      "1f980",
       "1f1e8",
       "cpp.ico",
       "netty.ico",
@@ -236,19 +236,8 @@
                 {
                   "children": [
                     {
-                      "active": true,
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240411175733-r9aqkm2",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240411175733-r9aqkm2"
-                      },
-                      "docIcon": "spring.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "@RequestMapping 函数"
+                      "children": {},
+                      "instance": "Tab"
                     }
                   ],
                   "height": "",
@@ -504,19 +493,19 @@
   "readonly": false,
   "localIPs": [
     "127.0.0.1",
-    "172.30.16.1",
-    "172.30.192.1",
     "10.22.2.154",
+    "172.30.16.1",
+    "172.17.192.1",
     "26.210.116.202",
     "169.254.106.59",
     "169.254.175.180",
     "[::1]",
     "[fdfd::1ad2:74ca]",
     "[fe80::8932:5202:9501:4c4f]",
-    "[fe80::8382:969c:19b9:f4dd]",
-    "[fe80::1300:ff06:43a6:c2f]",
     "[fe80::2920:19ac:f0cf:cb77]",
-    "[fe80::68ac:5cff:cbbd:2f5c]"
+    "[fe80::68ac:5cff:cbbd:2f5c]",
+    "[fe80::74ec:29e9:be29:8ede]",
+    "[fe80::1300:ff06:43a6:c2f]"
   ],
   "accessAuthCode": "",
   "system": {
@@ -1272,11 +1261,11 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 593,
+    "treeCount": 594,
     "cTreeCount": 1000,
-    "blockCount": 8395,
+    "blockCount": 8441,
     "cBlockCount": 10000,
-    "dataSize": 151221005,
+    "dataSize": 151242914,
     "cDataSize": 209715200,
     "assetsSize": 30962990,
     "cAssetsSize": 104857600
