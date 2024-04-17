@@ -119,7 +119,6 @@
   "goToEditTabPrev": "Go to previous edited tab",
   "createdTime": "Created time",
   "updatedTime": "Updated time",
-  "lineNumber": "Line number",
   "removeBookmark": "Remove bookmark from ${x}?",
   "defaultMargin": "Default",
   "noneMargin": "None",
