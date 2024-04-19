@@ -15,6 +15,7 @@
     "themeLight": "Asri",
     "themeVer": "1.0.6",
     "icons": [
+      "Lucide-icon",
       "ant",
       "material"
     ],
@@ -79,6 +80,7 @@
     "generateHistoryInterval": 10,
     "historyRetentionDays": 30,
     "emoji": [
+      "thymeleaf.png",
       "spring.png",
       "1f980",
       "1f1e8",
@@ -124,7 +126,7 @@
     "tagOpenMarker": "#",
     "tagCloseMarker": "#",
     "fileAnnotationRefMode": 0,
-    "pandocBin": "/home/lq2007/puoc7-qgiyy/sy-notebook/temp/pandoc/bin/pandoc",
+    "pandocBin": "C:\\Users\\lq200\\siyuan\\sy-notebook\\temp\\pandoc\\bin\\pandoc.exe",
     "markdownYFM": false,
     "pdfFooter": "%page / %pages",
     "docxTemplate": "",
@@ -237,101 +239,31 @@
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240417031846-f3mtrap",
+                        "blockId": "20240420015105-9imfpl4",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240417031846-f3mtrap"
+                        "rootId": "20240420015105-9imfpl4"
                       },
-                      "docIcon": "spring.png",
+                      "docIcon": "thymeleaf.png",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "验证与数据绑定"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240331134821-j2g6pv6",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240331134821-j2g6pv6"
-                      },
-                      "docIcon": "spring.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "Spring Web MVC"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240415161101-j55gmyx",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240415161101-j55gmyx"
-                      },
-                      "docIcon": "spring.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "Controller 控制器"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240416111316-wc5sk18",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240416111316-wc5sk18"
-                      },
-                      "docIcon": "spring.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "@RequestMapping"
+                      "title": "Thymeleaf"
                     },
                     {
                       "active": true,
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240416111935-22qk595",
+                        "blockId": "20240420015640-gsucny0",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240416111935-22qk595"
+                        "rootId": "20240420015640-gsucny0"
                       },
-                      "docIcon": "spring.png",
+                      "docIcon": "thymeleaf.png",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "@ExceptionHandler"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240415125432-u202wne",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240415125432-u202wne"
-                      },
-                      "docIcon": "spring.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "请求参数"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240411175627-00lyzfp",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240411175627-00lyzfp"
-                      },
-                      "docIcon": "spring.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "DispatcherServlet"
+                      "title": "配置和集成模板引擎"
                     }
                   ],
                   "height": "",
@@ -587,23 +519,35 @@
   "readonly": false,
   "localIPs": [
     "127.0.0.1",
-    "[::1]"
+    "10.22.2.154",
+    "172.30.16.1",
+    "172.19.144.1",
+    "26.210.116.202",
+    "169.254.106.59",
+    "169.254.175.180",
+    "[::1]",
+    "[fdfd::1ad2:74ca]",
+    "[fe80::8932:5202:9501:4c4f]",
+    "[fe80::2920:19ac:f0cf:cb77]",
+    "[fe80::68ac:5cff:cbbd:2f5c]",
+    "[fe80::232d:8bad:a027:11d7]",
+    "[fe80::1300:ff06:43a6:c2f]"
   ],
   "accessAuthCode": "",
   "system": {
-    "id": "7848f38e92cd4f9686ff2e5ed72bcb7f",
-    "name": "luqin-W65-67SJ",
-    "kernelVersion": "3.0.9",
-    "os": "linux",
-    "osPlatform": "Kylin",
+    "id": "7a948d12-efb4-430f-ae4a-7cc3a866c486",
+    "name": "lq-pc",
+    "kernelVersion": "3.0.10",
+    "os": "windows",
+    "osPlatform": "Microsoft Windows 11 Pro",
     "container": "std",
-    "isMicrosoftStore": false,
+    "isMicrosoftStore": true,
     "isInsider": false,
-    "homeDir": "/home/lq2007",
-    "workspaceDir": "/home/lq2007/puoc7-qgiyy/sy-notebook",
-    "appDir": "/tmp/.mount_siyuanJ93MK0/resources",
-    "confDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/conf",
-    "dataDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/data",
+    "homeDir": "C:\\Users\\lq200",
+    "workspaceDir": "C:\\Users\\lq200\\siyuan\\sy-notebook",
+    "appDir": "C:\\Program Files\\WindowsApps\\89C2A984.SiYuan_3.0.10.0_x64__1qfd3tsw4ngc2\\app\\resources",
+    "confDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\conf",
+    "dataDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\data",
     "networkServe": false,
     "networkProxy": {
       "scheme": "",
@@ -1333,7 +1277,7 @@
       "apiTemperature": 1,
       "apiMaxContexts": 7,
       "apiBaseURL": "https://api.openai.com/v1",
-      "apiUserAgent": "SiYuan/3.0.9 std/linux",
+      "apiUserAgent": "SiYuan/3.0.10 std/windows",
       "apiProvider": "OpenAI",
       "apiVersion": ""
     }
@@ -1343,13 +1287,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 597,
+    "treeCount": 601,
     "cTreeCount": 1000,
-    "blockCount": 8499,
+    "blockCount": 8487,
     "cBlockCount": 10000,
-    "dataSize": 150774945,
+    "dataSize": 151316538,
     "cDataSize": 209715200,
-    "assetsSize": 30962960,
+    "assetsSize": 30962990,
     "cAssetsSize": 104857600
   },
   "api": {
