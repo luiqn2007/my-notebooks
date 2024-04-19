@@ -587,11 +587,7 @@
   "readonly": false,
   "localIPs": [
     "127.0.0.1",
-    "192.168.142.6",
-    "[::1]",
-    "[240e:460:2b00:4ba:9984:667d:cdc5:15be]",
-    "[240e:460:2b00:4ba:a1cb:7c48:6e80:846e]",
-    "[fe80::a099:4003:88f3:ec56]"
+    "[::1]"
   ],
   "accessAuthCode": "",
   "system": {
@@ -605,7 +601,7 @@
     "isInsider": false,
     "homeDir": "/home/lq2007",
     "workspaceDir": "/home/lq2007/puoc7-qgiyy/sy-notebook",
-    "appDir": "/tmp/.mount_siyuantEelYG/resources",
+    "appDir": "/tmp/.mount_siyuanJ93MK0/resources",
     "confDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/conf",
     "dataDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/data",
     "networkServe": false,
@@ -1351,7 +1347,7 @@
     "cTreeCount": 1000,
     "blockCount": 8499,
     "cBlockCount": 10000,
-    "dataSize": 150774946,
+    "dataSize": 150774945,
     "cDataSize": 209715200,
     "assetsSize": 30962960,
     "cAssetsSize": 104857600
