@@ -237,7 +237,6 @@
                 {
                   "children": [
                     {
-                      "active": true,
                       "children": {
                         "action": "cb-get-scroll",
                         "blockId": "20240422043255-ybmj0m4",
@@ -250,6 +249,35 @@
                       "instance": "Tab",
                       "pin": false,
                       "title": "日志"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240422043541-glrqvaf",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240422043541-glrqvaf"
+                      },
+                      "docIcon": "thymeleaf.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "缓存"
+                    },
+                    {
+                      "active": true,
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240422043557-j8hc14d",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240422043557-j8hc14d"
+                      },
+                      "docIcon": "thymeleaf.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "解耦模板"
                     }
                   ],
                   "height": "",
@@ -1279,11 +1307,11 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 625,
+    "treeCount": 636,
     "cTreeCount": 1000,
-    "blockCount": 8975,
+    "blockCount": 9118,
     "cBlockCount": 10000,
-    "dataSize": 151674014,
+    "dataSize": 151780606,
     "cDataSize": 209715200,
     "assetsSize": 31034491,
     "cAssetsSize": 104857600
