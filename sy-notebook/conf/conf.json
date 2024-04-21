@@ -237,33 +237,19 @@
                 {
                   "children": [
                     {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240420015105-9imfpl4",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240420015105-9imfpl4"
-                      },
-                      "docIcon": "thymeleaf.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "Thymeleaf"
-                    },
-                    {
                       "active": true,
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240420015640-gsucny0",
+                        "blockId": "20240422043255-ybmj0m4",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240420015640-gsucny0"
+                        "rootId": "20240422043255-ybmj0m4"
                       },
                       "docIcon": "thymeleaf.png",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "配置和集成模板引擎"
+                      "title": "日志"
                     }
                   ],
                   "height": "",
@@ -521,7 +507,7 @@
     "127.0.0.1",
     "10.22.2.154",
     "172.30.16.1",
-    "172.19.144.1",
+    "172.17.80.1",
     "26.210.116.202",
     "169.254.106.59",
     "169.254.175.180",
@@ -530,7 +516,7 @@
     "[fe80::8932:5202:9501:4c4f]",
     "[fe80::2920:19ac:f0cf:cb77]",
     "[fe80::68ac:5cff:cbbd:2f5c]",
-    "[fe80::232d:8bad:a027:11d7]",
+    "[fe80::e782:3fa7:eac9:b852]",
     "[fe80::1300:ff06:43a6:c2f]"
   ],
   "accessAuthCode": "",
@@ -991,7 +977,7 @@
         "default": "⌥H"
       },
       "editReadonly": {
-        "custom": "⇧⌘G",
+        "custom": "",
         "default": "⇧⌘G"
       },
       "enter": {
@@ -1176,6 +1162,12 @@
           "default": "⇧⌘R"
         }
       },
+      "siyuan-plugin-keymap": {
+        "hello world": {
+          "custom": "",
+          "default": ""
+        }
+      },
       "siyuan-plugins-index": {
         "addTopBarIcon": {
           "custom": "⌥⌘I",
@@ -1287,13 +1279,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 601,
+    "treeCount": 625,
     "cTreeCount": 1000,
-    "blockCount": 8487,
+    "blockCount": 8975,
     "cBlockCount": 10000,
-    "dataSize": 151316538,
+    "dataSize": 151674014,
     "cDataSize": 209715200,
-    "assetsSize": 30962990,
+    "assetsSize": 31034491,
     "cAssetsSize": 104857600
   },
   "api": {
