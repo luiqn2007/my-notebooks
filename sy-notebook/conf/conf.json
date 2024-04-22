@@ -80,9 +80,9 @@
     "generateHistoryInterval": 10,
     "historyRetentionDays": 30,
     "emoji": [
+      "spring.png",
       "1f980",
       "thymeleaf.png",
-      "spring.png",
       "1f1e8",
       "cpp.ico",
       "netty.ico",
@@ -239,87 +239,45 @@
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240422124412-38janny",
+                        "blockId": "20240423013941-tryka1l",
                         "instance": "Editor",
                         "mode": "wysiwyg",
-                        "notebookId": "20240309023106-0qy9xxz",
-                        "rootId": "20240422124412-38janny"
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240423013941-tryka1l"
                       },
-                      "docIcon": "1f980",
+                      "docIcon": "spring.png",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "整型溢出"
+                      "title": "Failed t bind to server socket:tcp:localhost:61616 due to : java.net.BindException"
                     },
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240409185533-xwljhb7",
+                        "blockId": "20240417031846-f3mtrap",
                         "instance": "Editor",
                         "mode": "wysiwyg",
-                        "notebookId": "20240309023106-0qy9xxz",
-                        "rootId": "20240409185533-xwljhb7"
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240417031846-f3mtrap"
                       },
-                      "docIcon": "1f980",
+                      "docIcon": "spring.png",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "字符"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240409185556-isnlhu6",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240309023106-0qy9xxz",
-                        "rootId": "20240409185556-isnlhu6"
-                      },
-                      "docIcon": "1f980",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "布尔"
+                      "title": "验证与数据绑定"
                     },
                     {
                       "active": true,
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240409185606-v8lcmts",
+                        "blockId": "20240415161101-j55gmyx",
                         "instance": "Editor",
                         "mode": "wysiwyg",
-                        "notebookId": "20240309023106-0qy9xxz",
-                        "rootId": "20240409185606-v8lcmts"
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240415161101-j55gmyx"
                       },
-                      "docIcon": "1f980",
+                      "docIcon": "spring.png",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "元组"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240409185705-0sa0nyl",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240309023106-0qy9xxz",
-                        "rootId": "20240409185705-0sa0nyl"
-                      },
-                      "docIcon": "1f980",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "数组"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240409185024-mjh0ypb",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240309023106-0qy9xxz",
-                        "rootId": "20240409185024-mjh0ypb"
-                      },
-                      "docIcon": "1f980",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "数字"
+                      "title": "Controller 控制器"
                     }
                   ],
                   "height": "",
@@ -1349,11 +1307,11 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 636,
+    "treeCount": 641,
     "cTreeCount": 1000,
-    "blockCount": 9145,
+    "blockCount": 9241,
     "cBlockCount": 10000,
-    "dataSize": 151747785,
+    "dataSize": 151788736,
     "cDataSize": 209715200,
     "assetsSize": 31034491,
     "cAssetsSize": 104857600
