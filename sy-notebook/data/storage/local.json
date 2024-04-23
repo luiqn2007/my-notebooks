@@ -3026,10 +3026,10 @@
       "startId": "20240416111953-rkqsekd"
     },
     "20240417031846-f3mtrap": {
-      "endId": "20240417031846-mj37llt",
-      "focusEnd": 0,
+      "endId": "20240424002259-jfrtx4c",
+      "focusEnd": 21,
       "focusId": "20240417031846-mj37llt",
-      "focusStart": 0,
+      "focusStart": 21,
       "rootId": "20240417031846-f3mtrap",
       "scrollTop": 0,
       "startId": "20240417031846-mj37llt"
@@ -3456,6 +3456,27 @@
       "rootId": "20240423183445-alqe4op",
       "scrollTop": 2900,
       "startId": "20240423184243-hrou5cb"
+    },
+    "20240424002055-4n99xwh": {
+      "endId": "20240424031232-uz70bmm",
+      "focusEnd": 17,
+      "focusId": "20240424022934-dg36afa",
+      "focusStart": 3,
+      "rootId": "20240424002055-4n99xwh",
+      "scrollTop": 875,
+      "startId": "20240424003428-nak6mq8"
+    },
+    "20240424002147-dp4ql7z": {
+      "endId": "20240424002147-igbknn1",
+      "rootId": "20240424002147-dp4ql7z",
+      "scrollTop": 0,
+      "startId": "20240424002147-igbknn1"
+    },
+    "20240424002213-gojhqa8": {
+      "endId": "20240424002213-e8ndivd",
+      "rootId": "20240424002213-gojhqa8",
+      "scrollTop": 0,
+      "startId": "20240424002213-e8ndivd"
     }
   },
   "local-searchkeys": {
@@ -3498,5 +3519,5 @@
     "row": "",
     "rowTab": ""
   },
-  "local-zoom": 1.1
+  "local-zoom": 0.8
 }
