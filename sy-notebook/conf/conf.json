@@ -1,7 +1,7 @@
 {
   "logLevel": "debug",
   "appearance": {
-    "mode": 0,
+    "mode": 1,
     "modeOS": true,
     "darkThemes": [
       "Asri",
@@ -13,8 +13,9 @@
     ],
     "themeDark": "midnight",
     "themeLight": "Asri",
-    "themeVer": "1.0.6",
+    "themeVer": "3.0.3",
     "icons": [
+      "Lucide-icon",
       "ant",
       "material"
     ],
@@ -23,7 +24,7 @@
     "codeBlockThemeLight": "github",
     "codeBlockThemeDark": "base16/dracula",
     "lang": "zh_CN",
-    "themeJS": true,
+    "themeJS": false,
     "closeButtonBehavior": 0,
     "hideStatusBar": false
   },
@@ -125,7 +126,7 @@
     "tagOpenMarker": "#",
     "tagCloseMarker": "#",
     "fileAnnotationRefMode": 0,
-    "pandocBin": "/home/lq2007/puoc7-qgiyy/sy-notebook/temp/pandoc/bin/pandoc",
+    "pandocBin": "C:\\Users\\lq200\\siyuan\\sy-notebook\\temp\\pandoc\\bin\\pandoc.exe",
     "markdownYFM": false,
     "pdfFooter": "%page / %pages",
     "docxTemplate": "",
@@ -236,61 +237,89 @@
                 {
                   "children": [
                     {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240417031846-f3mtrap",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240417031846-f3mtrap"
+                      },
+                      "docIcon": "spring.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "验证与数据绑定"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240425161132-8k6kqu3",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240425161132-8k6kqu3"
+                      },
+                      "docIcon": "spring.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "构建状态信息"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240425174230-jtj3vgf",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240425174230-jtj3vgf"
+                      },
+                      "docIcon": "spring.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "处理拦截器"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240425174245-rlxj3xl",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240425174245-rlxj3xl"
+                      },
+                      "docIcon": "spring.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "资源束"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240425174305-9n1meaf",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240425174305-9n1meaf"
+                      },
+                      "docIcon": "spring.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "异步请求"
+                    },
+                    {
                       "active": true,
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240424002147-dp4ql7z",
+                        "blockId": "20240425174328-bts5wh5",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240424002147-dp4ql7z"
+                        "rootId": "20240425174328-bts5wh5"
                       },
                       "docIcon": "spring.png",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "数据绑定"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240424163423-r5ilc4b",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240424163423-r5ilc4b"
-                      },
-                      "docIcon": "spring.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "解析模型特性"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240424163332-qz4j52t",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240424163332-qz4j52t"
-                      },
-                      "docIcon": "spring.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "创建模型特性"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240424165009-e0otu0p",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240424165009-e0otu0p"
-                      },
-                      "docIcon": "spring.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "缓存模型特性"
+                      "title": "类型转换与格式化"
                     }
                   ],
                   "height": "",
@@ -546,25 +575,35 @@
   "readonly": false,
   "localIPs": [
     "127.0.0.1",
-    "192.168.31.236",
+    "10.22.2.154",
+    "172.30.16.1",
+    "172.29.32.1",
+    "26.210.116.202",
+    "169.254.106.59",
+    "169.254.175.180",
     "[::1]",
-    "[fe80::5014:82aa:6efc:3e8d]"
+    "[fdfd::1ad2:74ca]",
+    "[fe80::8932:5202:9501:4c4f]",
+    "[fe80::2920:19ac:f0cf:cb77]",
+    "[fe80::68ac:5cff:cbbd:2f5c]",
+    "[fe80::c461:57e1:e170:a28]",
+    "[fe80::1300:ff06:43a6:c2f]"
   ],
   "accessAuthCode": "",
   "system": {
-    "id": "7848f38e92cd4f9686ff2e5ed72bcb7f",
-    "name": "luqin-W65-67SJ",
+    "id": "7a948d12-efb4-430f-ae4a-7cc3a866c486",
+    "name": "lq-pc",
     "kernelVersion": "3.0.11",
-    "os": "linux",
-    "osPlatform": "Kylin",
+    "os": "windows",
+    "osPlatform": "Microsoft Windows 11 Pro",
     "container": "std",
-    "isMicrosoftStore": false,
+    "isMicrosoftStore": true,
     "isInsider": false,
-    "homeDir": "/home/lq2007",
-    "workspaceDir": "/home/lq2007/puoc7-qgiyy/sy-notebook",
-    "appDir": "/tmp/.mount_siyuandZO2Bu/resources",
-    "confDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/conf",
-    "dataDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/data",
+    "homeDir": "C:\\Users\\lq200",
+    "workspaceDir": "C:\\Users\\lq200\\siyuan\\sy-notebook",
+    "appDir": "C:\\Program Files\\WindowsApps\\89C2A984.SiYuan_3.0.11.0_x64__1qfd3tsw4ngc2\\app\\resources",
+    "confDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\conf",
+    "dataDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\data",
     "networkServe": false,
     "networkProxy": {
       "scheme": "",
@@ -1300,7 +1339,7 @@
       "apiTemperature": 1,
       "apiMaxContexts": 7,
       "apiBaseURL": "https://api.openai.com/v1",
-      "apiUserAgent": "SiYuan/3.0.11 std/linux",
+      "apiUserAgent": "SiYuan/3.0.11 std/windows",
       "apiProvider": "OpenAI",
       "apiVersion": ""
     }
@@ -1310,13 +1349,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 649,
+    "treeCount": 658,
     "cTreeCount": 1000,
-    "blockCount": 9563,
+    "blockCount": 9636,
     "cBlockCount": 10000,
-    "dataSize": 151458291,
+    "dataSize": 152089892,
     "cDataSize": 209715200,
-    "assetsSize": 31034461,
+    "assetsSize": 31090754,
     "cAssetsSize": 104857600
   },
   "api": {
