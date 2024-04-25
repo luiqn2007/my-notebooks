@@ -13,7 +13,7 @@
     ],
     "themeDark": "midnight",
     "themeLight": "Asri",
-    "themeVer": "3.0.3",
+    "themeVer": "1.0.6",
     "icons": [
       "Lucide-icon",
       "ant",
@@ -237,89 +237,19 @@
                 {
                   "children": [
                     {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240417031846-f3mtrap",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240417031846-f3mtrap"
-                      },
-                      "docIcon": "spring.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "验证与数据绑定"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240425161132-8k6kqu3",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240425161132-8k6kqu3"
-                      },
-                      "docIcon": "spring.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "构建状态信息"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240425174230-jtj3vgf",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240425174230-jtj3vgf"
-                      },
-                      "docIcon": "spring.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "处理拦截器"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240425174245-rlxj3xl",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240425174245-rlxj3xl"
-                      },
-                      "docIcon": "spring.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "资源束"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240425174305-9n1meaf",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240425174305-9n1meaf"
-                      },
-                      "docIcon": "spring.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "异步请求"
-                    },
-                    {
                       "active": true,
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240425174328-bts5wh5",
+                        "blockId": "20240426021806-ytu7wkw",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240425174328-bts5wh5"
+                        "rootId": "20240426021806-ytu7wkw"
                       },
                       "docIcon": "spring.png",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "类型转换与格式化"
+                      "title": "异步处理"
                     }
                   ],
                   "height": "",
@@ -575,19 +505,19 @@
   "readonly": false,
   "localIPs": [
     "127.0.0.1",
-    "10.22.2.154",
     "172.30.16.1",
     "172.29.32.1",
+    "10.22.2.154",
     "26.210.116.202",
     "169.254.106.59",
     "169.254.175.180",
     "[::1]",
     "[fdfd::1ad2:74ca]",
     "[fe80::8932:5202:9501:4c4f]",
-    "[fe80::2920:19ac:f0cf:cb77]",
-    "[fe80::68ac:5cff:cbbd:2f5c]",
     "[fe80::c461:57e1:e170:a28]",
-    "[fe80::1300:ff06:43a6:c2f]"
+    "[fe80::1300:ff06:43a6:c2f]",
+    "[fe80::2920:19ac:f0cf:cb77]",
+    "[fe80::68ac:5cff:cbbd:2f5c]"
   ],
   "accessAuthCode": "",
   "system": {
@@ -1349,11 +1279,11 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 658,
+    "treeCount": 661,
     "cTreeCount": 1000,
-    "blockCount": 9636,
+    "blockCount": 9665,
     "cBlockCount": 10000,
-    "dataSize": 152089892,
+    "dataSize": 152090921,
     "cDataSize": 209715200,
     "assetsSize": 31090754,
     "cAssetsSize": 104857600
