@@ -3471,11 +3471,8 @@
     },
     "20240424002147-dp4ql7z": {
       "endId": "20240425034618-emsrjas",
-      "focusEnd": 37,
-      "focusId": "20240425033512-0ef3z9b",
-      "focusStart": 37,
       "rootId": "20240424002147-dp4ql7z",
-      "scrollTop": 1036,
+      "scrollTop": 1035.625,
       "startId": "20240424002147-igbknn1"
     },
     "20240424002213-gojhqa8": {
@@ -3593,10 +3590,10 @@
       "startId": "20240425174305-zzfv8rg"
     },
     "20240425174328-bts5wh5": {
-      "endId": "20240426094730-0lsp9a5",
-      "focusEnd": 60,
-      "focusId": "20240426095434-dwum18y",
-      "focusStart": 60,
+      "endId": "20240427124246-lzmz70i",
+      "focusEnd": 0,
+      "focusId": "20240427124246-lzmz70i",
+      "focusStart": 0,
       "rootId": "20240425174328-bts5wh5",
       "scrollTop": 0,
       "startId": "20240425174328-q8ewszq"

@@ -13,7 +13,7 @@
     ],
     "themeDark": "midnight",
     "themeLight": "Asri",
-    "themeVer": "1.0.6",
+    "themeVer": "3.0.2",
     "icons": [
       "ant",
       "material"
@@ -236,75 +236,8 @@
                 {
                   "children": [
                     {
-                      "active": true,
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240425174328-bts5wh5",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240425174328-bts5wh5"
-                      },
-                      "docIcon": "spring.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "类型转换与格式化"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240424002147-dp4ql7z",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240424002147-dp4ql7z"
-                      },
-                      "docIcon": "spring.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "数据绑定"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240425030259-1tt10bf",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240425030259-1tt10bf"
-                      },
-                      "docIcon": "spring.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "WebBindingInitializer"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240425025609-2rm4e6h",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240425025609-2rm4e6h"
-                      },
-                      "docIcon": "spring.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "@InitBinder"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240425025622-nqh92qh",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240425025622-nqh92qh"
-                      },
-                      "docIcon": "spring.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "@ControllerAdvice"
+                      "children": {},
+                      "instance": "Tab"
                     }
                   ],
                   "height": "",
@@ -560,11 +493,9 @@
   "readonly": false,
   "localIPs": [
     "127.0.0.1",
-    "192.168.142.6",
+    "192.168.31.236",
     "[::1]",
-    "[240e:460:2ae0:3995:2b22:b14d:aedc:5515]",
-    "[240e:460:2ae0:3995:f4b3:3a3a:1613:6dff]",
-    "[fe80::a099:4003:88f3:ec56]"
+    "[fe80::5014:82aa:6efc:3e8d]"
   ],
   "accessAuthCode": "",
   "system": {
@@ -578,7 +509,7 @@
     "isInsider": false,
     "homeDir": "/home/lq2007",
     "workspaceDir": "/home/lq2007/puoc7-qgiyy/sy-notebook",
-    "appDir": "/tmp/.mount_siyuanbGC7Th/resources",
+    "appDir": "/tmp/.mount_siyuanhpl9ok/resources",
     "confDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/conf",
     "dataDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/data",
     "networkServe": false,
@@ -1326,11 +1257,11 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 650,
+    "treeCount": 661,
     "cTreeCount": 1000,
-    "blockCount": 9581,
+    "blockCount": 9671,
     "cBlockCount": 10000,
-    "dataSize": 151712000,
+    "dataSize": 151723932,
     "cDataSize": 209715200,
     "assetsSize": 31191041,
     "cAssetsSize": 104857600
