@@ -239,117 +239,117 @@
                 {
                   "children": [
                     {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240312004059-ixfg3jc",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311161450-jfmebts",
-                        "rootId": "20240312004059-ixfg3jc"
-                      },
-                      "docIcon": "jclasslib256x256.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "方法表"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240312004107-lk46hxv",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311161450-jfmebts",
-                        "rootId": "20240312004107-lk46hxv"
-                      },
-                      "docIcon": "jclasslib256x256.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "属性表"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240312204900-4vovgt4",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311161450-jfmebts",
-                        "rootId": "20240312204900-4vovgt4"
-                      },
-                      "docIcon": "jclasslib256x256.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "虚拟机字节码"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240312211422-rk8bifq",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311161450-jfmebts",
-                        "rootId": "20240312211422-rk8bifq"
-                      },
-                      "docIcon": "jclasslib256x256.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "栈和栈帧"
-                    },
-                    {
                       "active": true,
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240312232340-0bxxpcw",
+                        "blockId": "20240312205118-9ucrz2s",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311161450-jfmebts",
-                        "rootId": "20240312232340-0bxxpcw"
+                        "rootId": "20240312205118-9ucrz2s"
                       },
                       "docIcon": "jclasslib256x256.png",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "栈帧"
+                      "title": "字节码应用"
                     },
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240313002957-5l33mjd",
+                        "blockId": "20240312205125-vqrxig4",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311161450-jfmebts",
-                        "rootId": "20240313002957-5l33mjd"
+                        "rootId": "20240312205125-vqrxig4"
                       },
                       "docIcon": "jclasslib256x256.png",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "字节码指令"
+                      "title": "软件破解与防破解"
                     },
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240312011229-d84lnov",
+                        "blockId": "20240312205142-r7rdr5y",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311161450-jfmebts",
-                        "rootId": "20240312011229-d84lnov"
+                        "rootId": "20240312205142-r7rdr5y"
                       },
                       "docIcon": "jclasslib256x256.png",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "访问标记表"
+                      "title": "全链路分布式跟踪与 APM"
                     },
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240312010539-856jb3a",
+                        "blockId": "20240321084339-sf0cxe1",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311161450-jfmebts",
-                        "rootId": "20240312010539-856jb3a"
+                        "rootId": "20240321084339-sf0cxe1"
                       },
                       "docIcon": "jclasslib256x256.png",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "常见属性表"
+                      "title": "自定义 ClassLoader 加载加密后的 class"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240320015751-quwg9i1",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311161450-jfmebts",
+                        "rootId": "20240320015751-quwg9i1"
+                      },
+                      "docIcon": "jclasslib256x256.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "Fastjson"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240320092509-zudl8rz",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311161450-jfmebts",
+                        "rootId": "20240320092509-zudl8rz"
+                      },
+                      "docIcon": "jclasslib256x256.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "com.alibaba.fastjson2.writer.OWG_1_3_MyBean"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240320015809-40d9pu3",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311161450-jfmebts",
+                        "rootId": "20240320015809-40d9pu3"
+                      },
+                      "docIcon": "jclasslib256x256.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "Dubbo"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240320015818-247aax2",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311161450-jfmebts",
+                        "rootId": "20240320015818-247aax2"
+                      },
+                      "docIcon": "jclasslib256x256.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "JaCoCo"
                     }
                   ],
                   "height": "",
@@ -607,7 +607,7 @@
     "127.0.0.1",
     "192.168.63.6",
     "[::1]",
-    "[240e:462:2b14:1309:3911:87d4:5d68:f36c]",
+    "[240e:462:2b14:1309:e14c:e7ab:be1c:8a03]",
     "[240e:462:2b14:1309:2308:ad81:2b84:d086]",
     "[fe80::a099:4003:88f3:ec56]"
   ],
@@ -623,7 +623,7 @@
     "isInsider": false,
     "homeDir": "/home/lq2007",
     "workspaceDir": "/home/lq2007/puoc7-qgiyy/sy-notebook",
-    "appDir": "/tmp/.mount_siyuanmPPvRZ/resources",
+    "appDir": "/tmp/.mount_siyuanEoqgDw/resources",
     "confDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/conf",
     "dataDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/data",
     "networkServe": false,
@@ -1371,13 +1371,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 793,
+    "treeCount": 792,
     "cTreeCount": 1000,
-    "blockCount": 11293,
+    "blockCount": 11329,
     "cBlockCount": 20000,
-    "dataSize": 173147294,
+    "dataSize": 173154693,
     "cDataSize": 209715200,
-    "assetsSize": 31892639,
+    "assetsSize": 31892710,
     "cAssetsSize": 104857600
   },
   "api": {
