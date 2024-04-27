@@ -239,7 +239,6 @@
                 {
                   "children": [
                     {
-                      "active": true,
                       "children": {
                         "action": "cb-get-scroll",
                         "blockId": "20240312205118-9ucrz2s",
@@ -256,30 +255,31 @@
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240312205125-vqrxig4",
+                        "blockId": "20240409212331-rhu43gl",
                         "instance": "Editor",
                         "mode": "wysiwyg",
-                        "notebookId": "20240311161450-jfmebts",
-                        "rootId": "20240312205125-vqrxig4"
+                        "notebookId": "20240309023106-0qy9xxz",
+                        "rootId": "20240409212331-rhu43gl"
                       },
-                      "docIcon": "jclasslib256x256.png",
+                      "docIcon": "1f980",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "软件破解与防破解"
+                      "title": "Cargo 发布"
                     },
                     {
+                      "active": true,
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240312205142-r7rdr5y",
+                        "blockId": "20240409183612-r0p1dwu",
                         "instance": "Editor",
                         "mode": "wysiwyg",
-                        "notebookId": "20240311161450-jfmebts",
-                        "rootId": "20240312205142-r7rdr5y"
+                        "notebookId": "20240309023106-0qy9xxz",
+                        "rootId": "20240409183612-r0p1dwu"
                       },
-                      "docIcon": "jclasslib256x256.png",
+                      "docIcon": "1f980",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "全链路分布式跟踪与 APM"
+                      "title": "Rust"
                     },
                     {
                       "children": {
@@ -623,7 +623,7 @@
     "isInsider": false,
     "homeDir": "/home/lq2007",
     "workspaceDir": "/home/lq2007/puoc7-qgiyy/sy-notebook",
-    "appDir": "/tmp/.mount_siyuanEoqgDw/resources",
+    "appDir": "/tmp/.mount_siyuanNm2dk2/resources",
     "confDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/conf",
     "dataDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/data",
     "networkServe": false,
@@ -1371,11 +1371,11 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 792,
+    "treeCount": 789,
     "cTreeCount": 1000,
-    "blockCount": 11329,
+    "blockCount": 11375,
     "cBlockCount": 20000,
-    "dataSize": 173154693,
+    "dataSize": 173192605,
     "cDataSize": 209715200,
     "assetsSize": 31892710,
     "cAssetsSize": 104857600
