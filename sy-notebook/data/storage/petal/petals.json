@@ -205,5 +205,23 @@
 		"js": "",
 		"css": "",
 		"i18n": null
+	},
+	{
+		"name": "siyuan-plugin-publisher",
+		"displayName": "发布工具",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
+	},
+	{
+		"name": "open-api",
+		"displayName": "🛠 开放 API",
+		"enabled": true,
+		"incompatible": false,
+		"js": "",
+		"css": "",
+		"i18n": null
 	}
 ]

@@ -79,6 +79,9 @@
     "generateHistoryInterval": 10,
     "historyRetentionDays": 30,
     "emoji": [
+      "jclasslib256x256.png",
+      "linuxmint.ico",
+      "linux.png",
       "spring.png",
       "1f980",
       "thymeleaf.png",
@@ -236,8 +239,117 @@
                 {
                   "children": [
                     {
-                      "children": {},
-                      "instance": "Tab"
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240320015751-quwg9i1",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240309023106-0qy9xxz",
+                        "rootId": "20240320015751-quwg9i1"
+                      },
+                      "docIcon": "jclasslib256x256.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "Fastjson"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240320092432-dkd75x9",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240309023106-0qy9xxz",
+                        "rootId": "20240320092432-dkd75x9"
+                      },
+                      "docIcon": "jclasslib256x256.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "com.alibaba.fastjson2.reader.ORG_1_3_MyBean"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240312205111-fb01rpz",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240309023106-0qy9xxz",
+                        "rootId": "20240312205111-fb01rpz"
+                      },
+                      "docIcon": "jclasslib256x256.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "JSR 269 插件化注解处理"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240319221629-6190jms",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240309023106-0qy9xxz",
+                        "rootId": "20240319221629-6190jms"
+                      },
+                      "docIcon": "jclasslib256x256.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "AST 操作 API"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240314024516-5vt2prr",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240309023106-0qy9xxz",
+                        "rootId": "20240314024516-5vt2prr"
+                      },
+                      "docIcon": "jclasslib256x256.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "断层的 switch"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240310164349-rdj0ppg",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311161450-jfmebts",
+                        "rootId": "20240310164349-rdj0ppg"
+                      },
+                      "docIcon": "",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "C++并发编程"
+                    },
+                    {
+                      "active": true,
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240309221247-5yp4s9q",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311161450-jfmebts",
+                        "rootId": "20240309221247-5yp4s9q"
+                      },
+                      "docIcon": "jclasslib256x256.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "Class 字节码"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240320092509-zudl8rz",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240309023106-0qy9xxz",
+                        "rootId": "20240320092509-zudl8rz"
+                      },
+                      "docIcon": "jclasslib256x256.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "com.alibaba.fastjson2.writer.OWG_1_3_MyBean"
                     }
                   ],
                   "height": "",
@@ -493,9 +605,11 @@
   "readonly": false,
   "localIPs": [
     "127.0.0.1",
-    "192.168.31.236",
+    "192.168.63.6",
     "[::1]",
-    "[fe80::5014:82aa:6efc:3e8d]"
+    "[240e:462:2b14:1309:3911:87d4:5d68:f36c]",
+    "[240e:462:2b14:1309:2308:ad81:2b84:d086]",
+    "[fe80::a099:4003:88f3:ec56]"
   ],
   "accessAuthCode": "",
   "system": {
@@ -509,7 +623,7 @@
     "isInsider": false,
     "homeDir": "/home/lq2007",
     "workspaceDir": "/home/lq2007/puoc7-qgiyy/sy-notebook",
-    "appDir": "/tmp/.mount_siyuanhpl9ok/resources",
+    "appDir": "/tmp/.mount_siyuanDx3JZ8/resources",
     "confDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/conf",
     "dataDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/data",
     "networkServe": false,
@@ -1257,11 +1371,11 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 661,
+    "treeCount": 881,
     "cTreeCount": 1000,
-    "blockCount": 9671,
-    "cBlockCount": 10000,
-    "dataSize": 151723932,
+    "blockCount": 13309,
+    "cBlockCount": 20000,
+    "dataSize": 151696183,
     "cDataSize": 209715200,
     "assetsSize": 31191041,
     "cAssetsSize": 104857600

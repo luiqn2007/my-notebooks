@@ -1,13 +1,18 @@
 [English](https://github.com/syh19/siyuan-plugin-task-list/blob/main/README.md)
 
-# 最新版本`v0.0.7`更新记录
+# 最新版本`v0.1.2`更新记录
+
+**改进功能**
+
+- `v0.1.0` [为任务节点添加基于时间的排序功能](https://github.com/syh19/siyuan-plugin-task-list/issues/9)
+- `v0.1.0` 缩小打包后的文件体积
 
 **修复缺陷**
 
-- 信息卡片中的文本过长时可能显示异常
-- 完善自定义属性解析函数
+- `v0.1.0` 移动 `dock` 栏插件图标导致插件无法使用
+- `v0.1.1` 文档维度下任务节点无法正常显示
+- `v0.1.2` 从未在抽屉中保存任何设置项配置时导致插件报错
 
-> - [新增功能的详细描述请看这里](https://ld246.com/article/1712586329559)
 > - [所有功能的详情描述请看这里](https://ld246.com/article/1711244396256)
 > - [所有版本的更新记录请看这里](https://github.com/syh19/siyuan-plugin-task-list/blob/main/CHANGELOG.md)
 
