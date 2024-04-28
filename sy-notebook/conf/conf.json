@@ -1,7 +1,7 @@
 {
   "logLevel": "debug",
   "appearance": {
-    "mode": 0,
+    "mode": 1,
     "modeOS": true,
     "darkThemes": [
       "Asri",
@@ -13,8 +13,9 @@
     ],
     "themeDark": "midnight",
     "themeLight": "Asri",
-    "themeVer": "3.0.4",
+    "themeVer": "3.0.3",
     "icons": [
+      "Lucide-icon",
       "ant",
       "material"
     ],
@@ -23,7 +24,7 @@
     "codeBlockThemeLight": "github",
     "codeBlockThemeDark": "base16/dracula",
     "lang": "zh_CN",
-    "themeJS": true,
+    "themeJS": false,
     "closeButtonBehavior": 0,
     "hideStatusBar": false
   },
@@ -128,7 +129,7 @@
     "tagOpenMarker": "#",
     "tagCloseMarker": "#",
     "fileAnnotationRefMode": 0,
-    "pandocBin": "/home/lq2007/puoc7-qgiyy/sy-notebook/temp/pandoc/bin/pandoc",
+    "pandocBin": "C:\\Users\\lq200\\siyuan\\sy-notebook\\temp\\pandoc\\bin\\pandoc.exe",
     "markdownYFM": false,
     "pdfFooter": "%page / %pages",
     "docxTemplate": "",
@@ -239,117 +240,8 @@
                 {
                   "children": [
                     {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240409205612-w1vk15w",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240309023106-0qy9xxz",
-                        "rootId": "20240409205612-w1vk15w"
-                      },
-                      "docIcon": "1f980",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "所有权"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240409205645-zs3nta4",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240309023106-0qy9xxz",
-                        "rootId": "20240409205645-zs3nta4"
-                      },
-                      "docIcon": "1f980",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "移动与复制"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240409205834-bct2y0h",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240309023106-0qy9xxz",
-                        "rootId": "20240409205834-bct2y0h"
-                      },
-                      "docIcon": "1f980",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "Slice"
-                    },
-                    {
-                      "active": true,
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240409191630-tna2m47",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240309023106-0qy9xxz",
-                        "rootId": "20240409191630-tna2m47"
-                      },
-                      "docIcon": "1f980",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "结构体"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240409213526-h4dxy92",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240309023106-0qy9xxz",
-                        "rootId": "20240409213526-h4dxy92"
-                      },
-                      "docIcon": "1f980",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "String"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240409213122-kxhopr4",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240309023106-0qy9xxz",
-                        "rootId": "20240409213122-kxhopr4"
-                      },
-                      "docIcon": "1f980",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "集合"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240409205709-xwm0m4w",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240309023106-0qy9xxz",
-                        "rootId": "20240409205709-xwm0m4w"
-                      },
-                      "docIcon": "1f980",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "所有权转移"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240409205801-ecy5glb",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240309023106-0qy9xxz",
-                        "rootId": "20240409205801-ecy5glb"
-                      },
-                      "docIcon": "1f980",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "引用与借用"
+                      "children": {},
+                      "instance": "Tab"
                     }
                   ],
                   "height": "",
@@ -549,7 +441,7 @@
             "show": false,
             "size": {
               "height": 500,
-              "width": 890
+              "width": 973
             },
             "title": "关系图增强",
             "type": "graph-enhancedock_tab"
@@ -605,25 +497,35 @@
   "readonly": false,
   "localIPs": [
     "127.0.0.1",
-    "192.168.31.236",
+    "10.22.2.154",
+    "172.30.16.1",
+    "172.23.160.1",
+    "26.210.116.202",
+    "169.254.123.222",
+    "169.254.175.180",
     "[::1]",
-    "[fe80::5014:82aa:6efc:3e8d]"
+    "[fdfd::1ad2:74ca]",
+    "[fe80::8932:5202:9501:4c4f]",
+    "[fe80::2920:19ac:f0cf:cb77]",
+    "[fe80::68ac:5cff:cbbd:2f5c]",
+    "[fe80::bb24:2ce7:1ab2:341c]",
+    "[fe80::1300:ff06:43a6:c2f]"
   ],
   "accessAuthCode": "",
   "system": {
-    "id": "7848f38e92cd4f9686ff2e5ed72bcb7f",
-    "name": "luqin-W65-67SJ",
+    "id": "7a948d12-efb4-430f-ae4a-7cc3a866c486",
+    "name": "lq-pc",
     "kernelVersion": "3.0.11",
-    "os": "linux",
-    "osPlatform": "Kylin",
+    "os": "windows",
+    "osPlatform": "Microsoft Windows 11 Pro",
     "container": "std",
-    "isMicrosoftStore": false,
+    "isMicrosoftStore": true,
     "isInsider": false,
-    "homeDir": "/home/lq2007",
-    "workspaceDir": "/home/lq2007/puoc7-qgiyy/sy-notebook",
-    "appDir": "/tmp/.mount_siyuanAZlU9o/resources",
-    "confDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/conf",
-    "dataDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/data",
+    "homeDir": "C:\\Users\\lq200",
+    "workspaceDir": "C:\\Users\\lq200\\siyuan\\sy-notebook",
+    "appDir": "C:\\Program Files\\WindowsApps\\89C2A984.SiYuan_3.0.11.0_x64__1qfd3tsw4ngc2\\app\\resources",
+    "confDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\conf",
+    "dataDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\data",
     "networkServe": false,
     "networkProxy": {
       "scheme": "",
@@ -1359,7 +1261,7 @@
       "apiTemperature": 1,
       "apiMaxContexts": 7,
       "apiBaseURL": "https://api.openai.com/v1",
-      "apiUserAgent": "SiYuan/3.0.11 std/linux",
+      "apiUserAgent": "SiYuan/3.0.11 std/windows",
       "apiProvider": "OpenAI",
       "apiVersion": ""
     }
@@ -1369,13 +1271,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 795,
+    "treeCount": 807,
     "cTreeCount": 1000,
-    "blockCount": 11539,
+    "blockCount": 11796,
     "cBlockCount": 20000,
-    "dataSize": 173232180,
+    "dataSize": 174485746,
     "cDataSize": 209715200,
-    "assetsSize": 31892710,
+    "assetsSize": 32535700,
     "cAssetsSize": 104857600
   },
   "api": {
