@@ -240,19 +240,8 @@
                 {
                   "children": [
                     {
-                      "active": true,
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240425174328-bts5wh5",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240425174328-bts5wh5"
-                      },
-                      "docIcon": "spring.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "类型转换与格式化"
+                      "children": {},
+                      "instance": "Tab"
                     }
                   ],
                   "height": "",
@@ -1284,9 +1273,9 @@
   "stat": {
     "treeCount": 807,
     "cTreeCount": 1000,
-    "blockCount": 11796,
+    "blockCount": 11812,
     "cBlockCount": 20000,
-    "dataSize": 174484403,
+    "dataSize": 174497303,
     "cDataSize": 209715200,
     "assetsSize": 32535700,
     "cAssetsSize": 104857600
