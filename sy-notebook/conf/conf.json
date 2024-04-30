@@ -1,7 +1,7 @@
 {
   "logLevel": "debug",
   "appearance": {
-    "mode": 1,
+    "mode": 0,
     "modeOS": true,
     "darkThemes": [
       "Asri",
@@ -15,7 +15,6 @@
     "themeLight": "Asri",
     "themeVer": "1.0.6",
     "icons": [
-      "Lucide-icon",
       "ant",
       "material"
     ],
@@ -24,7 +23,7 @@
     "codeBlockThemeLight": "github",
     "codeBlockThemeDark": "base16/dracula",
     "lang": "zh_CN",
-    "themeJS": false,
+    "themeJS": true,
     "closeButtonBehavior": 0,
     "hideStatusBar": false
   },
@@ -129,7 +128,7 @@
     "tagOpenMarker": "#",
     "tagCloseMarker": "#",
     "fileAnnotationRefMode": 0,
-    "pandocBin": "C:\\Users\\lq200\\siyuan\\sy-notebook\\temp\\pandoc\\bin\\pandoc.exe",
+    "pandocBin": "/home/lq2007/puoc7-qgiyy/sy-notebook/temp/pandoc/bin/pandoc",
     "markdownYFM": false,
     "pdfFooter": "%page / %pages",
     "docxTemplate": "",
@@ -497,35 +496,25 @@
   "readonly": false,
   "localIPs": [
     "127.0.0.1",
-    "10.22.2.154",
-    "172.30.16.1",
-    "172.23.160.1",
-    "26.210.116.202",
-    "169.254.123.222",
-    "169.254.175.180",
+    "192.168.31.236",
     "[::1]",
-    "[fdfd::1ad2:74ca]",
-    "[fe80::8932:5202:9501:4c4f]",
-    "[fe80::2920:19ac:f0cf:cb77]",
-    "[fe80::68ac:5cff:cbbd:2f5c]",
-    "[fe80::bb24:2ce7:1ab2:341c]",
-    "[fe80::1300:ff06:43a6:c2f]"
+    "[fe80::5014:82aa:6efc:3e8d]"
   ],
   "accessAuthCode": "",
   "system": {
-    "id": "7a948d12-efb4-430f-ae4a-7cc3a866c486",
-    "name": "lq-pc",
+    "id": "7848f38e92cd4f9686ff2e5ed72bcb7f",
+    "name": "luqin-W65-67SJ",
     "kernelVersion": "3.0.11",
-    "os": "windows",
-    "osPlatform": "Microsoft Windows 11 Pro",
+    "os": "linux",
+    "osPlatform": "Kylin",
     "container": "std",
-    "isMicrosoftStore": true,
+    "isMicrosoftStore": false,
     "isInsider": false,
-    "homeDir": "C:\\Users\\lq200",
-    "workspaceDir": "C:\\Users\\lq200\\siyuan\\sy-notebook",
-    "appDir": "C:\\Program Files\\WindowsApps\\89C2A984.SiYuan_3.0.11.0_x64__1qfd3tsw4ngc2\\app\\resources",
-    "confDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\conf",
-    "dataDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\data",
+    "homeDir": "/home/lq2007",
+    "workspaceDir": "/home/lq2007/puoc7-qgiyy/sy-notebook",
+    "appDir": "/tmp/.mount_siyuanPLc9Lk/resources",
+    "confDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/conf",
+    "dataDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/data",
     "networkServe": false,
     "networkProxy": {
       "scheme": "",
@@ -1261,7 +1250,7 @@
       "apiTemperature": 1,
       "apiMaxContexts": 7,
       "apiBaseURL": "https://api.openai.com/v1",
-      "apiUserAgent": "SiYuan/3.0.11 std/windows",
+      "apiUserAgent": "SiYuan/3.0.11 std/linux",
       "apiProvider": "OpenAI",
       "apiVersion": ""
     }
@@ -1271,13 +1260,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 807,
+    "treeCount": 796,
     "cTreeCount": 1000,
-    "blockCount": 11812,
+    "blockCount": 11608,
     "cBlockCount": 20000,
-    "dataSize": 174497303,
+    "dataSize": 173997139,
     "cDataSize": 209715200,
-    "assetsSize": 32535700,
+    "assetsSize": 32535668,
     "cAssetsSize": 104857600
   },
   "api": {
