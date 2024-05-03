@@ -251,8 +251,33 @@
                 {
                   "children": [
                     {
-                      "children": {},
-                      "instance": "Tab"
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240501232702-8rnziww",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240501232702-8rnziww"
+                      },
+                      "docIcon": "spring.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "基于数据库的保护配置"
+                    },
+                    {
+                      "active": true,
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240501202642-5bfttv3",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240501202642-5bfttv3"
+                      },
+                      "docIcon": "spring.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "Web 请求安全配置"
                     }
                   ],
                   "height": "",
@@ -1293,5 +1318,5 @@
     "enabledCSS": true,
     "enabledJS": true
   },
-  "state": 1
+  "state": 0
 }
