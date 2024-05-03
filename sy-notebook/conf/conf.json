@@ -83,6 +83,8 @@
     "generateHistoryInterval": 10,
     "historyRetentionDays": 30,
     "emoji": [
+      "1f921",
+      "siyuan-128.png",
       "1f1e8",
       "1f63a",
       "spring.png",
@@ -98,7 +100,6 @@
       "1f40d",
       "2615",
       "1f4e6",
-      "1f921",
       "1f468-200d-1f9bd",
       "1fa9b",
       "1f478"
@@ -250,33 +251,8 @@
                 {
                   "children": [
                     {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240503153826-pkpqicf",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240309023106-0qy9xxz",
-                        "rootId": "20240503153826-pkpqicf"
-                      },
-                      "docIcon": "1f63a",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "协程"
-                    },
-                    {
-                      "active": true,
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240309023141-mearx8a",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240309023106-0qy9xxz",
-                        "rootId": "20240309023141-mearx8a"
-                      },
-                      "docIcon": "1f63a",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "通用概念"
+                      "children": {},
+                      "instance": "Tab"
                     }
                   ],
                   "height": "",
@@ -506,18 +482,6 @@
             },
             "title": "反向链接",
             "type": "backlink"
-          },
-          {
-            "hotkey": "",
-            "hotkeyLangId": "",
-            "icon": "iconHistory",
-            "show": false,
-            "size": {
-              "height": 0,
-              "width": 250
-            },
-            "title": "今日笔记预约",
-            "type": "siyuan-dailynote-todaydock_tab"
           }
         ]
       ],
@@ -1306,11 +1270,11 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 811,
+    "treeCount": 804,
     "cTreeCount": 1000,
-    "blockCount": 11732,
+    "blockCount": 11750,
     "cBlockCount": 20000,
-    "dataSize": 176508840,
+    "dataSize": 176501049,
     "cDataSize": 209715200,
     "assetsSize": 32535700,
     "cAssetsSize": 104857600
@@ -1329,5 +1293,5 @@
     "enabledCSS": true,
     "enabledJS": true
   },
-  "state": 0
+  "state": 1
 }

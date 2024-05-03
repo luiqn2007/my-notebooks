@@ -1,9 +1,11 @@
 {
-  "name": "日程管理笔记本",
+  "name": "计划任务",
   "sort": 1,
-  "icon": "",
+  "icon": "1f921",
   "closed": false,
+  "refCreateSaveBox": "",
   "refCreateSavePath": "",
+  "docCreateSaveBox": "",
   "docCreateSavePath": "",
   "dailyNoteSavePath": "/daily note/{{now | date \"2006/01\"}}/{{now | date \"2006-01-02\"}}",
   "dailyNoteTemplatePath": "",

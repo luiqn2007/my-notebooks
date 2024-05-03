@@ -117,15 +117,6 @@
 		"i18n": null
 	},
 	{
-		"name": "siyuan-dailynote-today",
-		"displayName": "今日笔记",
-		"enabled": true,
-		"incompatible": false,
-		"js": "",
-		"css": "",
-		"i18n": null
-	},
-	{
 		"name": "sy-titled-link",
 		"displayName": "Titled Url",
 		"enabled": true,
