@@ -1,9 +1,11 @@
 {
-  "name": "库",
+  "name": "库与插件",
   "sort": 6,
   "icon": "",
   "closed": false,
+  "refCreateSaveBox": "",
   "refCreateSavePath": "",
+  "docCreateSaveBox": "",
   "docCreateSavePath": "",
   "dailyNoteSavePath": "/daily note/{{now | date \"2006/01\"}}/{{now | date \"2006-01-02\"}}",
   "dailyNoteTemplatePath": "",

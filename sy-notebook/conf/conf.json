@@ -1,8 +1,8 @@
 {
   "logLevel": "debug",
   "appearance": {
-    "mode": 0,
-    "modeOS": true,
+    "mode": 1,
+    "modeOS": false,
     "darkThemes": [
       "Asri",
       "midnight"
@@ -15,6 +15,7 @@
     "themeLight": "Asri",
     "themeVer": "1.0.6",
     "icons": [
+      "Lucide-icon",
       "ant",
       "material"
     ],
@@ -23,7 +24,7 @@
     "codeBlockThemeLight": "github",
     "codeBlockThemeDark": "base16/dracula",
     "lang": "zh_CN",
-    "themeJS": true,
+    "themeJS": false,
     "closeButtonBehavior": 0,
     "hideStatusBar": false
   },
@@ -53,7 +54,9 @@
   "fileTree": {
     "alwaysSelectOpenedFile": false,
     "openFilesUseCurrentTab": false,
+    "refCreateSaveBox": "",
     "refCreateSavePath": "",
+    "docCreateSaveBox": "",
     "docCreateSavePath": "",
     "maxListCount": 512,
     "maxOpenTabCount": 8,
@@ -67,6 +70,7 @@
     "sort": 4
   },
   "editor": {
+    "allowHTMLBLockScript": false,
     "fontSize": 21,
     "fontSizeScrollZoom": true,
     "fontFamily": "",
@@ -79,13 +83,14 @@
     "generateHistoryInterval": 10,
     "historyRetentionDays": 30,
     "emoji": [
+      "1f1e8",
+      "1f63a",
+      "spring.png",
+      "thymeleaf.png",
       "1f980",
       "jclasslib256x256.png",
       "linuxmint.ico",
       "linux.png",
-      "spring.png",
-      "thymeleaf.png",
-      "1f1e8",
       "cpp.ico",
       "netty.ico",
       "logo_csharp.png",
@@ -116,7 +121,13 @@
     "spellcheck": false,
     "onlySearchForDoc": false,
     "backlinkExpandCount": 8,
-    "backmentionExpandCount": 8
+    "backmentionExpandCount": 8,
+    "markdown": {
+      "inlineSup": false,
+      "inlineSub": false,
+      "inlineTag": false,
+      "inlineMath": false
+    }
   },
   "export": {
     "paragraphBeginningSpace": false,
@@ -128,7 +139,7 @@
     "tagOpenMarker": "#",
     "tagCloseMarker": "#",
     "fileAnnotationRefMode": 0,
-    "pandocBin": "/home/lq2007/puoc7-qgiyy/sy-notebook/temp/pandoc/bin/pandoc",
+    "pandocBin": "C:\\Users\\lq200\\siyuan\\sy-notebook\\temp\\pandoc\\bin\\pandoc.exe",
     "markdownYFM": false,
     "pdfFooter": "%page / %pages",
     "docxTemplate": "",
@@ -239,8 +250,33 @@
                 {
                   "children": [
                     {
-                      "children": {},
-                      "instance": "Tab"
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240503153826-pkpqicf",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240309023106-0qy9xxz",
+                        "rootId": "20240503153826-pkpqicf"
+                      },
+                      "docIcon": "1f63a",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "协程"
+                    },
+                    {
+                      "active": true,
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240309023141-mearx8a",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240309023106-0qy9xxz",
+                        "rootId": "20240309023141-mearx8a"
+                      },
+                      "docIcon": "1f63a",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "通用概念"
                     }
                   ],
                   "height": "",
@@ -496,25 +532,35 @@
   "readonly": false,
   "localIPs": [
     "127.0.0.1",
-    "192.168.31.236",
+    "10.22.2.154",
+    "172.30.16.1",
+    "172.23.160.1",
+    "26.210.116.202",
+    "169.254.106.59",
+    "169.254.175.180",
     "[::1]",
-    "[fe80::5014:82aa:6efc:3e8d]"
+    "[fdfd::1ad2:74ca]",
+    "[fe80::8932:5202:9501:4c4f]",
+    "[fe80::2920:19ac:f0cf:cb77]",
+    "[fe80::68ac:5cff:cbbd:2f5c]",
+    "[fe80::bb24:2ce7:1ab2:341c]",
+    "[fe80::1300:ff06:43a6:c2f]"
   ],
   "accessAuthCode": "",
   "system": {
-    "id": "7848f38e92cd4f9686ff2e5ed72bcb7f",
-    "name": "luqin-W65-67SJ",
-    "kernelVersion": "3.0.11",
-    "os": "linux",
-    "osPlatform": "Kylin",
+    "id": "7a948d12-efb4-430f-ae4a-7cc3a866c486",
+    "name": "lq-pc",
+    "kernelVersion": "3.0.12",
+    "os": "windows",
+    "osPlatform": "Microsoft Windows 11 Pro",
     "container": "std",
-    "isMicrosoftStore": false,
+    "isMicrosoftStore": true,
     "isInsider": false,
-    "homeDir": "/home/lq2007",
-    "workspaceDir": "/home/lq2007/puoc7-qgiyy/sy-notebook",
-    "appDir": "/tmp/.mount_siyuanPLc9Lk/resources",
-    "confDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/conf",
-    "dataDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/data",
+    "homeDir": "C:\\Users\\lq200",
+    "workspaceDir": "C:\\Users\\lq200\\siyuan\\sy-notebook",
+    "appDir": "C:\\Program Files\\WindowsApps\\89C2A984.SiYuan_3.0.12.0_x64__1qfd3tsw4ngc2\\app\\resources",
+    "confDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\conf",
+    "dataDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\data",
     "networkServe": false,
     "networkProxy": {
       "scheme": "",
@@ -524,7 +570,7 @@
     "uploadErrLog": false,
     "disableGoogleAnalytics": false,
     "downloadInstallPkg": true,
-    "autoLaunch": false,
+    "autoLaunch2": 0,
     "lockScreenMode": 0
   },
   "keymap": {
@@ -1250,7 +1296,7 @@
       "apiTemperature": 1,
       "apiMaxContexts": 7,
       "apiBaseURL": "https://api.openai.com/v1",
-      "apiUserAgent": "SiYuan/3.0.11 std/linux",
+      "apiUserAgent": "SiYuan/3.0.12 std/windows",
       "apiProvider": "OpenAI",
       "apiVersion": ""
     }
@@ -1260,13 +1306,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 796,
+    "treeCount": 811,
     "cTreeCount": 1000,
-    "blockCount": 11608,
+    "blockCount": 11732,
     "cBlockCount": 20000,
-    "dataSize": 173997139,
+    "dataSize": 176508840,
     "cDataSize": 209715200,
-    "assetsSize": 32535668,
+    "assetsSize": 32535700,
     "cAssetsSize": 104857600
   },
   "api": {
