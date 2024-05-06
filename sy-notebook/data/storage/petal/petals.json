@@ -126,15 +126,6 @@
 		"i18n": null
 	},
 	{
-		"name": "siyuan-plugin-block-history",
-		"displayName": "块历史",
-		"enabled": true,
-		"incompatible": false,
-		"js": "",
-		"css": "",
-		"i18n": null
-	},
-	{
 		"name": "siyuan-plugin-task-list",
 		"displayName": "任务列表",
 		"enabled": true,

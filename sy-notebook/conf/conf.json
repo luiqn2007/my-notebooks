@@ -192,10 +192,10 @@
         "super": false
       },
       "d3": {
-        "nodeSize": 16,
+        "nodeSize": 15,
         "linkWidth": 8,
         "lineOpacity": 0.36,
-        "centerStrength": 0.015,
+        "centerStrength": 0.01,
         "collideRadius": 600,
         "collideStrength": 0.08,
         "linkDistance": 400,
@@ -253,31 +253,115 @@
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240501232702-8rnziww",
+                        "blockId": "20240331135026-t1chfqa",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240501232702-8rnziww"
+                        "rootId": "20240331135026-t1chfqa"
                       },
                       "docIcon": "spring.png",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "基于数据库的保护配置"
+                      "title": "反应式 RESTful Web 服务"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240331134933-yek7f9w",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240331134933-yek7f9w"
+                      },
+                      "docIcon": "spring.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "Spring Security 保护应用程序"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240331163313-4nje485",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240331163313-4nje485"
+                      },
+                      "docIcon": "spring.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "注入 Bean"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240331170143-igci6wl",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240331170143-igci6wl"
+                      },
+                      "docIcon": "spring.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "路径扫描与组件索引"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240329061726-48g8cwn",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240329061726-48g8cwn"
+                      },
+                      "docIcon": "spring.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "bean 自定义初始化"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240329073317-9nvab3u",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240329073317-9nvab3u"
+                      },
+                      "docIcon": "spring.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "bean 自定义销毁"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240329123816-rm96jlf",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240329123816-rm96jlf"
+                      },
+                      "docIcon": "spring.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "内置 PostProcessor"
                     },
                     {
                       "active": true,
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240501202642-5bfttv3",
+                        "blockId": "20240331134821-j2g6pv6",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240501202642-5bfttv3"
+                        "rootId": "20240331134821-j2g6pv6"
                       },
                       "docIcon": "spring.png",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "Web 请求安全配置"
+                      "title": "Spring Web MVC"
                     }
                   ],
                   "height": "",
@@ -418,18 +502,6 @@
           {
             "hotkey": "",
             "hotkeyLangId": "",
-            "icon": "showHistory",
-            "show": false,
-            "size": {
-              "height": 0,
-              "width": 200
-            },
-            "title": "show History",
-            "type": "siyuan-plugin-block-historyblock_history_dock"
-          },
-          {
-            "hotkey": "",
-            "hotkeyLangId": "",
             "icon": "iconWebApp",
             "show": false,
             "size": {
@@ -522,8 +594,8 @@
   "localIPs": [
     "127.0.0.1",
     "10.22.2.154",
+    "172.25.0.1",
     "172.30.16.1",
-    "172.23.160.1",
     "26.210.116.202",
     "169.254.106.59",
     "169.254.175.180",
@@ -532,8 +604,8 @@
     "[fe80::8932:5202:9501:4c4f]",
     "[fe80::2920:19ac:f0cf:cb77]",
     "[fe80::68ac:5cff:cbbd:2f5c]",
-    "[fe80::bb24:2ce7:1ab2:341c]",
-    "[fe80::1300:ff06:43a6:c2f]"
+    "[fe80::1300:ff06:43a6:c2f]",
+    "[fe80::bba3:7f59:2bfc:d2d4]"
   ],
   "accessAuthCode": "",
   "system": {
@@ -1161,7 +1233,7 @@
         "default": ""
       },
       "toggleWin": {
-        "custom": "⌥M",
+        "custom": "",
         "default": "⌥M"
       }
     },
@@ -1295,13 +1367,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 804,
+    "treeCount": 810,
     "cTreeCount": 1000,
-    "blockCount": 11750,
+    "blockCount": 11843,
     "cBlockCount": 20000,
-    "dataSize": 176501049,
+    "dataSize": 177377304,
     "cDataSize": 209715200,
-    "assetsSize": 32535700,
+    "assetsSize": 33130493,
     "cAssetsSize": 104857600
   },
   "api": {
