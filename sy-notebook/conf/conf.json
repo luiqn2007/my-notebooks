@@ -253,16 +253,101 @@
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240331135026-t1chfqa",
+                        "blockId": "20240329123816-rm96jlf",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240331135026-t1chfqa"
+                        "rootId": "20240329123816-rm96jlf"
                       },
                       "docIcon": "spring.png",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "反应式 RESTful Web 服务"
+                      "title": "内置 PostProcessor"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240331134821-j2g6pv6",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240331134821-j2g6pv6"
+                      },
+                      "docIcon": "spring.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "Spring Web MVC"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240420015105-9imfpl4",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240420015105-9imfpl4"
+                      },
+                      "docIcon": "thymeleaf.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "Thymeleaf"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240501202642-5bfttv3",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240501202642-5bfttv3"
+                      },
+                      "docIcon": "spring.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "Web 请求安全配置"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240501202656-w23l4a3",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240501202656-w23l4a3"
+                      },
+                      "docIcon": "spring.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "网页请求附加 CSRF"
+                    },
+                    {
+                      "active": true,
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240501202132-qr8wnkh",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240501202132-qr8wnkh"
+                      },
+                      "docIcon": "spring.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "ACL 模块保护域对象安全性"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240501232702-8rnziww",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240501232702-8rnziww"
+                      },
+                      "docIcon": "spring.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "方法级安全配置"
                     },
                     {
                       "children": {
@@ -277,91 +362,6 @@
                       "instance": "Tab",
                       "pin": false,
                       "title": "Spring Security 保护应用程序"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240331163313-4nje485",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240331163313-4nje485"
-                      },
-                      "docIcon": "spring.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "注入 Bean"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240331170143-igci6wl",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240331170143-igci6wl"
-                      },
-                      "docIcon": "spring.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "路径扫描与组件索引"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240329061726-48g8cwn",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240329061726-48g8cwn"
-                      },
-                      "docIcon": "spring.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "bean 自定义初始化"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240329073317-9nvab3u",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240329073317-9nvab3u"
-                      },
-                      "docIcon": "spring.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "bean 自定义销毁"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240329123816-rm96jlf",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240329123816-rm96jlf"
-                      },
-                      "docIcon": "spring.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "内置 PostProcessor"
-                    },
-                    {
-                      "active": true,
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240331134821-j2g6pv6",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240331134821-j2g6pv6"
-                      },
-                      "docIcon": "spring.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "Spring Web MVC"
                     }
                   ],
                   "height": "",
@@ -593,19 +593,19 @@
   "readonly": false,
   "localIPs": [
     "127.0.0.1",
-    "10.22.2.154",
     "172.25.0.1",
     "172.30.16.1",
+    "10.22.2.154",
     "26.210.116.202",
     "169.254.106.59",
     "169.254.175.180",
     "[::1]",
     "[fdfd::1ad2:74ca]",
     "[fe80::8932:5202:9501:4c4f]",
-    "[fe80::2920:19ac:f0cf:cb77]",
-    "[fe80::68ac:5cff:cbbd:2f5c]",
     "[fe80::1300:ff06:43a6:c2f]",
-    "[fe80::bba3:7f59:2bfc:d2d4]"
+    "[fe80::bba3:7f59:2bfc:d2d4]",
+    "[fe80::2920:19ac:f0cf:cb77]",
+    "[fe80::68ac:5cff:cbbd:2f5c]"
   ],
   "accessAuthCode": "",
   "system": {
@@ -1367,11 +1367,11 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 810,
+    "treeCount": 809,
     "cTreeCount": 1000,
-    "blockCount": 11843,
+    "blockCount": 11868,
     "cBlockCount": 20000,
-    "dataSize": 177377304,
+    "dataSize": 177401089,
     "cDataSize": 209715200,
     "assetsSize": 33130493,
     "cAssetsSize": 104857600
