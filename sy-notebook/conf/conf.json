@@ -4,18 +4,15 @@
     "mode": 1,
     "modeOS": false,
     "darkThemes": [
-      "Asri",
       "midnight"
     ],
     "lightThemes": [
-      "Asri",
       "daylight"
     ],
     "themeDark": "midnight",
-    "themeLight": "Asri",
+    "themeLight": "daylight",
     "themeVer": "1.0.6",
     "icons": [
-      "Lucide-icon",
       "ant",
       "material"
     ],
@@ -83,11 +80,11 @@
     "generateHistoryInterval": 10,
     "historyRetentionDays": 30,
     "emoji": [
+      "spring.png",
       "1f921",
       "siyuan-128.png",
       "1f1e8",
       "1f63a",
-      "spring.png",
       "thymeleaf.png",
       "1f980",
       "jclasslib256x256.png",
@@ -140,7 +137,7 @@
     "tagOpenMarker": "#",
     "tagCloseMarker": "#",
     "fileAnnotationRefMode": 0,
-    "pandocBin": "C:\\Users\\lq200\\siyuan\\sy-notebook\\temp\\pandoc\\bin\\pandoc.exe",
+    "pandocBin": "/home/lq2007/puoc7-qgiyy/sy-notebook/temp/pandoc/bin/pandoc",
     "markdownYFM": false,
     "pdfFooter": "%page / %pages",
     "docxTemplate": "",
@@ -253,77 +250,6 @@
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240329123816-rm96jlf",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240329123816-rm96jlf"
-                      },
-                      "docIcon": "spring.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "内置 PostProcessor"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240331134821-j2g6pv6",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240331134821-j2g6pv6"
-                      },
-                      "docIcon": "spring.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "Spring Web MVC"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240420015105-9imfpl4",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240420015105-9imfpl4"
-                      },
-                      "docIcon": "thymeleaf.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "Thymeleaf"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240501202642-5bfttv3",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240501202642-5bfttv3"
-                      },
-                      "docIcon": "spring.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "Web 请求安全配置"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240501202656-w23l4a3",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240501202656-w23l4a3"
-                      },
-                      "docIcon": "spring.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "网页请求附加 CSRF"
-                    },
-                    {
-                      "active": true,
-                      "children": {
-                        "action": "cb-get-scroll",
                         "blockId": "20240501202132-qr8wnkh",
                         "instance": "Editor",
                         "mode": "wysiwyg",
@@ -338,30 +264,31 @@
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240501232702-8rnziww",
+                        "blockId": "20240507115533-to0vbsf",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240501232702-8rnziww"
+                        "rootId": "20240507115533-to0vbsf"
                       },
                       "docIcon": "spring.png",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "方法级安全配置"
+                      "title": "方法及安全配置"
                     },
                     {
+                      "active": true,
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240331134933-yek7f9w",
+                        "blockId": "20240507115554-ccnbhgl",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240331134933-yek7f9w"
+                        "rootId": "20240507115554-ccnbhgl"
                       },
                       "docIcon": "spring.png",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "Spring Security 保护应用程序"
+                      "title": "域对象安全配置"
                     }
                   ],
                   "height": "",
@@ -593,35 +520,25 @@
   "readonly": false,
   "localIPs": [
     "127.0.0.1",
-    "172.25.0.1",
-    "172.30.16.1",
-    "10.22.2.154",
-    "26.210.116.202",
-    "169.254.106.59",
-    "169.254.175.180",
+    "192.168.31.236",
     "[::1]",
-    "[fdfd::1ad2:74ca]",
-    "[fe80::8932:5202:9501:4c4f]",
-    "[fe80::1300:ff06:43a6:c2f]",
-    "[fe80::bba3:7f59:2bfc:d2d4]",
-    "[fe80::2920:19ac:f0cf:cb77]",
-    "[fe80::68ac:5cff:cbbd:2f5c]"
+    "[fe80::5014:82aa:6efc:3e8d]"
   ],
   "accessAuthCode": "",
   "system": {
-    "id": "7a948d12-efb4-430f-ae4a-7cc3a866c486",
-    "name": "lq-pc",
+    "id": "7848f38e92cd4f9686ff2e5ed72bcb7f",
+    "name": "luqin-W65-67SJ",
     "kernelVersion": "3.0.12",
-    "os": "windows",
-    "osPlatform": "Microsoft Windows 11 Pro",
+    "os": "linux",
+    "osPlatform": "Kylin",
     "container": "std",
-    "isMicrosoftStore": true,
+    "isMicrosoftStore": false,
     "isInsider": false,
-    "homeDir": "C:\\Users\\lq200",
-    "workspaceDir": "C:\\Users\\lq200\\siyuan\\sy-notebook",
-    "appDir": "C:\\Program Files\\WindowsApps\\89C2A984.SiYuan_3.0.12.0_x64__1qfd3tsw4ngc2\\app\\resources",
-    "confDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\conf",
-    "dataDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\data",
+    "homeDir": "/home/lq2007",
+    "workspaceDir": "/home/lq2007/puoc7-qgiyy/sy-notebook",
+    "appDir": "/tmp/.mount_siyuan6njfWy/resources",
+    "confDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/conf",
+    "dataDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/data",
     "networkServe": false,
     "networkProxy": {
       "scheme": "",
@@ -1357,7 +1274,7 @@
       "apiTemperature": 1,
       "apiMaxContexts": 7,
       "apiBaseURL": "https://api.openai.com/v1",
-      "apiUserAgent": "SiYuan/3.0.12 std/windows",
+      "apiUserAgent": "SiYuan/3.0.12 std/linux",
       "apiProvider": "OpenAI",
       "apiVersion": ""
     }
@@ -1369,11 +1286,11 @@
   "stat": {
     "treeCount": 809,
     "cTreeCount": 1000,
-    "blockCount": 11868,
+    "blockCount": 11878,
     "cBlockCount": 20000,
-    "dataSize": 177401089,
+    "dataSize": 176873143,
     "cDataSize": 209715200,
-    "assetsSize": 33130493,
+    "assetsSize": 33130461,
     "cAssetsSize": 104857600
   },
   "api": {
