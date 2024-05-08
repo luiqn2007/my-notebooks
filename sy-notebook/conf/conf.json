@@ -4,18 +4,15 @@
     "mode": 1,
     "modeOS": false,
     "darkThemes": [
-      "Asri",
       "midnight"
     ],
     "lightThemes": [
-      "Asri",
       "daylight"
     ],
     "themeDark": "midnight",
     "themeLight": "daylight",
     "themeVer": "1.0.6",
     "icons": [
-      "Lucide-icon",
       "ant",
       "material"
     ],
@@ -145,7 +142,7 @@
     "tagOpenMarker": "#",
     "tagCloseMarker": "#",
     "fileAnnotationRefMode": 0,
-    "pandocBin": "C:\\Users\\lq200\\siyuan\\sy-notebook\\temp\\pandoc\\bin\\pandoc.exe",
+    "pandocBin": "/home/lq2007/puoc7-qgiyy/sy-notebook/temp/pandoc/bin/pandoc",
     "markdownYFM": false,
     "pdfFooter": "%page / %pages",
     "docxTemplate": "",
@@ -312,6 +309,7 @@
                       "title": "Spring Security 保护应用程序"
                     },
                     {
+                      "active": true,
                       "children": {
                         "action": "cb-get-scroll",
                         "blockId": "20240331135026-t1chfqa",
@@ -328,6 +326,34 @@
                     {
                       "children": {
                         "action": "cb-get-scroll",
+                        "blockId": "20240404181035-67ll74o",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240404181035-67ll74o"
+                      },
+                      "docIcon": "spring.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "配置 Spring Data JPA"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240331134739-egwqwdb",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240331134739-egwqwdb"
+                      },
+                      "docIcon": "spring.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "Spring Data"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
                         "blockId": "20240508023735-swsfc2w",
                         "instance": "Editor",
                         "mode": "wysiwyg",
@@ -338,35 +364,6 @@
                       "instance": "Tab",
                       "pin": false,
                       "title": "ReactiveX"
-                    },
-                    {
-                      "active": true,
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240508024228-bpo4i7f",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240508024228-bpo4i7f"
-                      },
-                      "docIcon": "Rx_Icon.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "RxJava3"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240331135007-9s55vbn",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240331135007-9s55vbn"
-                      },
-                      "docIcon": "spring.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "RxJava3 反应式编程"
                     }
                   ],
                   "height": "",
@@ -598,35 +595,27 @@
   "readonly": false,
   "localIPs": [
     "127.0.0.1",
-    "172.25.0.1",
-    "172.30.16.1",
-    "10.22.2.154",
-    "26.210.116.202",
-    "169.254.106.59",
-    "169.254.175.180",
+    "192.168.88.6",
     "[::1]",
-    "[fdfd::1ad2:74ca]",
-    "[fe80::8932:5202:9501:4c4f]",
-    "[fe80::1300:ff06:43a6:c2f]",
-    "[fe80::bba3:7f59:2bfc:d2d4]",
-    "[fe80::2920:19ac:f0cf:cb77]",
-    "[fe80::68ac:5cff:cbbd:2f5c]"
+    "[240e:460:2b58:73e:6ef8:b522:f7fe:abd]",
+    "[240e:460:2b58:73e:e59a:8de7:5181:c601]",
+    "[fe80::a099:4003:88f3:ec56]"
   ],
   "accessAuthCode": "",
   "system": {
-    "id": "7a948d12-efb4-430f-ae4a-7cc3a866c486",
-    "name": "lq-pc",
+    "id": "7848f38e92cd4f9686ff2e5ed72bcb7f",
+    "name": "luqin-W65-67SJ",
     "kernelVersion": "3.0.13",
-    "os": "windows",
-    "osPlatform": "Microsoft Windows 11 Pro",
+    "os": "linux",
+    "osPlatform": "Kylin",
     "container": "std",
-    "isMicrosoftStore": true,
+    "isMicrosoftStore": false,
     "isInsider": false,
-    "homeDir": "C:\\Users\\lq200",
-    "workspaceDir": "C:\\Users\\lq200\\siyuan\\sy-notebook",
-    "appDir": "C:\\Program Files\\WindowsApps\\89C2A984.SiYuan_3.0.13.0_x64__1qfd3tsw4ngc2\\app\\resources",
-    "confDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\conf",
-    "dataDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\data",
+    "homeDir": "/home/lq2007",
+    "workspaceDir": "/home/lq2007/puoc7-qgiyy/sy-notebook",
+    "appDir": "/tmp/.mount_siyuan9lrXDH/resources",
+    "confDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/conf",
+    "dataDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/data",
     "networkServe": false,
     "networkProxy": {
       "scheme": "",
@@ -1370,7 +1359,7 @@
       "apiTemperature": 1,
       "apiMaxContexts": 7,
       "apiBaseURL": "https://api.openai.com/v1",
-      "apiUserAgent": "SiYuan/3.0.13 std/windows",
+      "apiUserAgent": "SiYuan/3.0.13 std/linux",
       "apiProvider": "OpenAI",
       "apiVersion": ""
     }
@@ -1380,13 +1369,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 809,
+    "treeCount": 813,
     "cTreeCount": 1000,
-    "blockCount": 11896,
+    "blockCount": 11919,
     "cBlockCount": 20000,
-    "dataSize": 177432842,
+    "dataSize": 176949805,
     "cDataSize": 209715200,
-    "assetsSize": 33130493,
+    "assetsSize": 33130461,
     "cAssetsSize": 104857600
   },
   "api": {
