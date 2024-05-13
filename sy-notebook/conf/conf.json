@@ -1,7 +1,7 @@
 {
   "logLevel": "debug",
   "appearance": {
-    "mode": 1,
+    "mode": 0,
     "modeOS": false,
     "darkThemes": [
       "Asri",
@@ -87,6 +87,32 @@
     "generateHistoryInterval": 10,
     "historyRetentionDays": 30,
     "emoji": [
+      "sqlalchemy.ico",
+      "pyspark.ico",
+      "python.ico",
+      "jinja2.webp",
+      "flask.webp",
+      "melvor.png",
+      "junit5.png",
+      "minecraft.ico",
+      "fabric.png",
+      "Sponge.png",
+      "architectury.ico",
+      "opengl.png",
+      "khronos.ico",
+      "assimp.png",
+      "devernay_free.ico",
+      "ogre_wiki.png",
+      "1f648",
+      "freetype.ico",
+      "linux.png",
+      "jetbrains.png",
+      "gradle.ico",
+      "github.png",
+      "git.ico",
+      "android.png",
+      "aliyun.ico",
+      "windows.ico",
       "spring.png",
       "Rx_Icon.png",
       "1f921",
@@ -97,11 +123,9 @@
       "1f980",
       "jclasslib256x256.png",
       "linuxmint.ico",
-      "linux.png",
       "cpp.ico",
       "netty.ico",
       "logo_csharp.png",
-      "python.ico",
       "1f40d",
       "2615",
       "1f4e6",
@@ -197,10 +221,10 @@
         "super": false
       },
       "d3": {
-        "nodeSize": 15,
+        "nodeSize": 16,
         "linkWidth": 8,
         "lineOpacity": 0.36,
-        "centerStrength": 0.01,
+        "centerStrength": 0.015,
         "collideRadius": 600,
         "collideStrength": 0.08,
         "linkDistance": 400,
@@ -256,8 +280,117 @@
                 {
                   "children": [
                     {
-                      "children": {},
-                      "instance": "Tab"
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240513185327-q28tupc",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240513185327-q28tupc"
+                      },
+                      "docIcon": "pyspark.ico",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "PySpark"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240513184727-9efk2ya",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240513184727-9efk2ya"
+                      },
+                      "docIcon": "sqlalchemy.ico",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "SQLAlchemy"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240513184733-2mp1dwu",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240513184733-2mp1dwu"
+                      },
+                      "docIcon": "sqlalchemy.ico",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "表映射"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240513185855-uptzusy",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240513185855-uptzusy"
+                      },
+                      "docIcon": "sqlalchemy.ico",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "表操作"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240513185913-v2clo8q",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240513185913-v2clo8q"
+                      },
+                      "docIcon": "sqlalchemy.ico",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "表查询"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240513185930-kvg3rb1",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240513185930-kvg3rb1"
+                      },
+                      "docIcon": "sqlalchemy.ico",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "SQL"
+                    },
+                    {
+                      "active": true,
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240503160454-dq5kao3",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240503160454-dq5kao3"
+                      },
+                      "docIcon": "siyuan-128.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "思源插件"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240513184704-gbtp97c",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240513184704-gbtp97c"
+                      },
+                      "docIcon": "flask.webp",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "Flask-SQLAlchemy"
                     }
                   ],
                   "height": "",
@@ -433,7 +566,7 @@
             "show": false,
             "size": {
               "height": 0,
-              "width": 1036
+              "width": 851
             },
             "title": "全局关系图",
             "type": "globalGraph"
@@ -489,19 +622,19 @@
   "readonly": false,
   "localIPs": [
     "127.0.0.1",
-    "172.25.0.1",
-    "172.30.16.1",
     "10.22.2.154",
+    "172.23.240.1",
+    "172.30.16.1",
     "26.210.116.202",
-    "169.254.106.59",
+    "169.254.123.222",
     "169.254.175.180",
     "[::1]",
     "[fdfd::1ad2:74ca]",
     "[fe80::8932:5202:9501:4c4f]",
-    "[fe80::1300:ff06:43a6:c2f]",
-    "[fe80::bba3:7f59:2bfc:d2d4]",
     "[fe80::2920:19ac:f0cf:cb77]",
-    "[fe80::68ac:5cff:cbbd:2f5c]"
+    "[fe80::68ac:5cff:cbbd:2f5c]",
+    "[fe80::1300:ff06:43a6:c2f]",
+    "[fe80::b5b5:20e9:8194:e979]"
   ],
   "accessAuthCode": "",
   "system": {
@@ -1271,13 +1404,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 815,
+    "treeCount": 944,
     "cTreeCount": 1000,
-    "blockCount": 12017,
+    "blockCount": 15974,
     "cBlockCount": 20000,
-    "dataSize": 177486590,
+    "dataSize": 188537368,
     "cDataSize": 209715200,
-    "assetsSize": 33130493,
+    "assetsSize": 42170745,
     "cAssetsSize": 104857600
   },
   "api": {
