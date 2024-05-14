@@ -13,7 +13,7 @@
     ],
     "themeDark": "midnight",
     "themeLight": "daylight",
-    "themeVer": "1.0.6",
+    "themeVer": "1.0.7",
     "icons": [
       "Lucide-icon",
       "ant",
@@ -87,6 +87,9 @@
     "generateHistoryInterval": 10,
     "historyRetentionDays": 30,
     "emoji": [
+      "mysql.ico",
+      "yaml.svg",
+      "toml.png",
       "sqlalchemy.ico",
       "pyspark.ico",
       "python.ico",
@@ -282,115 +285,115 @@
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240513185327-q28tupc",
+                        "blockId": "20240515030017-1kvxzag",
                         "instance": "Editor",
                         "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240513185327-q28tupc"
+                        "notebookId": "20240310114442-j6xbzkj",
+                        "rootId": "20240515030017-1kvxzag"
                       },
-                      "docIcon": "pyspark.ico",
+                      "docIcon": "mysql.ico",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "PySpark"
+                      "title": "mysqlbinlog"
                     },
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240513184727-9efk2ya",
+                        "blockId": "20240515030028-2i549tk",
                         "instance": "Editor",
                         "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240513184727-9efk2ya"
+                        "notebookId": "20240310114442-j6xbzkj",
+                        "rootId": "20240515030028-2i549tk"
                       },
-                      "docIcon": "sqlalchemy.ico",
+                      "docIcon": "mysql.ico",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "SQLAlchemy"
+                      "title": "mysqlshow"
                     },
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240513184733-2mp1dwu",
+                        "blockId": "20240515030039-dxnt35h",
                         "instance": "Editor",
                         "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240513184733-2mp1dwu"
+                        "notebookId": "20240310114442-j6xbzkj",
+                        "rootId": "20240515030039-dxnt35h"
                       },
-                      "docIcon": "sqlalchemy.ico",
+                      "docIcon": "mysql.ico",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "表映射"
+                      "title": "mysqldump"
                     },
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240513185855-uptzusy",
+                        "blockId": "20240515030050-9t2i40c",
                         "instance": "Editor",
                         "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240513185855-uptzusy"
+                        "notebookId": "20240310114442-j6xbzkj",
+                        "rootId": "20240515030050-9t2i40c"
                       },
-                      "docIcon": "sqlalchemy.ico",
+                      "docIcon": "mysql.ico",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "表操作"
+                      "title": "mysqlimport"
                     },
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240513185913-v2clo8q",
+                        "blockId": "20240515022758-uxsgbt0",
                         "instance": "Editor",
                         "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240513185913-v2clo8q"
+                        "notebookId": "20240310114442-j6xbzkj",
+                        "rootId": "20240515022758-uxsgbt0"
                       },
-                      "docIcon": "sqlalchemy.ico",
+                      "docIcon": "mysql.ico",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "表查询"
+                      "title": "日志"
                     },
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240513185930-kvg3rb1",
+                        "blockId": "20240515022803-za3hwpp",
                         "instance": "Editor",
                         "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240513185930-kvg3rb1"
+                        "notebookId": "20240310114442-j6xbzkj",
+                        "rootId": "20240515022803-za3hwpp"
                       },
-                      "docIcon": "sqlalchemy.ico",
+                      "docIcon": "mysql.ico",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "SQL"
+                      "title": "主从复制"
                     },
                     {
                       "active": true,
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240503160454-dq5kao3",
+                        "blockId": "20240515022809-xrc50u2",
                         "instance": "Editor",
                         "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240503160454-dq5kao3"
+                        "notebookId": "20240310114442-j6xbzkj",
+                        "rootId": "20240515022809-xrc50u2"
                       },
-                      "docIcon": "siyuan-128.png",
+                      "docIcon": "mysql.ico",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "思源插件"
+                      "title": "分库分表及读写分离"
                     },
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240513184704-gbtp97c",
+                        "blockId": "20240515022726-byh2bh2",
                         "instance": "Editor",
                         "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240513184704-gbtp97c"
+                        "notebookId": "20240310114442-j6xbzkj",
+                        "rootId": "20240515022726-byh2bh2"
                       },
-                      "docIcon": "flask.webp",
+                      "docIcon": "mysql.ico",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "Flask-SQLAlchemy"
+                      "title": "索引"
                     }
                   ],
                   "height": "",
@@ -640,7 +643,7 @@
   "system": {
     "id": "7a948d12-efb4-430f-ae4a-7cc3a866c486",
     "name": "lq-pc",
-    "kernelVersion": "3.0.13",
+    "kernelVersion": "3.0.14",
     "os": "windows",
     "osPlatform": "Microsoft Windows 11 Pro",
     "container": "std",
@@ -648,7 +651,7 @@
     "isInsider": false,
     "homeDir": "C:\\Users\\lq200",
     "workspaceDir": "C:\\Users\\lq200\\siyuan\\sy-notebook",
-    "appDir": "C:\\Program Files\\WindowsApps\\89C2A984.SiYuan_3.0.13.0_x64__1qfd3tsw4ngc2\\app\\resources",
+    "appDir": "C:\\Program Files\\WindowsApps\\89C2A984.SiYuan_3.0.14.0_x64__1qfd3tsw4ngc2\\app\\resources",
     "confDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\conf",
     "dataDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\data",
     "networkServe": false,
@@ -1394,7 +1397,7 @@
       "apiTemperature": 1,
       "apiMaxContexts": 7,
       "apiBaseURL": "https://api.openai.com/v1",
-      "apiUserAgent": "SiYuan/3.0.13 std/windows",
+      "apiUserAgent": "SiYuan/3.0.14 std/windows",
       "apiProvider": "OpenAI",
       "apiVersion": ""
     }
@@ -1404,13 +1407,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 944,
+    "treeCount": 964,
     "cTreeCount": 1000,
-    "blockCount": 15974,
+    "blockCount": 17092,
     "cBlockCount": 20000,
-    "dataSize": 188537368,
+    "dataSize": 189332275,
     "cDataSize": 209715200,
-    "assetsSize": 42170745,
+    "assetsSize": 42569600,
     "cAssetsSize": 104857600
   },
   "api": {
