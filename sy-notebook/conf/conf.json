@@ -87,6 +87,14 @@
     "generateHistoryInterval": 10,
     "historyRetentionDays": 30,
     "emoji": [
+      "sql.png",
+      "2615",
+      "latex.ico",
+      "mermaid.ico",
+      "markdown.png",
+      "gradle.ico",
+      "synergy.png",
+      "mingw64.svg",
       "mysql.ico",
       "yaml.svg",
       "toml.png",
@@ -110,7 +118,6 @@
       "freetype.ico",
       "linux.png",
       "jetbrains.png",
-      "gradle.ico",
       "github.png",
       "git.ico",
       "android.png",
@@ -130,7 +137,6 @@
       "netty.ico",
       "logo_csharp.png",
       "1f40d",
-      "2615",
       "1f4e6",
       "1f468-200d-1f9bd",
       "1fa9b",
@@ -285,115 +291,101 @@
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240515030017-1kvxzag",
+                        "blockId": "20240516031834-4jham6b",
                         "instance": "Editor",
                         "mode": "wysiwyg",
-                        "notebookId": "20240310114442-j6xbzkj",
-                        "rootId": "20240515030017-1kvxzag"
+                        "notebookId": "20240309023106-0qy9xxz",
+                        "rootId": "20240516031834-4jham6b"
                       },
-                      "docIcon": "mysql.ico",
+                      "docIcon": "sql.png",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "mysqlbinlog"
+                      "title": "SQL"
                     },
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240515030028-2i549tk",
+                        "blockId": "20240516032154-oefl859",
                         "instance": "Editor",
                         "mode": "wysiwyg",
-                        "notebookId": "20240310114442-j6xbzkj",
-                        "rootId": "20240515030028-2i549tk"
+                        "notebookId": "20240309023106-0qy9xxz",
+                        "rootId": "20240516032154-oefl859"
                       },
-                      "docIcon": "mysql.ico",
+                      "docIcon": "sql.png",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "mysqlshow"
+                      "title": "DDL"
                     },
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240515030039-dxnt35h",
+                        "blockId": "20240516032518-a3947ug",
                         "instance": "Editor",
                         "mode": "wysiwyg",
-                        "notebookId": "20240310114442-j6xbzkj",
-                        "rootId": "20240515030039-dxnt35h"
+                        "notebookId": "20240309023106-0qy9xxz",
+                        "rootId": "20240516032518-a3947ug"
                       },
-                      "docIcon": "mysql.ico",
+                      "docIcon": "sql.png",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "mysqldump"
+                      "title": "DML"
                     },
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240515030050-9t2i40c",
+                        "blockId": "20240516032606-52ovnmr",
                         "instance": "Editor",
                         "mode": "wysiwyg",
-                        "notebookId": "20240310114442-j6xbzkj",
-                        "rootId": "20240515030050-9t2i40c"
+                        "notebookId": "20240309023106-0qy9xxz",
+                        "rootId": "20240516032606-52ovnmr"
                       },
-                      "docIcon": "mysql.ico",
+                      "docIcon": "sql.png",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "mysqlimport"
+                      "title": "DQL"
                     },
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240515022758-uxsgbt0",
+                        "blockId": "20240516032622-skqbmfd",
                         "instance": "Editor",
                         "mode": "wysiwyg",
-                        "notebookId": "20240310114442-j6xbzkj",
-                        "rootId": "20240515022758-uxsgbt0"
+                        "notebookId": "20240309023106-0qy9xxz",
+                        "rootId": "20240516032622-skqbmfd"
                       },
-                      "docIcon": "mysql.ico",
+                      "docIcon": "sql.png",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "日志"
+                      "title": "多表查询"
                     },
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240515022803-za3hwpp",
+                        "blockId": "20240516032756-9tpns25",
                         "instance": "Editor",
                         "mode": "wysiwyg",
-                        "notebookId": "20240310114442-j6xbzkj",
-                        "rootId": "20240515022803-za3hwpp"
+                        "notebookId": "20240309023106-0qy9xxz",
+                        "rootId": "20240516032756-9tpns25"
                       },
-                      "docIcon": "mysql.ico",
+                      "docIcon": "sql.png",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "主从复制"
+                      "title": "DCL"
                     },
                     {
                       "active": true,
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240515022809-xrc50u2",
+                        "blockId": "20240516032808-3lh6x4z",
                         "instance": "Editor",
                         "mode": "wysiwyg",
-                        "notebookId": "20240310114442-j6xbzkj",
-                        "rootId": "20240515022809-xrc50u2"
+                        "notebookId": "20240309023106-0qy9xxz",
+                        "rootId": "20240516032808-3lh6x4z"
                       },
-                      "docIcon": "mysql.ico",
+                      "docIcon": "sql.png",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "分库分表及读写分离"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240515022726-byh2bh2",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240310114442-j6xbzkj",
-                        "rootId": "20240515022726-byh2bh2"
-                      },
-                      "docIcon": "mysql.ico",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "索引"
+                      "title": "事务"
                     }
                   ],
                   "height": "",
@@ -1407,13 +1399,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 964,
-    "cTreeCount": 1000,
-    "blockCount": 17092,
-    "cBlockCount": 20000,
-    "dataSize": 189332275,
+    "treeCount": 1108,
+    "cTreeCount": 1500,
+    "blockCount": 21930,
+    "cBlockCount": 30000,
+    "dataSize": 195214942,
     "cDataSize": 209715200,
-    "assetsSize": 42569600,
+    "assetsSize": 47374792,
     "cAssetsSize": 104857600
   },
   "api": {

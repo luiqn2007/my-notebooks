@@ -2,7 +2,7 @@
   "name": "读书",
   "sort": 7,
   "icon": "",
-  "closed": true,
+  "closed": false,
   "refCreateSaveBox": "",
   "refCreateSavePath": "",
   "docCreateSaveBox": "",
