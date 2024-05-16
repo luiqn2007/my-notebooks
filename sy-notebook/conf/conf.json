@@ -87,6 +87,8 @@
     "generateHistoryInterval": 10,
     "historyRetentionDays": 30,
     "emoji": [
+      "1f1e8",
+      "scala.png",
       "sql.png",
       "2615",
       "latex.ico",
@@ -127,7 +129,6 @@
       "Rx_Icon.png",
       "1f921",
       "siyuan-128.png",
-      "1f1e8",
       "1f63a",
       "thymeleaf.png",
       "1f980",
@@ -289,103 +290,8 @@
                 {
                   "children": [
                     {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240516031834-4jham6b",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240309023106-0qy9xxz",
-                        "rootId": "20240516031834-4jham6b"
-                      },
-                      "docIcon": "sql.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "SQL"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240516032154-oefl859",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240309023106-0qy9xxz",
-                        "rootId": "20240516032154-oefl859"
-                      },
-                      "docIcon": "sql.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "DDL"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240516032518-a3947ug",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240309023106-0qy9xxz",
-                        "rootId": "20240516032518-a3947ug"
-                      },
-                      "docIcon": "sql.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "DML"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240516032606-52ovnmr",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240309023106-0qy9xxz",
-                        "rootId": "20240516032606-52ovnmr"
-                      },
-                      "docIcon": "sql.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "DQL"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240516032622-skqbmfd",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240309023106-0qy9xxz",
-                        "rootId": "20240516032622-skqbmfd"
-                      },
-                      "docIcon": "sql.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "多表查询"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240516032756-9tpns25",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240309023106-0qy9xxz",
-                        "rootId": "20240516032756-9tpns25"
-                      },
-                      "docIcon": "sql.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "DCL"
-                    },
-                    {
-                      "active": true,
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240516032808-3lh6x4z",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240309023106-0qy9xxz",
-                        "rootId": "20240516032808-3lh6x4z"
-                      },
-                      "docIcon": "sql.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "事务"
+                      "children": {},
+                      "instance": "Tab"
                     }
                   ],
                   "height": "",
@@ -1399,13 +1305,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 1108,
+    "treeCount": 1153,
     "cTreeCount": 1500,
-    "blockCount": 21930,
+    "blockCount": 22788,
     "cBlockCount": 30000,
-    "dataSize": 195214942,
+    "dataSize": 196390340,
     "cDataSize": 209715200,
-    "assetsSize": 47374792,
+    "assetsSize": 48196097,
     "cAssetsSize": 104857600
   },
   "api": {
