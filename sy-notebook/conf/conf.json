@@ -290,8 +290,19 @@
                 {
                   "children": [
                     {
-                      "children": {},
-                      "instance": "Tab"
+                      "active": true,
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240513032902-ywprhez",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240310114442-j6xbzkj",
+                        "rootId": "20240513032902-ywprhez"
+                      },
+                      "docIcon": "github.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "Github SSH 登录"
                     }
                   ],
                   "height": "",
@@ -1309,7 +1320,7 @@
     "cTreeCount": 1500,
     "blockCount": 22788,
     "cBlockCount": 30000,
-    "dataSize": 196390340,
+    "dataSize": 196390364,
     "cDataSize": 209715200,
     "assetsSize": 48196097,
     "cAssetsSize": 104857600
@@ -1328,5 +1339,5 @@
     "enabledCSS": true,
     "enabledJS": true
   },
-  "state": 0
+  "state": 1
 }
