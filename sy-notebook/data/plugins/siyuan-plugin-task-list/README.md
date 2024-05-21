@@ -1,18 +1,12 @@
 [中文](https://github.com/syh19/siyuan-plugin-task-list/blob/main/README_zh_CN.md)
 
-# Latest version `v0.1.3` change log
+# Latest version `v0.2.1` change log
 
 **Enhancement**
 
-- `v0.1.0` [Add time-based sorting functionality to task nodes](https://github.com/syh19/siyuan-plugin-task-list/issues/9)
-- `v0.1.0` Reduce packaged file size
-- `v0.1.3` ✨✨✨ [**Display the number of tasks.**](https://github.com/syh19/siyuan-plugin-task-list/issues/14)
-
-**Bugfix**
-
-- `v0.1.0` Moving the `dock` bar plugin icon causes the plugin to become unusable.
-- `v0.1.1` Task nodes cannot be displayed normally under the document dimension
-- `v0.1.2` The plug-in reports an error when no setting configuration is saved in the drawer.
+- ✨✨✨ `v0.2.0` Task nodes implement customized processing time through calendar view [#7](https://github.com/syh19/siyuan-plugin-task-list/issues/7) [#15](https://github.com/syh19/siyuan-plugin-task-list/issues/15)
+- ✨✨✨ `v0.2.0` Implement calendar view filtering of task nodes [#7](https://github.com/syh19/siyuan-plugin-task-list/issues/7) [#15](https://github.com/syh19/siyuan-plugin-task-list/issues/15)
+- `v0.2.1` Task dimension TAB supports persistent storage
 
 > - [For more information about the plugin, please view here](https://liuyun.io/article/1711344682726)
 > - [Please view the CHANGE LOG of all versions here](https://github.com/syh19/siyuan-plugin-task-list/blob/main/CHANGELOG_EN.md)

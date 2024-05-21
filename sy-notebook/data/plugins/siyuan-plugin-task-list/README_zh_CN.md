@@ -1,18 +1,12 @@
 [English](https://github.com/syh19/siyuan-plugin-task-list/blob/main/README.md)
 
-# 最新版本`v0.1.3`更新记录
+# 最新版本`v0.2.1`更新记录
 
 **改进功能**
 
-- `v0.1.0` [为任务节点添加基于时间的排序功能](https://github.com/syh19/siyuan-plugin-task-list/issues/9)
-- `v0.1.0` 缩小打包后的文件体积
-- `v0.1.3` ✨✨✨ [**显示任务的数量**](https://github.com/syh19/siyuan-plugin-task-list/issues/14)
-
-**修复缺陷**
-
-- `v0.1.0` 移动 `dock` 栏插件图标导致插件无法使用
-- `v0.1.1` 文档维度下任务节点无法正常显示
-- `v0.1.2` 从未在抽屉中保存任何设置项配置时导致插件报错
+- ✨✨✨ `v0.2.0` 任务节点通过日历视图实现自定义处理时间 [#7](https://github.com/syh19/siyuan-plugin-task-list/issues/7) [#15](https://github.com/syh19/siyuan-plugin-task-list/issues/15)
+- ✨✨✨ `v0.2.0` 实现日历视图对任务节点的过滤筛选 [#7](https://github.com/syh19/siyuan-plugin-task-list/issues/7) [#15](https://github.com/syh19/siyuan-plugin-task-list/issues/15)
+- `v0.2.1` 任务维度 TAB 支持持久化存储
 
 > - [所有功能的详情描述请看这里](https://ld246.com/article/1711244396256)
 > - [所有版本的更新记录请看这里](https://github.com/syh19/siyuan-plugin-task-list/blob/main/CHANGELOG.md)
