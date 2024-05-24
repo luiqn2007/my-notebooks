@@ -291,34 +291,6 @@
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240524150815-616s79p",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240524150815-616s79p"
-                      },
-                      "docIcon": "vue.svg",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "CSS 动画"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240524170300-mvp6ozl",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240524170300-mvp6ozl"
-                      },
-                      "docIcon": "vue.svg",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "style 类"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
                         "blockId": "20240524142357-t8mjkuc",
                         "instance": "Editor",
                         "mode": "wysiwyg",
@@ -331,33 +303,47 @@
                       "title": "transition"
                     },
                     {
-                      "active": true,
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240524171219-6brd4cy",
+                        "blockId": "20240524142407-6y68c3j",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240524171219-6brd4cy"
+                        "rootId": "20240524142407-6y68c3j"
                       },
                       "docIcon": "vue.svg",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "JS 动画"
+                      "title": "transition-group"
                     },
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240524150808-bn3i508",
+                        "blockId": "20240524191427-qnkrr5l",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240524150808-bn3i508"
+                        "rootId": "20240524191427-qnkrr5l"
                       },
                       "docIcon": "vue.svg",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "CSS 过渡"
+                      "title": "例：插入、删除元素"
+                    },
+                    {
+                      "active": true,
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240524192746-81ikhf1",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240524192746-81ikhf1"
+                      },
+                      "docIcon": "vue.svg",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "例：列表平滑过渡"
                     }
                   ],
                   "height": "",
@@ -589,9 +575,7 @@
   "readonly": false,
   "localIPs": [
     "127.0.0.1",
-    "192.168.31.236",
-    "[::1]",
-    "[fe80::5014:82aa:6efc:3e8d]"
+    "[::1]"
   ],
   "accessAuthCode": "",
   "system": {
@@ -605,7 +589,7 @@
     "isInsider": false,
     "homeDir": "/home/lq2007",
     "workspaceDir": "/home/lq2007/puoc7-qgiyy/sy-notebook",
-    "appDir": "/tmp/.mount_siyuan7nKWFv/resources",
+    "appDir": "/tmp/.mount_siyuan0akkx5/resources",
     "confDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/conf",
     "dataDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/data",
     "networkServe": false,
@@ -1361,11 +1345,11 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 1191,
+    "treeCount": 1193,
     "cTreeCount": 1500,
-    "blockCount": 22448,
+    "blockCount": 22551,
     "cBlockCount": 30000,
-    "dataSize": 194245163,
+    "dataSize": 194270145,
     "cDataSize": 209715200,
     "assetsSize": 46104748,
     "cAssetsSize": 104857600
