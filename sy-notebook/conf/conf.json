@@ -4,18 +4,15 @@
     "mode": 0,
     "modeOS": false,
     "darkThemes": [
-      "Asri",
       "midnight"
     ],
     "lightThemes": [
-      "Asri",
       "daylight"
     ],
     "themeDark": "midnight",
     "themeLight": "daylight",
     "themeVer": "1.0.7",
     "icons": [
-      "Lucide-icon",
       "ant",
       "material"
     ],
@@ -181,7 +178,7 @@
     "tagOpenMarker": "#",
     "tagCloseMarker": "#",
     "fileAnnotationRefMode": 0,
-    "pandocBin": "C:\\Users\\lq200\\siyuan\\sy-notebook\\temp\\pandoc\\bin\\pandoc.exe",
+    "pandocBin": "/home/lq2007/puoc7-qgiyy/sy-notebook/temp/pandoc/bin/pandoc",
     "markdownYFM": false,
     "pdfFooter": "%page / %pages",
     "docxTemplate": "",
@@ -294,73 +291,73 @@
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240523160041-6kju6zu",
+                        "blockId": "20240524150815-616s79p",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240523160041-6kju6zu"
+                        "rootId": "20240524150815-616s79p"
                       },
                       "docIcon": "vue.svg",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "组件链传递"
+                      "title": "CSS 动画"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240524170300-mvp6ozl",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240524170300-mvp6ozl"
+                      },
+                      "docIcon": "vue.svg",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "style 类"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240524142357-t8mjkuc",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240524142357-t8mjkuc"
+                      },
+                      "docIcon": "vue.svg",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "transition"
                     },
                     {
                       "active": true,
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240523155620-s2flsk5",
+                        "blockId": "20240524171219-6brd4cy",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240523155620-s2flsk5"
+                        "rootId": "20240524171219-6brd4cy"
                       },
                       "docIcon": "vue.svg",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "插槽"
+                      "title": "JS 动画"
                     },
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240523160053-m6l72w0",
+                        "blockId": "20240524150808-bn3i508",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240523160053-m6l72w0"
+                        "rootId": "20240524150808-bn3i508"
                       },
                       "docIcon": "vue.svg",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "自定义事件"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240524011536-x848avi",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240524011536-x848avi"
-                      },
-                      "docIcon": "vue.svg",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "中央事件总线 mitt"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240524011759-br30un2",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240524011759-br30un2"
-                      },
-                      "docIcon": "mitt.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "mitt 的一个简单实现"
+                      "title": "CSS 过渡"
                     }
                   ],
                   "height": "",
@@ -592,37 +589,25 @@
   "readonly": false,
   "localIPs": [
     "127.0.0.1",
-    "10.22.2.154",
-    "172.27.16.1",
-    "172.30.16.1",
-    "26.210.116.202",
-    "169.254.106.59",
-    "169.254.175.180",
+    "192.168.31.236",
     "[::1]",
-    "[fdfd::1ad2:74ca]",
-    "[2001:0:2851:b9f0:30a6:a364:8a57:db68]",
-    "[fe80::8932:5202:9501:4c4f]",
-    "[fe80::2920:19ac:f0cf:cb77]",
-    "[fe80::68ac:5cff:cbbd:2f5c]",
-    "[fe80::30a6:a364:8a57:db68]",
-    "[fe80::1300:ff06:43a6:c2f]",
-    "[fe80::403:c43a:617a:ff4c]"
+    "[fe80::5014:82aa:6efc:3e8d]"
   ],
   "accessAuthCode": "",
   "system": {
-    "id": "7a948d12-efb4-430f-ae4a-7cc3a866c486",
-    "name": "lq-pc",
+    "id": "7848f38e92cd4f9686ff2e5ed72bcb7f",
+    "name": "luqin-W65-67SJ",
     "kernelVersion": "3.0.15",
-    "os": "windows",
-    "osPlatform": "Microsoft Windows 11 Pro",
+    "os": "linux",
+    "osPlatform": "Kylin",
     "container": "std",
-    "isMicrosoftStore": true,
+    "isMicrosoftStore": false,
     "isInsider": false,
-    "homeDir": "C:\\Users\\lq200",
-    "workspaceDir": "C:\\Users\\lq200\\siyuan\\sy-notebook",
-    "appDir": "C:\\Program Files\\WindowsApps\\89C2A984.SiYuan_3.0.15.0_x64__1qfd3tsw4ngc2\\app\\resources",
-    "confDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\conf",
-    "dataDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\data",
+    "homeDir": "/home/lq2007",
+    "workspaceDir": "/home/lq2007/puoc7-qgiyy/sy-notebook",
+    "appDir": "/tmp/.mount_siyuan7nKWFv/resources",
+    "confDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/conf",
+    "dataDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/data",
     "networkServe": false,
     "networkProxy": {
       "scheme": "",
@@ -1366,7 +1351,7 @@
       "apiTemperature": 1,
       "apiMaxContexts": 7,
       "apiBaseURL": "https://api.openai.com/v1",
-      "apiUserAgent": "SiYuan/3.0.15 std/windows",
+      "apiUserAgent": "SiYuan/3.0.15 std/linux",
       "apiProvider": "OpenAI",
       "apiVersion": ""
     }
@@ -1376,13 +1361,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 1175,
+    "treeCount": 1191,
     "cTreeCount": 1500,
-    "blockCount": 22267,
+    "blockCount": 22448,
     "cBlockCount": 30000,
-    "dataSize": 194532951,
+    "dataSize": 194245163,
     "cDataSize": 209715200,
-    "assetsSize": 45934659,
+    "assetsSize": 46104748,
     "cAssetsSize": 104857600
   },
   "api": {
