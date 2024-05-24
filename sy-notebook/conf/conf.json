@@ -4,15 +4,18 @@
     "mode": 0,
     "modeOS": false,
     "darkThemes": [
+      "Asri",
       "midnight"
     ],
     "lightThemes": [
+      "Asri",
       "daylight"
     ],
     "themeDark": "midnight",
     "themeLight": "daylight",
     "themeVer": "1.0.7",
     "icons": [
+      "Lucide-icon",
       "ant",
       "material"
     ],
@@ -178,7 +181,7 @@
     "tagOpenMarker": "#",
     "tagCloseMarker": "#",
     "fileAnnotationRefMode": 0,
-    "pandocBin": "/home/lq2007/puoc7-qgiyy/sy-notebook/temp/pandoc/bin/pandoc",
+    "pandocBin": "C:\\Users\\lq200\\siyuan\\sy-notebook\\temp\\pandoc\\bin\\pandoc.exe",
     "markdownYFM": false,
     "pdfFooter": "%page / %pages",
     "docxTemplate": "",
@@ -291,59 +294,59 @@
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240524142357-t8mjkuc",
+                        "blockId": "20240525020132-r4xdzzy",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240524142357-t8mjkuc"
+                        "rootId": "20240525020132-r4xdzzy"
                       },
                       "docIcon": "vue.svg",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "transition"
+                      "title": "例：v-focus 自动获取焦点"
                     },
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240524142407-6y68c3j",
+                        "blockId": "20240525020833-314s6oo",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240524142407-6y68c3j"
+                        "rootId": "20240525020833-314s6oo"
                       },
-                      "docIcon": "vue.svg",
+                      "docIcon": "",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "transition-group"
+                      "title": "未命名"
                     },
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240524191427-qnkrr5l",
+                        "blockId": "20240524134456-d0p20z6",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240524191427-qnkrr5l"
+                        "rootId": "20240524134456-d0p20z6"
                       },
                       "docIcon": "vue.svg",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "例：插入、删除元素"
+                      "title": "自定义指令"
                     },
                     {
                       "active": true,
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240524192746-81ikhf1",
+                        "blockId": "20240525022055-p9015w2",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240524192746-81ikhf1"
+                        "rootId": "20240525022055-p9015w2"
                       },
                       "docIcon": "vue.svg",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "例：列表平滑过渡"
+                      "title": "例：给定时间与当前时间差转换"
                     }
                   ],
                   "height": "",
@@ -575,23 +578,37 @@
   "readonly": false,
   "localIPs": [
     "127.0.0.1",
-    "[::1]"
+    "172.27.16.1",
+    "172.30.16.1",
+    "10.22.2.154",
+    "26.210.116.202",
+    "169.254.106.59",
+    "169.254.175.180",
+    "[::1]",
+    "[fdfd::1ad2:74ca]",
+    "[2001:0:2851:b9f0:8da:bb27:8a57:db42]",
+    "[fe80::8932:5202:9501:4c4f]",
+    "[fe80::1300:ff06:43a6:c2f]",
+    "[fe80::403:c43a:617a:ff4c]",
+    "[fe80::2920:19ac:f0cf:cb77]",
+    "[fe80::68ac:5cff:cbbd:2f5c]",
+    "[fe80::8da:bb27:8a57:db42]"
   ],
   "accessAuthCode": "",
   "system": {
-    "id": "7848f38e92cd4f9686ff2e5ed72bcb7f",
-    "name": "luqin-W65-67SJ",
+    "id": "7a948d12-efb4-430f-ae4a-7cc3a866c486",
+    "name": "lq-pc",
     "kernelVersion": "3.0.15",
-    "os": "linux",
-    "osPlatform": "Kylin",
+    "os": "windows",
+    "osPlatform": "Microsoft Windows 11 Pro",
     "container": "std",
-    "isMicrosoftStore": false,
+    "isMicrosoftStore": true,
     "isInsider": false,
-    "homeDir": "/home/lq2007",
-    "workspaceDir": "/home/lq2007/puoc7-qgiyy/sy-notebook",
-    "appDir": "/tmp/.mount_siyuan0akkx5/resources",
-    "confDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/conf",
-    "dataDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/data",
+    "homeDir": "C:\\Users\\lq200",
+    "workspaceDir": "C:\\Users\\lq200\\siyuan\\sy-notebook",
+    "appDir": "C:\\Program Files\\WindowsApps\\89C2A984.SiYuan_3.0.15.0_x64__1qfd3tsw4ngc2\\app\\resources",
+    "confDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\conf",
+    "dataDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\data",
     "networkServe": false,
     "networkProxy": {
       "scheme": "",
@@ -1335,7 +1352,7 @@
       "apiTemperature": 1,
       "apiMaxContexts": 7,
       "apiBaseURL": "https://api.openai.com/v1",
-      "apiUserAgent": "SiYuan/3.0.15 std/linux",
+      "apiUserAgent": "SiYuan/3.0.15 std/windows",
       "apiProvider": "OpenAI",
       "apiVersion": ""
     }
@@ -1345,13 +1362,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 1193,
+    "treeCount": 1197,
     "cTreeCount": 1500,
     "blockCount": 22551,
     "cBlockCount": 30000,
-    "dataSize": 194270145,
+    "dataSize": 194834706,
     "cDataSize": 209715200,
-    "assetsSize": 46104748,
+    "assetsSize": 46104795,
     "cAssetsSize": 104857600
   },
   "api": {
