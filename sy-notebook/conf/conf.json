@@ -4,18 +4,15 @@
     "mode": 0,
     "modeOS": false,
     "darkThemes": [
-      "Asri",
       "midnight"
     ],
     "lightThemes": [
-      "Asri",
       "daylight"
     ],
     "themeDark": "midnight",
     "themeLight": "daylight",
     "themeVer": "1.0.7",
     "icons": [
-      "Lucide-icon",
       "ant",
       "material"
     ],
@@ -181,7 +178,7 @@
     "tagOpenMarker": "#",
     "tagCloseMarker": "#",
     "fileAnnotationRefMode": 0,
-    "pandocBin": "C:\\Users\\lq200\\siyuan\\sy-notebook\\temp\\pandoc\\bin\\pandoc.exe",
+    "pandocBin": "/home/lq2007/puoc7-qgiyy/sy-notebook/temp/pandoc/bin/pandoc",
     "markdownYFM": false,
     "pdfFooter": "%page / %pages",
     "docxTemplate": "",
@@ -294,59 +291,31 @@
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240525020132-r4xdzzy",
+                        "blockId": "20240525213907-5sel8r2",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240525020132-r4xdzzy"
+                        "rootId": "20240525213907-5sel8r2"
                       },
                       "docIcon": "vue.svg",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "例：v-focus 自动获取焦点"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240525020833-314s6oo",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240525020833-314s6oo"
-                      },
-                      "docIcon": "",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "未命名"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240524134456-d0p20z6",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240524134456-d0p20z6"
-                      },
-                      "docIcon": "vue.svg",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "自定义指令"
+                      "title": "响应式属性"
                     },
                     {
                       "active": true,
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240525022055-p9015w2",
+                        "blockId": "20240524134517-ftqifc3",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240525022055-p9015w2"
+                        "rootId": "20240524134517-ftqifc3"
                       },
                       "docIcon": "vue.svg",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "例：给定时间与当前时间差转换"
+                      "title": "组合式 API"
                     }
                   ],
                   "height": "",
@@ -578,37 +547,23 @@
   "readonly": false,
   "localIPs": [
     "127.0.0.1",
-    "172.27.16.1",
-    "172.30.16.1",
-    "10.22.2.154",
-    "26.210.116.202",
-    "169.254.106.59",
-    "169.254.175.180",
-    "[::1]",
-    "[fdfd::1ad2:74ca]",
-    "[2001:0:2851:b9f0:8da:bb27:8a57:db42]",
-    "[fe80::8932:5202:9501:4c4f]",
-    "[fe80::1300:ff06:43a6:c2f]",
-    "[fe80::403:c43a:617a:ff4c]",
-    "[fe80::2920:19ac:f0cf:cb77]",
-    "[fe80::68ac:5cff:cbbd:2f5c]",
-    "[fe80::8da:bb27:8a57:db42]"
+    "[::1]"
   ],
   "accessAuthCode": "",
   "system": {
-    "id": "7a948d12-efb4-430f-ae4a-7cc3a866c486",
-    "name": "lq-pc",
+    "id": "7848f38e92cd4f9686ff2e5ed72bcb7f",
+    "name": "luqin-W65-67SJ",
     "kernelVersion": "3.0.15",
-    "os": "windows",
-    "osPlatform": "Microsoft Windows 11 Pro",
+    "os": "linux",
+    "osPlatform": "Kylin",
     "container": "std",
-    "isMicrosoftStore": true,
+    "isMicrosoftStore": false,
     "isInsider": false,
-    "homeDir": "C:\\Users\\lq200",
-    "workspaceDir": "C:\\Users\\lq200\\siyuan\\sy-notebook",
-    "appDir": "C:\\Program Files\\WindowsApps\\89C2A984.SiYuan_3.0.15.0_x64__1qfd3tsw4ngc2\\app\\resources",
-    "confDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\conf",
-    "dataDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\data",
+    "homeDir": "/home/lq2007",
+    "workspaceDir": "/home/lq2007/puoc7-qgiyy/sy-notebook",
+    "appDir": "/tmp/.mount_siyuan5ozhAT/resources",
+    "confDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/conf",
+    "dataDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/data",
     "networkServe": false,
     "networkProxy": {
       "scheme": "",
@@ -1352,7 +1307,7 @@
       "apiTemperature": 1,
       "apiMaxContexts": 7,
       "apiBaseURL": "https://api.openai.com/v1",
-      "apiUserAgent": "SiYuan/3.0.15 std/windows",
+      "apiUserAgent": "SiYuan/3.0.15 std/linux",
       "apiProvider": "OpenAI",
       "apiVersion": ""
     }
@@ -1362,13 +1317,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 1197,
+    "treeCount": 1202,
     "cTreeCount": 1500,
-    "blockCount": 22551,
+    "blockCount": 22696,
     "cBlockCount": 30000,
-    "dataSize": 194834706,
+    "dataSize": 194445706,
     "cDataSize": 209715200,
-    "assetsSize": 46104795,
+    "assetsSize": 46168016,
     "cAssetsSize": 104857600
   },
   "api": {
