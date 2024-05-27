@@ -1,5 +1,5 @@
 {
-  "local-codelang": "js",
+  "local-codelang": "bash",
   "local-dialogposition": {
     "dialog-attr": {
       "height": 917,
@@ -7422,20 +7422,20 @@
     },
     "20240524134517-ftqifc3": {
       "endId": "20240527021846-pt46cj7",
-      "focusEnd": 0,
-      "focusId": "20240525221311-ry314f2",
-      "focusStart": 0,
+      "focusEnd": 31,
+      "focusId": "20240527144550-j1io7gd",
+      "focusStart": 31,
       "rootId": "20240524134517-ftqifc3",
-      "scrollTop": 1890,
+      "scrollTop": 1700,
       "startId": "20240524134532-m0ami3m"
     },
     "20240524134546-s2ncjoa": {
-      "endId": "20240524134546-sh8wlua",
-      "focusEnd": 0,
-      "focusId": "20240524134546-sh8wlua",
-      "focusStart": 0,
+      "endId": "20240528021501-n6kr6ua",
+      "focusEnd": 66,
+      "focusId": "20240528021917-c85g8pg",
+      "focusStart": 66,
       "rootId": "20240524134546-s2ncjoa",
-      "scrollTop": 0,
+      "scrollTop": 819,
       "startId": "20240524134546-sh8wlua"
     },
     "20240524134551-2kzz1dv": {
@@ -7604,31 +7604,58 @@
       "startId": "20240527022115-qo5dwsa"
     },
     "20240527040800-2jlb1qe": {
-      "endId": "20240527040800-0hrm9nx",
+      "endId": "20240527144041-juqcjs6",
       "focusEnd": 0,
-      "focusId": "20240527040800-0hrm9nx",
+      "focusId": "20240527144041-juqcjs6",
       "focusStart": 0,
       "rootId": "20240527040800-2jlb1qe",
       "scrollTop": 0,
       "startId": "20240527040800-0hrm9nx"
     },
     "20240527040806-tjw7xl6": {
-      "endId": "20240527040806-a7aownt",
+      "endId": "20240527144457-c8sce30",
       "focusEnd": 0,
-      "focusId": "20240527040806-a7aownt",
+      "focusId": "20240527144457-c8sce30",
       "focusStart": 0,
       "rootId": "20240527040806-tjw7xl6",
       "scrollTop": 0,
       "startId": "20240527040806-a7aownt"
     },
     "20240527040822-x588xnu": {
-      "endId": "20240527040822-fmmsmig",
-      "focusEnd": 0,
-      "focusId": "20240527040822-fmmsmig",
-      "focusStart": 0,
+      "endId": "20240527155717-f3ccfc1",
+      "focusEnd": 30,
+      "focusId": "20240527155903-f9w1cht",
+      "focusStart": 30,
       "rootId": "20240527040822-x588xnu",
-      "scrollTop": 0,
+      "scrollTop": 59,
       "startId": "20240527040822-fmmsmig"
+    },
+    "20240528013236-lty9pzu": {
+      "endId": "20240528013511-h90zjfd",
+      "focusEnd": 4,
+      "focusId": "20240528021308-cpnngtc",
+      "focusStart": 4,
+      "rootId": "20240528013236-lty9pzu",
+      "scrollTop": 0,
+      "startId": "20240528013236-j7f6gdg"
+    },
+    "20240528013512-lxa3361": {
+      "endId": "20240528020832-reozuxx",
+      "focusEnd": 2,
+      "focusId": "20240528013520-3w7jy39",
+      "focusStart": 2,
+      "rootId": "20240528013512-lxa3361",
+      "scrollTop": 290,
+      "startId": "20240528013520-3w7jy39"
+    },
+    "20240528022046-jxtw6ws": {
+      "endId": "20240528024209-bbvdedu",
+      "focusEnd": 0,
+      "focusId": "20240528024209-bbvdedu",
+      "focusStart": 0,
+      "rootId": "20240528022046-jxtw6ws",
+      "scrollTop": 1216,
+      "startId": "20240528022046-35ps02i"
     }
   },
   "local-searchkeys": {

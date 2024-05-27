@@ -87,6 +87,8 @@
     "generateHistoryInterval": 10,
     "historyRetentionDays": 30,
     "emoji": [
+      "webpack.png",
+      "npm.png",
       "vue.svg",
       "mitt.png",
       "1f1e8",
@@ -292,19 +294,33 @@
                 {
                   "children": [
                     {
-                      "active": true,
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240527040800-2jlb1qe",
+                        "blockId": "20240524134546-s2ncjoa",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240527040800-2jlb1qe"
+                        "rootId": "20240524134546-s2ncjoa"
                       },
-                      "docIcon": "vue.svg",
+                      "docIcon": "webpack.png",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "模板引用"
+                      "title": "webpack"
+                    },
+                    {
+                      "active": true,
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240528022046-jxtw6ws",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240528022046-jxtw6ws"
+                      },
+                      "docIcon": "webpack.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "基本配置"
                     }
                   ],
                   "height": "",
@@ -538,18 +554,18 @@
     "127.0.0.1",
     "10.22.2.154",
     "172.30.16.1",
-    "172.29.160.1",
+    "172.22.224.1",
     "26.210.116.202",
-    "169.254.123.222",
+    "169.254.106.59",
     "169.254.175.180",
     "[::1]",
     "[fdfd::1ad2:74ca]",
-    "[2001:0:2851:b9f0:a0:e2eb:8a57:db03]",
+    "[2001:0:2851:b9f0:3cf6:cba6:8a57:db04]",
     "[fe80::8932:5202:9501:4c4f]",
     "[fe80::2920:19ac:f0cf:cb77]",
     "[fe80::68ac:5cff:cbbd:2f5c]",
-    "[fe80::a0:e2eb:8a57:db03]",
-    "[fe80::2c65:dbd7:1b13:2993]",
+    "[fe80::3cf6:cba6:8a57:db04]",
+    "[fe80::3f77:85ce:87e:a05d]",
     "[fe80::1300:ff06:43a6:c2f]"
   ],
   "accessAuthCode": "",
@@ -1320,13 +1336,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 1204,
+    "treeCount": 1210,
     "cTreeCount": 1500,
-    "blockCount": 22740,
+    "blockCount": 22901,
     "cBlockCount": 30000,
-    "dataSize": 194987787,
+    "dataSize": 195207063,
     "cDataSize": 209715200,
-    "assetsSize": 46175123,
+    "assetsSize": 46242693,
     "cAssetsSize": 104857600
   },
   "api": {
