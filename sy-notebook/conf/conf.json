@@ -87,6 +87,7 @@
     "generateHistoryInterval": 10,
     "historyRetentionDays": 30,
     "emoji": [
+      "node.js.png",
       "webpack.png",
       "npm.png",
       "vue.svg",
@@ -294,33 +295,19 @@
                 {
                   "children": [
                     {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240524134546-s2ncjoa",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240524134546-s2ncjoa"
-                      },
-                      "docIcon": "webpack.png",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "webpack"
-                    },
-                    {
                       "active": true,
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240528022046-jxtw6ws",
+                        "blockId": "20240528111128-uwsba6o",
                         "instance": "Editor",
                         "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240528022046-jxtw6ws"
+                        "notebookId": "20240310114442-j6xbzkj",
+                        "rootId": "20240528111128-uwsba6o"
                       },
                       "docIcon": "webpack.png",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "基本配置"
+                      "title": "多起点入口打包实例"
                     }
                   ],
                   "height": "",
@@ -554,7 +541,7 @@
     "127.0.0.1",
     "10.22.2.154",
     "172.30.16.1",
-    "172.22.224.1",
+    "172.20.112.1",
     "26.210.116.202",
     "169.254.106.59",
     "169.254.175.180",
@@ -565,7 +552,7 @@
     "[fe80::2920:19ac:f0cf:cb77]",
     "[fe80::68ac:5cff:cbbd:2f5c]",
     "[fe80::3cf6:cba6:8a57:db04]",
-    "[fe80::3f77:85ce:87e:a05d]",
+    "[fe80::e501:7b7f:845a:4bdc]",
     "[fe80::1300:ff06:43a6:c2f]"
   ],
   "accessAuthCode": "",
@@ -1338,9 +1325,9 @@
   "stat": {
     "treeCount": 1210,
     "cTreeCount": 1500,
-    "blockCount": 22901,
+    "blockCount": 22923,
     "cBlockCount": 30000,
-    "dataSize": 195207063,
+    "dataSize": 195216742,
     "cDataSize": 209715200,
     "assetsSize": 46242693,
     "cAssetsSize": 104857600
