@@ -4,18 +4,15 @@
     "mode": 0,
     "modeOS": false,
     "darkThemes": [
-      "Asri",
       "midnight"
     ],
     "lightThemes": [
-      "Asri",
       "daylight"
     ],
     "themeDark": "midnight",
     "themeLight": "daylight",
     "themeVer": "1.0.7",
     "icons": [
-      "Lucide-icon",
       "ant",
       "material"
     ],
@@ -87,10 +84,10 @@
     "generateHistoryInterval": 10,
     "historyRetentionDays": 30,
     "emoji": [
-      "node.js.png",
       "webpack.png",
-      "npm.png",
       "vue.svg",
+      "node.js.png",
+      "npm.png",
       "mitt.png",
       "1f1e8",
       "scala.png",
@@ -184,7 +181,7 @@
     "tagOpenMarker": "#",
     "tagCloseMarker": "#",
     "fileAnnotationRefMode": 0,
-    "pandocBin": "C:\\Users\\lq200\\siyuan\\sy-notebook\\temp\\pandoc\\bin\\pandoc.exe",
+    "pandocBin": "/home/lq2007/puoc7-qgiyy/sy-notebook/temp/pandoc/bin/pandoc",
     "markdownYFM": false,
     "pdfFooter": "%page / %pages",
     "docxTemplate": "",
@@ -298,16 +295,16 @@
                       "active": true,
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240528111128-uwsba6o",
+                        "blockId": "20240528111302-fkjru0h",
                         "instance": "Editor",
                         "mode": "wysiwyg",
-                        "notebookId": "20240310114442-j6xbzkj",
-                        "rootId": "20240528111128-uwsba6o"
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240528111302-fkjru0h"
                       },
                       "docIcon": "webpack.png",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "多起点入口打包实例"
+                      "title": "webpack"
                     }
                   ],
                   "height": "",
@@ -539,37 +536,25 @@
   "readonly": false,
   "localIPs": [
     "127.0.0.1",
-    "10.22.2.154",
-    "172.30.16.1",
-    "172.20.112.1",
-    "26.210.116.202",
-    "169.254.106.59",
-    "169.254.175.180",
+    "192.168.31.236",
     "[::1]",
-    "[fdfd::1ad2:74ca]",
-    "[2001:0:2851:b9f0:3cf6:cba6:8a57:db04]",
-    "[fe80::8932:5202:9501:4c4f]",
-    "[fe80::2920:19ac:f0cf:cb77]",
-    "[fe80::68ac:5cff:cbbd:2f5c]",
-    "[fe80::3cf6:cba6:8a57:db04]",
-    "[fe80::e501:7b7f:845a:4bdc]",
-    "[fe80::1300:ff06:43a6:c2f]"
+    "[fe80::5014:82aa:6efc:3e8d]"
   ],
   "accessAuthCode": "",
   "system": {
-    "id": "7a948d12-efb4-430f-ae4a-7cc3a866c486",
-    "name": "lq-pc",
+    "id": "7848f38e92cd4f9686ff2e5ed72bcb7f",
+    "name": "luqin-W65-67SJ",
     "kernelVersion": "3.0.15",
-    "os": "windows",
-    "osPlatform": "Microsoft Windows 11 Pro",
+    "os": "linux",
+    "osPlatform": "Kylin",
     "container": "std",
-    "isMicrosoftStore": true,
+    "isMicrosoftStore": false,
     "isInsider": false,
-    "homeDir": "C:\\Users\\lq200",
-    "workspaceDir": "C:\\Users\\lq200\\siyuan\\sy-notebook",
-    "appDir": "C:\\Program Files\\WindowsApps\\89C2A984.SiYuan_3.0.15.0_x64__1qfd3tsw4ngc2\\app\\resources",
-    "confDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\conf",
-    "dataDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\data",
+    "homeDir": "/home/lq2007",
+    "workspaceDir": "/home/lq2007/puoc7-qgiyy/sy-notebook",
+    "appDir": "/tmp/.mount_siyuansbDgv4/resources",
+    "confDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/conf",
+    "dataDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/data",
     "networkServe": false,
     "networkProxy": {
       "scheme": "",
@@ -1313,7 +1298,7 @@
       "apiTemperature": 1,
       "apiMaxContexts": 7,
       "apiBaseURL": "https://api.openai.com/v1",
-      "apiUserAgent": "SiYuan/3.0.15 std/windows",
+      "apiUserAgent": "SiYuan/3.0.15 std/linux",
       "apiProvider": "OpenAI",
       "apiVersion": ""
     }
@@ -1323,13 +1308,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 1210,
+    "treeCount": 1221,
     "cTreeCount": 1500,
-    "blockCount": 22923,
+    "blockCount": 23128,
     "cBlockCount": 30000,
-    "dataSize": 195216742,
+    "dataSize": 195078207,
     "cDataSize": 209715200,
-    "assetsSize": 46242693,
+    "assetsSize": 46475568,
     "cAssetsSize": 104857600
   },
   "api": {
