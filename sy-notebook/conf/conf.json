@@ -306,7 +306,6 @@
                       "title": "路由参数匹配"
                     },
                     {
-                      "active": true,
                       "children": {
                         "action": "cb-get-scroll",
                         "blockId": "20240524134551-2kzz1dv",
@@ -319,6 +318,49 @@
                       "instance": "Tab",
                       "pin": false,
                       "title": "Vue Router"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240529135828-8d8k1tq",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240529135828-8d8k1tq"
+                      },
+                      "docIcon": "vue.svg",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "嵌套路由"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240529135842-2ps5pjf",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240529135842-2ps5pjf"
+                      },
+                      "docIcon": "vue.svg",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "编程式导航"
+                    },
+                    {
+                      "active": true,
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240529135901-3oqbpob",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240529135901-3oqbpob"
+                      },
+                      "docIcon": "vue.svg",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "命名路由"
                     }
                   ],
                   "height": "",
@@ -550,11 +592,7 @@
   "readonly": false,
   "localIPs": [
     "127.0.0.1",
-    "192.168.88.6",
-    "[::1]",
-    "[240e:460:3720:170:4325:8913:368c:7c9a]",
-    "[240e:460:3720:170:64d2:f564:115e:6862]",
-    "[fe80::a099:4003:88f3:ec56]"
+    "[::1]"
   ],
   "accessAuthCode": "",
   "system": {
@@ -568,7 +606,7 @@
     "isInsider": false,
     "homeDir": "/home/lq2007",
     "workspaceDir": "/home/lq2007/puoc7-qgiyy/sy-notebook",
-    "appDir": "/tmp/.mount_siyuanqKLUcA/resources",
+    "appDir": "/tmp/.mount_siyuanY9Td5r/resources",
     "confDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/conf",
     "dataDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/data",
     "networkServe": false,
@@ -1324,13 +1362,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 1220,
+    "treeCount": 1231,
     "cTreeCount": 1500,
-    "blockCount": 23147,
+    "blockCount": 23229,
     "cBlockCount": 30000,
-    "dataSize": 195116530,
+    "dataSize": 195413299,
     "cDataSize": 209715200,
-    "assetsSize": 46475568,
+    "assetsSize": 46739383,
     "cAssetsSize": 104857600
   },
   "api": {
