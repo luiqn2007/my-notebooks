@@ -5,6 +5,7 @@
 sy-notebook/data/.siyuan
 sy-notebook/data/storage/recent-doc.json
 sy-notebook/conf/windowState.json
+sy-notebook/conf/appearance/langs
 sy-notebook/backup
 sy-notebook/history
 sy-notebook/sync
