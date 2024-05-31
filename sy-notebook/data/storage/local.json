@@ -1,5 +1,5 @@
 {
-  "local-codelang": "html",
+  "local-codelang": "bash",
   "local-dialogposition": {
     "dialog-attr": {
       "height": 917,
@@ -2253,8 +2253,11 @@
     },
     "20240331134739-egwqwdb": {
       "endId": "20240404180939-gkna2x9",
+      "focusEnd": 0,
+      "focusId": "20240331134739-k1wwcns",
+      "focusStart": 0,
       "rootId": "20240331134739-egwqwdb",
-      "scrollTop": 0,
+      "scrollTop": 454,
       "startId": "20240331134739-k1wwcns"
     },
     "20240331134748-h9z33vv": {
@@ -4408,7 +4411,7 @@
       "focusId": "20240425161308-vs067e5",
       "focusStart": 72,
       "rootId": "20240425161132-8k6kqu3",
-      "scrollTop": 246,
+      "scrollTop": 253.6363525390625,
       "startId": "20240425161308-dd1t9rr"
     },
     "20240425161155-wh1dmp4": {
@@ -4417,7 +4420,7 @@
       "focusId": "20240425165231-jf4mux3",
       "focusStart": 0,
       "rootId": "20240425161155-wh1dmp4",
-      "scrollTop": 748.75,
+      "scrollTop": 876.3636474609375,
       "startId": "20240425161155-nkn6b5e"
     },
     "20240425165647-97rlgvp": {
@@ -4768,7 +4771,7 @@
       "focusId": "20240509144532-a3algwy",
       "focusStart": 4,
       "rootId": "20240508200858-6b2g0cr",
-      "scrollTop": 2346,
+      "scrollTop": 2275,
       "startId": "20240508201059-xkhk16p"
     },
     "20240509150135-yxwnjad": {
@@ -7899,6 +7902,15 @@
       "rootId": "20240531020103-5omkjwt",
       "scrollTop": 214,
       "startId": "20240531020103-gzk655q"
+    },
+    "20240531141008-d1jp3os": {
+      "endId": "20240531141633-78vit3e",
+      "focusEnd": 15,
+      "focusId": "20240531141746-u1pt8zs",
+      "focusStart": 15,
+      "rootId": "20240531141008-d1jp3os",
+      "scrollTop": 18.18181800842285,
+      "startId": "20240531141037-7ogcwro"
     }
   },
   "local-searchkeys": {

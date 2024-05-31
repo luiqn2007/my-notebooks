@@ -87,6 +87,7 @@
     "generateHistoryInterval": 10,
     "historyRetentionDays": 30,
     "emoji": [
+      "vite.svg",
       "element plus.svg",
       "vue.svg",
       "webpack.png",
@@ -1331,11 +1332,11 @@
   "stat": {
     "treeCount": 1235,
     "cTreeCount": 1500,
-    "blockCount": 23472,
+    "blockCount": 23539,
     "cBlockCount": 30000,
-    "dataSize": 196045229,
+    "dataSize": 196244553,
     "cDataSize": 209715200,
-    "assetsSize": 46739430,
+    "assetsSize": 46760552,
     "cAssetsSize": 104857600
   },
   "api": {
