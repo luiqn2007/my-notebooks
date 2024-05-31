@@ -75,7 +75,7 @@
   },
   "editor": {
     "allowHTMLBLockScript": false,
-    "fontSize": 16,
+    "fontSize": 17,
     "fontSizeScrollZoom": true,
     "fontFamily": "",
     "codeSyntaxHighlightLineNum": false,
@@ -87,6 +87,7 @@
     "generateHistoryInterval": 10,
     "historyRetentionDays": 30,
     "emoji": [
+      "element plus.svg",
       "vue.svg",
       "webpack.png",
       "node.js.png",
@@ -295,33 +296,8 @@
                 {
                   "children": [
                     {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240531020010-5iqcbxu",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240531020010-5iqcbxu"
-                      },
-                      "docIcon": "vue.svg",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "state 与计算属性"
-                    },
-                    {
-                      "active": true,
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240531020023-ryscv8v",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240531020023-ryscv8v"
-                      },
-                      "docIcon": "vue.svg",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "getters"
+                      "children": {},
+                      "instance": "Tab"
                     }
                   ],
                   "height": "",
@@ -561,11 +537,11 @@
     "169.254.175.180",
     "[::1]",
     "[fdfd::1ad2:74ca]",
-    "[2001:0:2851:b9f0:ce3:cdd5:8a57:db5c]",
+    "[2001:0:2851:b9f0:1028:dafa:8a57:db04]",
     "[fe80::8932:5202:9501:4c4f]",
     "[fe80::2920:19ac:f0cf:cb77]",
     "[fe80::68ac:5cff:cbbd:2f5c]",
-    "[fe80::ce3:cdd5:8a57:db5c]",
+    "[fe80::1028:dafa:8a57:db04]",
     "[fe80::612a:8286:6d62:a8f7]",
     "[fe80::1300:ff06:43a6:c2f]"
   ],
@@ -1353,11 +1329,11 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 1231,
+    "treeCount": 1235,
     "cTreeCount": 1500,
-    "blockCount": 23331,
+    "blockCount": 23472,
     "cBlockCount": 30000,
-    "dataSize": 196000171,
+    "dataSize": 196045229,
     "cDataSize": 209715200,
     "assetsSize": 46739430,
     "cAssetsSize": 104857600
