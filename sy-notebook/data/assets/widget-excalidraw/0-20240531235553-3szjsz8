@@ -1,0 +1,16 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width="100%" height="100%">
+  <!-- svg-source:excalidraw -->
+  <!-- payload-type:application/vnd.excalidraw+json --><!-- payload-version:2 --><!-- payload-start -->eyJ2ZXJzaW9uIjoiMSIsImVuY29kaW5nIjoiYnN0cmluZyIsImNvbXByZXNzZWQiOnRydWUsImVuY29kZWQiOiJ4nCWNzVx1MDAwZcIgXHUwMDEwhO99ilx1MDAwNq+NlTbG2GN9hFx1MDAxZY1cdTAwMDdcdTAwMDLbSkQg/LQq4d1cdTAwMDW6e5pvZ2ZDVdfIfTWgoUbwoURwZsiGmsxXMJYrmU5d0VZ5Q4vz6ZxcdTAwMWXaXHUwMDE2d5fjKS1cdTAwMWX6K+7Pe1xuXHUwMDA0vEE6m3z3RyFE68lcdTAwMTGXkyHpRFx1MDAxNsPZxH+ZSC9Es9OVwzZcdTAwMTL6Wozykt2UUCY/O8xlUDLF0jdzXHUwMDAxuT7EKv5cdTAwMDFaVjZzIn0=<!-- payload-end -->
+  <defs>
+    <style class="style-fonts">
+      @font-face {
+        font-family: "Virgil";
+        src: url("http://127.0.0.1:39135/widgets/widget-excalidraw/dist//dist/excalidraw-assets/Virgil.woff2");
+      }
+      @font-face {
+        font-family: "Cascadia";
+        src: url("http://127.0.0.1:39135/widgets/widget-excalidraw/dist//dist/excalidraw-assets/Cascadia.woff2");
+      }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="20" height="20" fill="#ffffff"/></svg>
