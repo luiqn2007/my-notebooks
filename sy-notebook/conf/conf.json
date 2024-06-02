@@ -4,15 +4,18 @@
     "mode": 1,
     "modeOS": false,
     "darkThemes": [
+      "Asri",
       "midnight"
     ],
     "lightThemes": [
+      "Asri",
       "daylight"
     ],
     "themeDark": "midnight",
     "themeLight": "daylight",
     "themeVer": "1.0.7",
     "icons": [
+      "Lucide-icon",
       "ant",
       "material"
     ],
@@ -84,9 +87,9 @@
     "generateHistoryInterval": 10,
     "historyRetentionDays": 30,
     "emoji": [
+      "element plus.svg",
       "vue.svg",
       "vite.svg",
-      "element plus.svg",
       "webpack.png",
       "node.js.png",
       "npm.png",
@@ -183,7 +186,7 @@
     "tagOpenMarker": "#",
     "tagCloseMarker": "#",
     "fileAnnotationRefMode": 0,
-    "pandocBin": "/home/lq2007/puoc7-qgiyy/sy-notebook/temp/pandoc/bin/pandoc",
+    "pandocBin": "C:\\Users\\lq200\\siyuan\\sy-notebook\\temp\\pandoc\\bin\\pandoc.exe",
     "markdownYFM": false,
     "pdfFooter": "%page / %pages",
     "docxTemplate": "",
@@ -286,7 +289,7 @@
               ],
               "direction": "tb",
               "instance": "Layout",
-              "size": "288px",
+              "size": "269px",
               "type": "left"
             },
             {
@@ -296,73 +299,101 @@
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240528111243-vidr5oo",
+                        "blockId": "20240603000526-mcozat4",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240528111243-vidr5oo"
+                        "rootId": "20240603000526-mcozat4"
+                      },
+                      "docIcon": "vite.svg",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "Vite"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240603000537-appe6fx",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240603000537-appe6fx"
+                      },
+                      "docIcon": "vite.svg",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "问题"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240603000545-048gfcv",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240603000545-048gfcv"
+                      },
+                      "docIcon": "vite.svg",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "Error: listen EACCES: permission denied ::1:8000"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240524134621-e8bjdvj",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240524134621-e8bjdvj"
                       },
                       "docIcon": "vue.svg",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "单文件组件"
+                      "title": "Vue UI 组件库"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240603000916-53h75xq",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240603000916-53h75xq"
+                      },
+                      "docIcon": "element plus.svg",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "element-plus 问题"
                     },
                     {
                       "active": true,
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240601002043-z4r2mt6",
+                        "blockId": "20240603001000-ooz7hah",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240601002043-z4r2mt6"
+                        "rootId": "20240603001000-ooz7hah"
                       },
-                      "docIcon": "vue.svg",
+                      "docIcon": "element plus.svg",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "script setup 写法"
+                      "title": "组合式 API 中 el-input 输入异常"
                     },
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240521154703-rnl3t03",
+                        "blockId": "20240603003612-g5vzo5c",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240521154703-rnl3t03"
+                        "rootId": "20240603003612-g5vzo5c"
                       },
-                      "docIcon": "vue.svg",
+                      "docIcon": "element plus.svg",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "生命周期"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240521152514-9y4ti2v",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240521152514-9y4ti2v"
-                      },
-                      "docIcon": "vue.svg",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "Vue3"
-                    },
-                    {
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240524134517-ftqifc3",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240524134517-ftqifc3"
-                      },
-                      "docIcon": "vue.svg",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "组合式 API"
+                      "title": "组合式 API 中 el-form 相关方法缺失"
                     }
                   ],
                   "height": "",
@@ -433,7 +464,7 @@
             "show": true,
             "size": {
               "height": 0,
-              "width": 288
+              "width": 269
             },
             "title": "文档树",
             "type": "file"
@@ -594,25 +625,37 @@
   "readonly": false,
   "localIPs": [
     "127.0.0.1",
-    "192.168.2.150",
+    "10.22.2.154",
+    "172.30.16.1",
+    "172.23.96.1",
+    "26.210.116.202",
+    "169.254.106.59",
+    "169.254.175.180",
     "[::1]",
-    "[fe80::9341:e677:a0c0:864f]"
+    "[fdfd::1ad2:74ca]",
+    "[2001:0:2851:b9f0:1c22:db39:8a57:db52]",
+    "[fe80::8932:5202:9501:4c4f]",
+    "[fe80::2920:19ac:f0cf:cb77]",
+    "[fe80::68ac:5cff:cbbd:2f5c]",
+    "[fe80::1c22:db39:8a57:db52]",
+    "[fe80::587:9d99:4032:f519]",
+    "[fe80::1300:ff06:43a6:c2f]"
   ],
   "accessAuthCode": "",
   "system": {
-    "id": "7848f38e92cd4f9686ff2e5ed72bcb7f",
-    "name": "luqin-W65-67SJ",
-    "kernelVersion": "3.0.15",
-    "os": "linux",
-    "osPlatform": "Kylin",
+    "id": "7a948d12-efb4-430f-ae4a-7cc3a866c486",
+    "name": "lq-pc",
+    "kernelVersion": "3.0.16",
+    "os": "windows",
+    "osPlatform": "Microsoft Windows 11 Pro",
     "container": "std",
-    "isMicrosoftStore": false,
+    "isMicrosoftStore": true,
     "isInsider": false,
-    "homeDir": "/home/lq2007",
-    "workspaceDir": "/home/lq2007/puoc7-qgiyy/sy-notebook",
-    "appDir": "/tmp/.mount_siyuancYoAvJ/resources",
-    "confDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/conf",
-    "dataDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/data",
+    "homeDir": "C:\\Users\\lq200",
+    "workspaceDir": "C:\\Users\\lq200\\siyuan\\sy-notebook",
+    "appDir": "C:\\Program Files\\WindowsApps\\89C2A984.SiYuan_3.0.16.0_x64__1qfd3tsw4ngc2\\app\\resources",
+    "confDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\conf",
+    "dataDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\data",
     "networkServe": false,
     "networkProxy": {
       "scheme": "",
@@ -691,6 +734,10 @@
         "duplicate": {
           "custom": "⌘D",
           "default": "⌘D"
+        },
+        "duplicateCompletely": {
+          "custom": "",
+          "default": ""
         },
         "exitFocus": {
           "custom": "",
@@ -1234,6 +1281,14 @@
       "toggleWin": {
         "custom": "",
         "default": "⌥M"
+      },
+      "unsplit": {
+        "custom": "",
+        "default": ""
+      },
+      "unsplitAll": {
+        "custom": "",
+        "default": ""
       }
     },
     "plugin": {
@@ -1360,7 +1415,7 @@
       "apiTemperature": 1,
       "apiMaxContexts": 7,
       "apiBaseURL": "https://api.openai.com/v1",
-      "apiUserAgent": "SiYuan/3.0.15 std/linux",
+      "apiUserAgent": "SiYuan/3.0.16 std/windows",
       "apiProvider": "OpenAI",
       "apiVersion": ""
     }
@@ -1370,13 +1425,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 1232,
+    "treeCount": 1236,
     "cTreeCount": 1500,
-    "blockCount": 23352,
+    "blockCount": 23570,
     "cBlockCount": 30000,
-    "dataSize": 195748894,
+    "dataSize": 196289942,
     "cDataSize": 209715200,
-    "assetsSize": 46760505,
+    "assetsSize": 46761703,
     "cAssetsSize": 104857600
   },
   "api": {
