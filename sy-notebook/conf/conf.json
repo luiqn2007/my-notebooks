@@ -299,45 +299,59 @@
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240524134621-e8bjdvj",
+                        "blockId": "20240411175627-00lyzfp",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240524134621-e8bjdvj"
+                        "rootId": "20240411175627-00lyzfp"
                       },
-                      "docIcon": "vue.svg",
+                      "docIcon": "spring.png",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "Vue UI 组件库"
+                      "title": "DispatcherServlet"
                     },
                     {
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240603003612-g5vzo5c",
+                        "blockId": "20240415161101-j55gmyx",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240603003612-g5vzo5c"
+                        "rootId": "20240415161101-j55gmyx"
                       },
-                      "docIcon": "element plus.svg",
+                      "docIcon": "spring.png",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "组合式 API 中 el-form 相关方法缺失"
+                      "title": "Controller 控制器"
                     },
                     {
                       "active": true,
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240603001000-ooz7hah",
+                        "blockId": "20240421012139-eo64o15",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240603001000-ooz7hah"
+                        "rootId": "20240421012139-eo64o15"
                       },
-                      "docIcon": "element plus.svg",
+                      "docIcon": "spring.png",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "组合式 API 中 el-input 输入异常"
+                      "title": "Spring Web 集成 Thymeleaf"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240331134821-j2g6pv6",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240331134821-j2g6pv6"
+                      },
+                      "docIcon": "spring.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "Spring Web MVC"
                     }
                   ],
                   "height": "",
@@ -570,26 +584,26 @@
   "localIPs": [
     "127.0.0.1",
     "10.22.2.154",
+    "172.28.128.1",
     "172.30.16.1",
-    "172.23.96.1",
     "26.210.116.202",
-    "169.254.106.59",
+    "169.254.123.222",
     "169.254.175.180",
+    "169.254.18.109",
     "[::1]",
     "[fdfd::1ad2:74ca]",
-    "[2001:0:2851:b9f0:1c22:db39:8a57:db52]",
     "[fe80::8932:5202:9501:4c4f]",
     "[fe80::2920:19ac:f0cf:cb77]",
     "[fe80::68ac:5cff:cbbd:2f5c]",
-    "[fe80::1c22:db39:8a57:db52]",
-    "[fe80::587:9d99:4032:f519]",
-    "[fe80::1300:ff06:43a6:c2f]"
+    "[fe80::b280:102b:cf0c:4256]",
+    "[fe80::1300:ff06:43a6:c2f]",
+    "[fe80::f919:ce00:71fd:61d7]"
   ],
   "accessAuthCode": "",
   "system": {
     "id": "7a948d12-efb4-430f-ae4a-7cc3a866c486",
     "name": "lq-pc",
-    "kernelVersion": "3.0.16",
+    "kernelVersion": "3.0.17",
     "os": "windows",
     "osPlatform": "Microsoft Windows 11 Pro",
     "container": "std",
@@ -597,7 +611,7 @@
     "isInsider": false,
     "homeDir": "C:\\Users\\lq200",
     "workspaceDir": "C:\\Users\\lq200\\siyuan\\sy-notebook",
-    "appDir": "C:\\Program Files\\WindowsApps\\89C2A984.SiYuan_3.0.16.0_x64__1qfd3tsw4ngc2\\app\\resources",
+    "appDir": "C:\\Program Files\\WindowsApps\\89C2A984.SiYuan_3.0.17.0_x64__1qfd3tsw4ngc2\\app\\resources",
     "confDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\conf",
     "dataDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\data",
     "networkServe": false,
@@ -1359,7 +1373,7 @@
       "apiTemperature": 1,
       "apiMaxContexts": 7,
       "apiBaseURL": "https://api.openai.com/v1",
-      "apiUserAgent": "SiYuan/3.0.16 std/windows",
+      "apiUserAgent": "SiYuan/3.0.17 std/windows",
       "apiProvider": "OpenAI",
       "apiVersion": ""
     }
@@ -1371,9 +1385,9 @@
   "stat": {
     "treeCount": 1243,
     "cTreeCount": 1500,
-    "blockCount": 23593,
+    "blockCount": 23594,
     "cBlockCount": 30000,
-    "dataSize": 197384772,
+    "dataSize": 197376962,
     "cDataSize": 209715200,
     "assetsSize": 47824273,
     "cAssetsSize": 104857600
