@@ -87,9 +87,9 @@
     "generateHistoryInterval": 10,
     "historyRetentionDays": 30,
     "emoji": [
+      "vite.svg",
       "element plus.svg",
       "vue.svg",
-      "vite.svg",
       "webpack.png",
       "node.js.png",
       "npm.png",
@@ -348,10 +348,10 @@
                         "notebookId": "20240311155743-7z83407",
                         "rootId": "20240606125915-7kp2ztz"
                       },
-                      "docIcon": "",
+                      "docIcon": "vite.svg",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "未命名"
+                      "title": "Failed to parse source for import analysis because the content contains invalid JS syntax. Install @vitejsplugin-vue to handle .vue files."
                     },
                     {
                       "children": {
@@ -1422,5 +1422,5 @@
     "enabledCSS": true,
     "enabledJS": true
   },
-  "state": 1
+  "state": 0
 }
