@@ -1,5 +1,5 @@
 {
-  "local-codelang": "js",
+  "local-codelang": "bash",
   "local-dialogposition": {
     "dialog-attr": {
       "height": 917,
@@ -5008,7 +5008,7 @@
       "focusId": "20240513035623-8e126c1",
       "focusStart": 4,
       "rootId": "20240513035620-e2fcnup",
-      "scrollTop": 6352,
+      "scrollTop": 3909,
       "startId": "20240513035623-x77qs9g"
     },
     "20240513035958-v2olb79": {
@@ -7982,23 +7982,186 @@
       "startId": "20240606125915-wwhx4fu"
     },
     "20240606164442-eb8sajs": {
-      "endId": "20240606173612-7ugdful",
+      "endId": "20240607121728-2215v86",
       "focusEnd": 0,
-      "focusId": "20240606173612-7ugdful",
+      "focusId": "20240607121728-2215v86",
       "focusStart": 0,
       "rootId": "20240606164442-eb8sajs",
-      "scrollTop": 436.3636169433594,
-      "startId": "20240606164446-hfbm7gd"
+      "scrollTop": 2602,
+      "startId": "20240606172609-vfbyct5"
+    },
+    "20240607103044-7s5pjsb": {
+      "endId": "20240607120039-muhcpec",
+      "focusEnd": 0,
+      "focusId": "20240607120039-muhcpec",
+      "focusStart": 0,
+      "rootId": "20240607103044-7s5pjsb",
+      "scrollTop": 1883,
+      "startId": "20240607104302-8wnz9mw"
+    },
+    "20240607121803-fjehmop": {
+      "endId": "20240607220342-u5mm6s1",
+      "focusEnd": 31,
+      "focusId": "20240607230953-of9fjte",
+      "focusStart": 31,
+      "rootId": "20240607121803-fjehmop",
+      "scrollTop": 3454,
+      "startId": "20240607220835-zsp0gqt"
+    },
+    "20240607121818-2ejupov": {
+      "endId": "20240608020356-p4hhhmt",
+      "focusEnd": 34,
+      "focusId": "20240608004701-43my8p8",
+      "focusStart": 34,
+      "rootId": "20240607121818-2ejupov",
+      "scrollTop": 36,
+      "startId": "20240608004204-w2nj5s8"
+    },
+    "20240607121828-n4buv1l": {
+      "endId": "20240608021315-smof9vj",
+      "focusEnd": 49,
+      "focusId": "20240608031937-wbcoygh",
+      "focusStart": 49,
+      "rootId": "20240607121828-n4buv1l",
+      "scrollTop": 476,
+      "startId": "20240607121828-ufeap47"
+    },
+    "20240607121840-eb6iye7": {
+      "endId": "20240608023926-1fkbrzn",
+      "focusEnd": 40,
+      "focusId": "20240608023935-nrjft97",
+      "focusStart": 40,
+      "rootId": "20240607121840-eb6iye7",
+      "scrollTop": 0,
+      "startId": "20240607121840-0ft8vha"
+    },
+    "20240607121853-ws4qf5b": {
+      "endId": "20240609041127-dwdsv7o",
+      "focusEnd": 0,
+      "focusId": "20240609041127-dwdsv7o",
+      "focusStart": 0,
+      "rootId": "20240607121853-ws4qf5b",
+      "scrollTop": 0,
+      "startId": "20240607121853-moh13h1"
+    },
+    "20240607121902-m8ujo4x": {
+      "endId": "20240607121903-fny2183",
+      "rootId": "20240607121902-m8ujo4x",
+      "scrollTop": 0,
+      "startId": "20240607121903-fny2183"
+    },
+    "20240607121908-adqzxsy": {
+      "endId": "20240607121908-z6focks",
+      "rootId": "20240607121908-adqzxsy",
+      "scrollTop": 0,
+      "startId": "20240607121908-z6focks"
+    },
+    "20240607121933-6qe0odm": {
+      "endId": "20240607121933-hjgsnqq",
+      "focusEnd": 0,
+      "focusId": "20240607121933-hjgsnqq",
+      "focusStart": 0,
+      "rootId": "20240607121933-6qe0odm",
+      "scrollTop": 0,
+      "startId": "20240607121939-8pdf2as"
+    },
+    "20240607121958-4fsd1e5": {
+      "endId": "20240607121958-yfy1gir",
+      "focusEnd": 0,
+      "focusId": "20240607121958-yfy1gir",
+      "focusStart": 0,
+      "rootId": "20240607121958-4fsd1e5",
+      "scrollTop": 0,
+      "startId": "20240607121958-yfy1gir"
+    },
+    "20240608024210-0k5fwku": {
+      "endId": "20240608183935-fk68rk5",
+      "focusEnd": 0,
+      "focusId": "20240608024210-ibtp96o",
+      "focusStart": 0,
+      "rootId": "20240608024210-0k5fwku",
+      "scrollTop": 272,
+      "startId": "20240608032627-l2icybb"
+    },
+    "20240608024348-4fyamf5": {
+      "endId": "20240608024359-2a7e2t7",
+      "focusEnd": 4,
+      "focusId": "20240608024359-8kc0gwd",
+      "focusStart": 4,
+      "rootId": "20240608024348-4fyamf5",
+      "scrollTop": 1087,
+      "startId": "20240608024359-2a7e2t7"
+    },
+    "20240608184123-19mayas": {
+      "endId": "20240609025504-sdvy2qp",
+      "focusEnd": 4,
+      "focusId": "20240609025613-5jn7hfj",
+      "focusStart": 4,
+      "rootId": "20240608184123-19mayas",
+      "scrollTop": 119.09090423583984,
+      "startId": "20240608184123-opoo45t"
+    },
+    "20240609030355-s8zxwes": {
+      "endId": "20240609030622-xxjnfy5",
+      "focusEnd": 0,
+      "focusId": "20240609030622-xxjnfy5",
+      "focusStart": 0,
+      "rootId": "20240609030355-s8zxwes",
+      "scrollTop": 157,
+      "startId": "20240609030355-s1u6flw"
+    },
+    "20240609030625-9xkxnhb": {
+      "endId": "20240609031404-esl3oow",
+      "focusEnd": 34,
+      "focusId": "20240609032050-c9gcq0k",
+      "focusStart": 34,
+      "rootId": "20240609030625-9xkxnhb",
+      "scrollTop": 181.81817626953125,
+      "startId": "20240609031403-w8lmqzp"
+    },
+    "20240609030640-blotkm1": {
+      "endId": "20240609040709-mqx2bri",
+      "focusEnd": 32,
+      "focusId": "20240609040813-za0ne6m",
+      "focusStart": 32,
+      "rootId": "20240609030640-blotkm1",
+      "scrollTop": 1469,
+      "startId": "20240609030640-49hkvqy"
+    },
+    "20240609041046-bw4iji1": {
+      "endId": "20240609041046-y3zu5ux",
+      "focusEnd": 0,
+      "focusId": "20240609041046-y3zu5ux",
+      "focusStart": 0,
+      "rootId": "20240609041046-bw4iji1",
+      "scrollTop": 0,
+      "startId": "20240609041046-y3zu5ux"
+    },
+    "20240609041056-gd41w5l": {
+      "endId": "20240609041056-c0awvk3",
+      "focusEnd": 0,
+      "focusId": "20240609041056-c0awvk3",
+      "focusStart": 0,
+      "rootId": "20240609041056-gd41w5l",
+      "scrollTop": 0,
+      "startId": "20240609041056-c0awvk3"
+    },
+    "20240609041111-o1eznme": {
+      "endId": "20240609041111-14sydx8",
+      "rootId": "20240609041111-o1eznme",
+      "scrollTop": 0,
+      "startId": "20240609041111-14sydx8"
     }
   },
   "local-searchkeys": {
     "col": "",
     "colTab": "",
     "keys": [
+      "",
+      "d",
       " ref=",
       "\u003c\u003e",
       "httpd.exe",
-      "",
       "​props",
       "app ",
       "Upgrading to Version 6.2",
