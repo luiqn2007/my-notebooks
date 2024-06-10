@@ -298,19 +298,61 @@
                 {
                   "children": [
                     {
-                      "active": true,
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240607121853-ws4qf5b",
+                        "blockId": "20240607121828-n4buv1l",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240310114442-j6xbzkj",
-                        "rootId": "20240607121853-ws4qf5b"
+                        "rootId": "20240607121828-n4buv1l"
                       },
                       "docIcon": "docker.png",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "Docker 存储"
+                      "title": "应用容器化"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240610170430-hg7i7w8",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240310114442-j6xbzkj",
+                        "rootId": "20240610170430-hg7i7w8"
+                      },
+                      "docIcon": "docker.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "模板文件"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240607121908-adqzxsy",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240310114442-j6xbzkj",
+                        "rootId": "20240607121908-adqzxsy"
+                      },
+                      "docIcon": "docker.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "Docker Compose"
+                    },
+                    {
+                      "active": true,
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240610222154-c9r1h45",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240310114442-j6xbzkj",
+                        "rootId": "20240610222154-c9r1h45"
+                      },
+                      "docIcon": "docker.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "指令"
                     }
                   ],
                   "height": "",
@@ -542,23 +584,23 @@
   "readonly": false,
   "localIPs": [
     "127.0.0.1",
-    "172.18.144.1",
     "10.22.2.154",
     "172.30.16.1",
+    "192.168.112.1",
     "26.210.116.202",
     "169.254.106.59",
     "169.254.175.180",
     "169.254.18.109",
     "[::1]",
     "[fdfd::1ad2:74ca]",
-    "[2001:0:2851:b9f0:1875:9448:8a57:db54]",
+    "[2001:0:2851:b9f0:3d:9318:8a57:db53]",
     "[fe80::8932:5202:9501:4c4f]",
-    "[fe80::1300:ff06:43a6:c2f]",
     "[fe80::2920:19ac:f0cf:cb77]",
     "[fe80::68ac:5cff:cbbd:2f5c]",
     "[fe80::b280:102b:cf0c:4256]",
-    "[fe80::1875:9448:8a57:db54]",
-    "[fe80::cd35:525e:ddcb:9c7a]"
+    "[fe80::3d:9318:8a57:db53]",
+    "[fe80::285a:1a0f:146d:406c]",
+    "[fe80::1300:ff06:43a6:c2f]"
   ],
   "accessAuthCode": "",
   "system": {
@@ -1344,13 +1386,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 1258,
+    "treeCount": 1271,
     "cTreeCount": 1500,
-    "blockCount": 24034,
+    "blockCount": 24543,
     "cBlockCount": 30000,
-    "dataSize": 198057858,
+    "dataSize": 198403915,
     "cDataSize": 209715200,
-    "assetsSize": 48355847,
+    "assetsSize": 48501275,
     "cAssetsSize": 104857600
   },
   "api": {
@@ -1367,5 +1409,5 @@
     "enabledCSS": true,
     "enabledJS": true
   },
-  "state": 0
+  "state": 1
 }
