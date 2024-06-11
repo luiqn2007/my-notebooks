@@ -340,7 +340,6 @@
                       "title": "Docker Compose"
                     },
                     {
-                      "active": true,
                       "children": {
                         "action": "cb-get-scroll",
                         "blockId": "20240610222154-c9r1h45",
@@ -353,6 +352,35 @@
                       "instance": "Tab",
                       "pin": false,
                       "title": "指令"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240607121933-6qe0odm",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240310114442-j6xbzkj",
+                        "rootId": "20240607121933-6qe0odm"
+                      },
+                      "docIcon": "docker.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "Docker Swarm"
+                    },
+                    {
+                      "active": true,
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240611125542-j2bjk58",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240310114442-j6xbzkj",
+                        "rootId": "20240611125542-j2bjk58"
+                      },
+                      "docIcon": "docker.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "Swarm 集群"
                     }
                   ],
                   "height": "",
@@ -593,12 +621,12 @@
     "169.254.18.109",
     "[::1]",
     "[fdfd::1ad2:74ca]",
-    "[2001:0:2851:b9f0:3d:9318:8a57:db53]",
+    "[2001:0:2851:b9f0:20b2:c240:8a57:db46]",
     "[fe80::8932:5202:9501:4c4f]",
     "[fe80::2920:19ac:f0cf:cb77]",
     "[fe80::68ac:5cff:cbbd:2f5c]",
     "[fe80::b280:102b:cf0c:4256]",
-    "[fe80::3d:9318:8a57:db53]",
+    "[fe80::20b2:c240:8a57:db46]",
     "[fe80::285a:1a0f:146d:406c]",
     "[fe80::1300:ff06:43a6:c2f]"
   ],
@@ -1388,9 +1416,9 @@
   "stat": {
     "treeCount": 1271,
     "cTreeCount": 1500,
-    "blockCount": 24543,
+    "blockCount": 24548,
     "cBlockCount": 30000,
-    "dataSize": 198403915,
+    "dataSize": 198405772,
     "cDataSize": 209715200,
     "assetsSize": 48501275,
     "cAssetsSize": 104857600
