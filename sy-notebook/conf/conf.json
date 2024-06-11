@@ -4,15 +4,18 @@
     "mode": 1,
     "modeOS": false,
     "darkThemes": [
+      "Asri",
       "midnight"
     ],
     "lightThemes": [
+      "Asri",
       "daylight"
     ],
     "themeDark": "midnight",
     "themeLight": "daylight",
     "themeVer": "1.0.7",
     "icons": [
+      "Lucide-icon",
       "ant",
       "material"
     ],
@@ -84,10 +87,11 @@
     "generateHistoryInterval": 10,
     "historyRetentionDays": 30,
     "emoji": [
+      "kubernetes.png",
+      "docker.png",
       "unionfs.gif",
       "linux.png",
       "go.png",
-      "docker.png",
       "vite.svg",
       "element plus.svg",
       "vue.svg",
@@ -146,8 +150,7 @@
       "logo_csharp.png",
       "1f40d",
       "1f4e6",
-      "1f468-200d-1f9bd",
-      "1fa9b"
+      "1f468-200d-1f9bd"
     ],
     "virtualBlockRef": false,
     "virtualBlockRefExclude": "",
@@ -185,7 +188,7 @@
     "tagOpenMarker": "#",
     "tagCloseMarker": "#",
     "fileAnnotationRefMode": 0,
-    "pandocBin": "/home/lq2007/puoc7-qgiyy/sy-notebook/temp/pandoc/bin/pandoc",
+    "pandocBin": "C:\\Users\\lq200\\siyuan\\sy-notebook\\temp\\pandoc\\bin\\pandoc.exe",
     "markdownYFM": false,
     "pdfFooter": "%page / %pages",
     "docxTemplate": "",
@@ -296,19 +299,47 @@
                 {
                   "children": [
                     {
-                      "active": true,
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240611221117-pu76zp9",
+                        "blockId": "20240612020208-azh26rk",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240310114442-j6xbzkj",
-                        "rootId": "20240611221117-pu76zp9"
+                        "rootId": "20240612020208-azh26rk"
                       },
-                      "docIcon": "unionfs.gif",
+                      "docIcon": "docker.png",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "Union File System"
+                      "title": "服务管理"
+                    },
+                    {
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240607121933-6qe0odm",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240310114442-j6xbzkj",
+                        "rootId": "20240607121933-6qe0odm"
+                      },
+                      "docIcon": "docker.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "Docker Swarm"
+                    },
+                    {
+                      "active": true,
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240607121958-4fsd1e5",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240310114442-j6xbzkj",
+                        "rootId": "20240607121958-4fsd1e5"
+                      },
+                      "docIcon": "kubernetes.png",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "Kubernetes"
                     }
                   ],
                   "height": "",
@@ -540,27 +571,39 @@
   "readonly": false,
   "localIPs": [
     "127.0.0.1",
-    "192.168.88.6",
+    "10.22.2.154",
+    "172.30.16.1",
+    "192.168.112.1",
+    "26.210.116.202",
+    "169.254.106.59",
+    "169.254.175.180",
+    "169.254.18.109",
     "[::1]",
-    "[240e:460:c40:3ced:3e37:4ede:2978:dd4]",
-    "[240e:460:c40:3ced:bd3d:c26a:c72:342a]",
-    "[fe80::a099:4003:88f3:ec56]"
+    "[fdfd::1ad2:74ca]",
+    "[2001:0:2851:b9f0:1808:e295:8a57:db7c]",
+    "[fe80::8932:5202:9501:4c4f]",
+    "[fe80::2920:19ac:f0cf:cb77]",
+    "[fe80::68ac:5cff:cbbd:2f5c]",
+    "[fe80::b280:102b:cf0c:4256]",
+    "[fe80::1808:e295:8a57:db7c]",
+    "[fe80::285a:1a0f:146d:406c]",
+    "[fe80::1300:ff06:43a6:c2f]"
   ],
   "accessAuthCode": "",
   "system": {
-    "id": "7848f38e92cd4f9686ff2e5ed72bcb7f",
-    "name": "luqin-W65-67SJ",
-    "kernelVersion": "3.0.15",
-    "os": "linux",
-    "osPlatform": "Kylin",
+    "id": "7a948d12-efb4-430f-ae4a-7cc3a866c486",
+    "name": "lq-pc",
+    "kernelVersion": "3.0.17",
+    "os": "windows",
+    "osPlatform": "Microsoft Windows 11 Pro",
     "container": "std",
-    "isMicrosoftStore": false,
+    "isMicrosoftStore": true,
     "isInsider": false,
-    "homeDir": "/home/lq2007",
-    "workspaceDir": "/home/lq2007/puoc7-qgiyy/sy-notebook",
-    "appDir": "/tmp/.mount_siyuanXIyxfb/resources",
-    "confDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/conf",
-    "dataDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/data",
+    "homeDir": "C:\\Users\\lq200",
+    "workspaceDir": "C:\\Users\\lq200\\siyuan\\sy-notebook",
+    "appDir": "C:\\Program Files\\WindowsApps\\89C2A984.SiYuan_3.0.17.0_x64__1qfd3tsw4ngc2\\app\\resources",
+    "confDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\conf",
+    "dataDir": "C:\\Users\\lq200\\siyuan\\sy-notebook\\data",
     "networkServe": false,
     "networkProxy": {
       "scheme": "",
@@ -639,6 +682,10 @@
         "duplicate": {
           "custom": "⌘D",
           "default": "⌘D"
+        },
+        "duplicateCompletely": {
+          "custom": "",
+          "default": ""
         },
         "exitFocus": {
           "custom": "",
@@ -1182,6 +1229,14 @@
       "toggleWin": {
         "custom": "",
         "default": "⌥M"
+      },
+      "unsplit": {
+        "custom": "",
+        "default": ""
+      },
+      "unsplitAll": {
+        "custom": "",
+        "default": ""
       }
     },
     "plugin": {
@@ -1308,7 +1363,7 @@
       "apiTemperature": 1,
       "apiMaxContexts": 7,
       "apiBaseURL": "https://api.openai.com/v1",
-      "apiUserAgent": "SiYuan/3.0.15 std/linux",
+      "apiUserAgent": "SiYuan/3.0.17 std/windows",
       "apiProvider": "OpenAI",
       "apiVersion": ""
     }
@@ -1318,13 +1373,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 1275,
+    "treeCount": 1277,
     "cTreeCount": 1500,
-    "blockCount": 24597,
+    "blockCount": 24773,
     "cBlockCount": 30000,
-    "dataSize": 198318793,
+    "dataSize": 198959104,
     "cDataSize": 209715200,
-    "assetsSize": 48877825,
+    "assetsSize": 48901204,
     "cAssetsSize": 104857600
   },
   "api": {
