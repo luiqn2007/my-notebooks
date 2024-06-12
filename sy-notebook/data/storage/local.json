@@ -8250,8 +8250,11 @@
     },
     "20240611221117-pu76zp9": {
       "endId": "20240612132025-cx33p9w",
+      "focusEnd": 27,
+      "focusId": "20240612132308-k8xw6qa",
+      "focusStart": 27,
       "rootId": "20240611221117-pu76zp9",
-      "scrollTop": 0,
+      "scrollTop": 266,
       "startId": "20240611221117-r77krqh"
     },
     "20240612020208-azh26rk": {
@@ -8265,11 +8268,11 @@
     },
     "20240613034652-l7exl13": {
       "endId": "20240613035442-psm8303",
-      "focusEnd": 33,
-      "focusId": "20240613035544-rzpsnd9",
-      "focusStart": 33,
+      "focusEnd": 0,
+      "focusId": "20240613035442-psm8303",
+      "focusStart": 0,
       "rootId": "20240613034652-l7exl13",
-      "scrollTop": 0,
+      "scrollTop": 300,
       "startId": "20240613034652-wb8cyws"
     }
   },
