@@ -4,18 +4,15 @@
     "mode": 1,
     "modeOS": false,
     "darkThemes": [
-      "Asri",
       "midnight"
     ],
     "lightThemes": [
-      "Asri",
       "daylight"
     ],
     "themeDark": "midnight",
     "themeLight": "daylight",
     "themeVer": "1.0.7",
     "icons": [
-      "Lucide-icon",
       "ant",
       "material"
     ],
@@ -298,6 +295,10 @@
                 {
                   "children": [
                     {
+<<<<<<< HEAD
+                      "children": {},
+                      "instance": "Tab"
+=======
                       "active": true,
                       "children": {
                         "action": "cb-get-scroll",
@@ -311,6 +312,7 @@
                       "instance": "Tab",
                       "pin": false,
                       "title": "PyQt6"
+>>>>>>> 189d4cf (2024-06-13   3:57 / pyqt)
                     }
                   ],
                   "height": "",
@@ -544,9 +546,21 @@
     "127.0.0.1",
     "192.168.88.6",
     "[::1]",
+<<<<<<< HEAD
     "[240e:460:c40:3ced:afb4:9c10:b1a9:7c42]",
     "[240e:460:c40:3ced:bd3d:c26a:c72:342a]",
     "[fe80::a099:4003:88f3:ec56]"
+=======
+    "[fdfd::1ad2:74ca]",
+    "[2001:0:2851:b9f0:4dd:5228:8a57:db6d]",
+    "[fe80::8932:5202:9501:4c4f]",
+    "[fe80::2920:19ac:f0cf:cb77]",
+    "[fe80::68ac:5cff:cbbd:2f5c]",
+    "[fe80::b280:102b:cf0c:4256]",
+    "[fe80::4dd:5228:8a57:db6d]",
+    "[fe80::285a:1a0f:146d:406c]",
+    "[fe80::1300:ff06:43a6:c2f]"
+>>>>>>> 189d4cf (2024-06-13   3:57 / pyqt)
   ],
   "accessAuthCode": "",
   "system": {
@@ -1320,13 +1334,19 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 1277,
+    "treeCount": 1276,
     "cTreeCount": 1500,
+<<<<<<< HEAD
+    "blockCount": 24633,
+    "cBlockCount": 30000,
+    "dataSize": 198440487,
+=======
     "blockCount": 24763,
     "cBlockCount": 30000,
     "dataSize": 198960814,
+>>>>>>> 189d4cf (2024-06-13   3:57 / pyqt)
     "cDataSize": 209715200,
-    "assetsSize": 48901204,
+    "assetsSize": 48901127,
     "cAssetsSize": 104857600
   },
   "api": {
