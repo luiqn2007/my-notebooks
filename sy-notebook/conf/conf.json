@@ -298,8 +298,19 @@
                 {
                   "children": [
                     {
-                      "children": {},
-                      "instance": "Tab"
+                      "active": true,
+                      "children": {
+                        "action": "cb-get-scroll",
+                        "blockId": "20240613034652-l7exl13",
+                        "instance": "Editor",
+                        "mode": "wysiwyg",
+                        "notebookId": "20240311155743-7z83407",
+                        "rootId": "20240613034652-l7exl13"
+                      },
+                      "docIcon": "qt6.ico",
+                      "instance": "Tab",
+                      "pin": false,
+                      "title": "PyQt6"
                     }
                   ],
                   "height": "",
@@ -1335,11 +1346,11 @@
   "stat": {
     "treeCount": 1277,
     "cTreeCount": 1500,
-    "blockCount": 24780,
+    "blockCount": 24768,
     "cBlockCount": 30000,
-    "dataSize": 198959313,
+    "dataSize": 202516341,
     "cDataSize": 209715200,
-    "assetsSize": 48901204,
+    "assetsSize": 50951207,
     "cAssetsSize": 104857600
   },
   "api": {
