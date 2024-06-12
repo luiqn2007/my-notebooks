@@ -1335,11 +1335,11 @@
   "stat": {
     "treeCount": 1277,
     "cTreeCount": 1500,
-    "blockCount": 24750,
+    "blockCount": 24780,
     "cBlockCount": 30000,
-    "dataSize": 202516247,
+    "dataSize": 198959313,
     "cDataSize": 209715200,
-    "assetsSize": 50951207,
+    "assetsSize": 48901204,
     "cAssetsSize": 104857600
   },
   "api": {
