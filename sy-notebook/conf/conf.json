@@ -84,8 +84,8 @@
     "generateHistoryInterval": 10,
     "historyRetentionDays": 30,
     "emoji": [
-      "python.ico",
       "qt6.ico",
+      "python.ico",
       "kubernetes.png",
       "docker.png",
       "unionfs.gif",
@@ -298,16 +298,16 @@
                       "active": true,
                       "children": {
                         "action": "cb-get-scroll",
-                        "blockId": "20240613034652-l7exl13",
+                        "blockId": "20240614181617-xiyoa8i",
                         "instance": "Editor",
                         "mode": "wysiwyg",
                         "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240613034652-l7exl13"
+                        "rootId": "20240614181617-xiyoa8i"
                       },
                       "docIcon": "qt6.ico",
                       "instance": "Tab",
                       "pin": false,
-                      "title": "PyQt6"
+                      "title": "事件"
                     }
                   ],
                   "height": "",
@@ -539,11 +539,7 @@
   "readonly": false,
   "localIPs": [
     "127.0.0.1",
-    "192.168.88.6",
-    "[::1]",
-    "[240e:460:2bd0:2a15:8aa5:259e:981e:e06b]",
-    "[240e:460:2bd0:2a15:7009:1d70:e614:4a2d]",
-    "[fe80::a099:4003:88f3:ec56]"
+    "[::1]"
   ],
   "accessAuthCode": "",
   "system": {
@@ -557,7 +553,7 @@
     "isInsider": false,
     "homeDir": "/home/lq2007",
     "workspaceDir": "/home/lq2007/puoc7-qgiyy/sy-notebook",
-    "appDir": "/tmp/.mount_siyuaneX9ZQT/resources",
+    "appDir": "/tmp/.mount_siyuangQGBeQ/resources",
     "confDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/conf",
     "dataDir": "/home/lq2007/puoc7-qgiyy/sy-notebook/data",
     "networkServe": false,
@@ -1317,13 +1313,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 1277,
+    "treeCount": 1299,
     "cTreeCount": 1500,
-    "blockCount": 24795,
+    "blockCount": 25063,
     "cBlockCount": 30000,
-    "dataSize": 201935424,
+    "dataSize": 202577026,
     "cDataSize": 209715200,
-    "assetsSize": 50951076,
+    "assetsSize": 51496108,
     "cAssetsSize": 104857600
   },
   "api": {
@@ -1340,5 +1336,5 @@
     "enabledCSS": true,
     "enabledJS": true
   },
-  "state": 1
+  "state": 0
 }
