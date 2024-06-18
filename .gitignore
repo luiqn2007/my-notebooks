@@ -12,3 +12,5 @@ sy-notebook/sync
 sy-notebook/temp
 sy-notebook/.lock
 .stfolder/*
+# 屏蔽笔记本
+sy-notebook/data/20240617024158-kpg0hoj
