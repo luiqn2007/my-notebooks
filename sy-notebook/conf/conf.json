@@ -298,19 +298,8 @@
                 {
                   "children": [
                     {
-                      "active": true,
-                      "children": {
-                        "action": "cb-get-scroll",
-                        "blockId": "20240618114510-oay3id2",
-                        "instance": "Editor",
-                        "mode": "wysiwyg",
-                        "notebookId": "20240311155743-7z83407",
-                        "rootId": "20240618114510-oay3id2"
-                      },
-                      "docIcon": "qt6.ico",
-                      "instance": "Tab",
-                      "pin": false,
-                      "title": "QGroupBox"
+                      "children": {},
+                      "instance": "Tab"
                     }
                   ],
                   "height": "",
@@ -551,13 +540,13 @@
     "169.254.18.109",
     "[::1]",
     "[fdfd::1ad2:74ca]",
-    "[2001:0:2851:b9f0:ca8:f3af:8a57:db2c]",
+    "[2001:0:2851:b9f0:424:9b2a:8a57:db03]",
     "[fe80::8932:5202:9501:4c4f]",
     "[fe80::1300:ff06:43a6:c2f]",
     "[fe80::2920:19ac:f0cf:cb77]",
     "[fe80::68ac:5cff:cbbd:2f5c]",
     "[fe80::b280:102b:cf0c:4256]",
-    "[fe80::ca8:f3af:8a57:db2c]",
+    "[fe80::424:9b2a:8a57:db03]",
     "[fe80::b206:f5f0:998b:a9b2]"
   ],
   "accessAuthCode": "",
@@ -1344,13 +1333,13 @@
     "petalDisabled": false
   },
   "stat": {
-    "treeCount": 1333,
+    "treeCount": 1341,
     "cTreeCount": 1500,
-    "blockCount": 25565,
+    "blockCount": 25603,
     "cBlockCount": 30000,
-    "dataSize": 203820867,
+    "dataSize": 203917593,
     "cDataSize": 209715200,
-    "assetsSize": 51824485,
+    "assetsSize": 51889726,
     "cAssetsSize": 104857600
   },
   "api": {
@@ -1367,5 +1356,5 @@
     "enabledCSS": true,
     "enabledJS": true
   },
-  "state": 0
+  "state": 1
 }
